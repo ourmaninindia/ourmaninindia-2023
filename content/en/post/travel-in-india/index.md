@@ -1,10 +1,9 @@
 +++
-categories = ["Tourism, India"]
+categories = ["India","Tourism"]
 date = 2015-11-16T15:49:45Z
 description = "The Solita is our own classic luxury yacht, available for exclusive charter cruises.  A completely different way of exploring Goa, the Solita will take you out to sea to spot dolphins and down Goa's secret backwaters, past quaint villages. Available at a priority booking to guests at Summertime Villa, this is an experience not to be missed."
-draft = false
 slug = "travel-in-india"
-tags = ["India", "Management", "Travel"]
+tags = ["India"]
 title = "Travel in style in India, relax in luxury in Goa"
 thumbnailImage = ""
 featured_image = "luxury-cruise-charter-in-goa.jpg"

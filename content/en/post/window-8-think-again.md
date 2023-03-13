@@ -1,5 +1,5 @@
 +++
-categories = ["Information Technology, Management"]
+categories = ["Information Technology"]
 date = 2012-06-05T12:26:24Z
 description = ""
 draft = false

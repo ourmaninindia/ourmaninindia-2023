@@ -1,5 +1,5 @@
 +++
-categories = ["Management", "india"]
+categories = ["Business", "india"]
 date = 2015-12-02T08:47:09Z
 description = ""
 draft = false

@@ -1,12 +1,10 @@
 +++
 title = "Terms & Conditions"
-categories = ["About"]
 date = 2018-05-25T14:59:40Z
 date_revised = "2023-03-12"
 description = "Website terms and conditions establish the legal relationship between the business and the customer and offer legal disclaimers. "
 featured = "false"
 thumbnailImage = "key.jpg"
-tags = [""]
 featured_image = "header-alfred.jpg"
 disable_comments = true
 disableToc = false

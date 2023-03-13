@@ -1,8 +1,7 @@
 +++
-categories = ["India, Business"]
+categories = ["India", "Business"]
 date = 2007-09-21T14:25:46Z
 description = ""
-draft = false
 slug = "india-symposium-amsterdam"
 tags = ["Management"]
 title = "India Symposium, Amsterdam"

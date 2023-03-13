@@ -15,13 +15,14 @@ featured_image = ""
 	{{< img src= "think2013.jpg"  alt="Arun Sehrawat" >}}
 {{< /figure >}}
 #split#
+
 I have scraped data and created algorithms for our family travel website. It was therefore with more than an average interest that I listened to William Uricchio of MIT talk at THINK 2013 about algorithms and their effect on social conversion.
 
-Uricchio started with explaining that the media has seen a tremendous change in the last few years – a few companies own 80 percent of the media while on the other hand, there has also been a decentralisation as a result of the internet.
+Uricchio started with explaining that the media has seen a tremendous change in the last few years – a few companies own 80 percent of the media while on the other hand, there has also been a decentralisation as a result of the internet.
 
 We all use algorithms: businesses need insights, our personal space uses it- just think of Facebook, dating sites, credit rating agencies, Netflix, Pandora, Amazon etc.
 
-Algorithms are shaping our cultural content and shaping our textual world. They are used for risk analysis via financial surveillance. As they are getting smarter, predictive policing could lead from prediction to prejudice.
+Algorithms are shaping our cultural content and shaping our textual world. They are used for risk analysis via financial surveillance. As they are getting smarter, predictive policing could lead from prediction to prejudice.
 
 Uricchio went on to say that SEO and self optimising algorithms change our position of our perception of a world picture (see [Martin Heidegger](http://en.wikipedia.org/wiki/Martin_Heidegger)). We need to understand the new logic of textual production.
 

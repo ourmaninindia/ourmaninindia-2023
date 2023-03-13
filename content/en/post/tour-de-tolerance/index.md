@@ -1,11 +1,9 @@
 +++
 autoThumbnailImage = false
-categories = ["Cycling"]
+categories = ["Cycling","Tourism"]
 featured_image = "image.jpg"
 date = 2020-09-08T22:00:00Z
-keywords = ["cycling","Italy"]
-metaAlignment = ""
-tags = ["cycling"]
+tags = ["Italy"]
 featured = true
 thumbnailImage = "image.jpg"
 thumbnailImagePosition = ""

@@ -5,13 +5,38 @@ let tagMap = new Map();
 let tagArray = new Array();
 {{ range $key, $value := .Data.Terms }}
   tagMap.set("{{ $key }}", {{ len $value }});
-  tagArray.push([{{ $key }}, {{ len $value }} ]);
+  if ( {{ $key }} != 'open-source') {
+    tagArray.push([{{ $key }}, {{ len $value }} ]);
+  }
 {{ end }}
 </script>
 
+<article class="cf pa3 pa4-m pa4-l">
+  <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links {{ $.Param "text_color" | default "mid-gray" }}">
+   <h3> My tag cloud</h3>
+  </div>
+</article>
+<div class="mw8 center ba">
+  <section class="ph4">
 <div id="tag-wrapper" style="width: 100%; height: 400px;"></div>
+</section>
+</div>
 
-{{ $data := .Data }}
+{{- $data := .Data }}
+
+<div class="mw8 center">
+  <section class="ph4">
+    <p class="f4">
+    {{- range $term := .Data.Pages }}
+      {{- $url := path.Split $term }}
+      {{- if ne $url.File "open-source)" }}
+      <a href="{{ $term.RelPermalink }}" class="link darkslategray hover-dark-blue">{{ $term.LinkTitle }}</a> -
+      {{- end }}
+    {{- end }}
+  </p>
+  </section>
+</div>
+
 <article class="cf pa3 pa4-m pa4-l">
   <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links {{ $.Param "text_color" | default "mid-gray" }}">
     {{ .Content }}
@@ -41,9 +66,7 @@ https://blog.cubieserver.de/2020/adding-a-tag-cloud-to-my-hugo-blog/
 
 <script>
 
-  WordCloud(document.querySelector("#tag-wrapper"), {
-        list: tagArray,
-    });
+  WordCloud(document.querySelector("#tag-wrapper"), { list: tagArray, });
 
   const tagCanvas = document.querySelector("#tag-wrapper"); 
 

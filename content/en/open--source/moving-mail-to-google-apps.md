@@ -1,10 +1,9 @@
 +++
-categories = ["business", "open-source"]
+categories = ["open-source"]
 date = 2013-09-29T22:13:18Z
 description = ""
-draft = false
 slug = "moving-mail-to-google-apps"
-tags = ["business", "open-source"]
+tags = ["business"]
 title = "Moving mail to Google Apps"
 
 +++

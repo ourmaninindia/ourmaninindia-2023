@@ -1,8 +1,7 @@
 +++
-categories = ["India, Economy"]
+categories = ["India", "Economy"]
 date = 2005-10-24T00:07:53Z
 description = ""
-draft = false
 slug = "india-long-term-sustainable-growth"
 tags = ["India", "Strategy"]
 title = "India, long-term sustainable growth?"

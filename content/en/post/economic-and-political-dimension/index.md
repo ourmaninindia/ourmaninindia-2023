@@ -1,13 +1,11 @@
 +++
-categories = ["India, Business"]
+categories = ["India", "Business"]
 date = 2007-08-27T00:05:10Z
 description = ""
-draft = false
 slug = "economic_and_political_dimension_of_the_eu-india_strategic_partnership"
 tags = ["Management"]
 title = "Economic and Political Dimension of the EU-India Strategic Partnership"
 thumbnailImage = "kamal-nath.jpeg"
-imageCover = ""
 
 +++
 

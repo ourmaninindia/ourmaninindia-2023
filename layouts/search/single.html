@@ -1,26 +1,24 @@
 {{define "main"}}
 
-
 <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
 	<form id="search">
-	    <div class="form-group form-group-lg">
-	        <input type="text" class="form-control" id="google-search" placeholder="Enter search term" />
-	        <input id='submit' type="submit" value="Submit">
+		<div class="form-group form-group-lg">
+			<input type="text" class="form-control" id="google-search" placeholder="Enter search term" />
+			<input id='submit' type="submit" value="Submit">
+		</div>
 	</form>
-
 </article>
 
 <script src="/js/wordcloud2.js"></script>
 <script>
 
-document.getElementById('submit').addEventListener('click',(e) => {
+	document.getElementById('submit').addEventListener('click',(e) => {
 
-  let text = document.getElementById('google-search').value;
+		let text = document.getElementById('google-search').value;
 
-  if (text.length > 0){
-    window.open('https://www.google.com/search?q=' + text + '+site:' + '{{ .Site.BaseURL | absLangURL }}' );
-  }
-})
+		if (text.length > 0) 
+			window.open('https://www.google.com/search?q=' + text + '+site:' + '{{ .Site.BaseURL | absLangURL }}' );
+	})
 
 </script>
 {{ end }}

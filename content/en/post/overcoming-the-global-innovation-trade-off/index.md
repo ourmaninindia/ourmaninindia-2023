@@ -1,9 +1,8 @@
 +++
 
-categories = ["Management"]
+categories = ["Strategy"]
 date = 2013-01-20T16:57:28Z
 description = "Overcoming the Global Innovation Trade-Off"
-draft = false
 tags = ["Innovation"]
 title = "Overcoming the Global Innovation Trade-Off"
 thumbnailImage = "overcoming-global-innovation.gif"

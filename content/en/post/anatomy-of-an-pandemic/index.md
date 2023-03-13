@@ -5,7 +5,7 @@ description = "Anatomy of a Pandemic"
 featured = true
 thumbnailImage = "lipkin.jpg"
 slug = "anatomy-of-a-pandemic"
-tags = ["Management"]
+tags = ["Pandemic","Covid"]
 title = "Anatomy of a Pandemic"
 featured_image = ""
 

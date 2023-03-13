@@ -1,6 +1,6 @@
 +++
 autoThumbnailImage = false
-categories = []
+categories = ["Information Technology"]
 featured_image = ""
 date = 2020-10-06T22:00:00Z
 draft = true

@@ -1,11 +1,11 @@
 +++
 autoThumbnailImage = false
-categories = ["post"]
+categories = ["Sustainability"]
+tags = ["circular economy", "sustainable goals"]
 featured_image = "sustainable-development-goals.png"
 date = 2020-06-16T22:00:00Z
 keywords = ["sustainable goals", "covid-19", "circular economy","opportunity"]
 metaAlignment = ""
-tags = ["circular economy", "sustainable goals"]
 thumbnailImage = "circular-economy.png"
 thumbnailImagePosition = ""
 title = "Crisis = Danger + Opportunity!"

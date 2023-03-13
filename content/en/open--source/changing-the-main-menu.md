@@ -1,10 +1,9 @@
 +++
-categories = ["open-source", "mediawiki"]
+categories = ["open-source"]
 date = 2012-08-07T21:23:34Z
 description = ""
-draft = false
 slug = "changing-the-main-menur"
-tags = ["open-source", "mediawiki"]
+tags = ["mediawiki"]
 title = "Changing the main menu (sidebar)"
 
 +++

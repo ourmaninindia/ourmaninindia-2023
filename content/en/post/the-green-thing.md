@@ -1,5 +1,5 @@
 +++
-categories = ["Management"]
+categories = ["History"]
 date = 2012-10-06T17:04:37Z
 description = ""
 draft = false

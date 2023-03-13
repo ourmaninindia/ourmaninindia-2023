@@ -1,10 +1,10 @@
 +++
-categories = ["Travel"]
+categories = ["Travel","Cycling"]
 date = 2015-09-29T13:35:55Z
 description = "Life is like riding a bicycle. To keep your balance you have to keep moving. The problem was I had not. The doctor had just explained that I would need surgery. "
 featured = false
 thumbnailImage = "einstein-thumb.jpg"
-tags = ["India", "Cycling"]
+tags = ["India"]
 title = "A pothole"
 featured_image = "einstein.jpg"
 

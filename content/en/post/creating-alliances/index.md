@@ -1,5 +1,5 @@
 +++
-categories = ["Management"]
+categories = ["Alliances"]
 date = 2010-12-07T13:13:41Z
 description = "Creating strategic alliances and partnerships"
 slug = "creating-alliances"

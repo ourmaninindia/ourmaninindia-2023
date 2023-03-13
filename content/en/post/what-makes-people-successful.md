@@ -1,8 +1,7 @@
 +++
-categories = ["Management"]
+categories = ["HR"]
 date = 2014-08-31T12:58:31Z
 description = ""
-draft = false
 slug = "what-makes-people-successful"
 tags = ["Management"]
 title = "What makes people successful"

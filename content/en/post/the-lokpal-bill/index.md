@@ -1,8 +1,7 @@
 +++
-categories = ["india", "Economy"]
+categories = ["India", "Economy"]
 date = 2011-07-11T16:56:54Z
 description = ""
-draft = false
 slug = "the-lokpal-bill"
 tags = ["lokpal"]
 title = "The Lokpal bill"

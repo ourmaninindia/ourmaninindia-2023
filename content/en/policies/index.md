@@ -1,11 +1,9 @@
 +++
-categories = ["About"]
 date = 2018-05-25T14:59:40Z
 date_revised = "2023-03-12"
 description = "Compliance with the General Data Protection Regulation and other policies"
 featured = "false"
 thumbnailImage = "key.jpg"
-tags = ["Privacy", "Compliance","Policies","Code of Conduct","Email disclaimer","Copyright","General Data Protection Regulation"]
 title = "Policies"
 featured_image = "about-us_1200.jpg"
 disable_comments = true

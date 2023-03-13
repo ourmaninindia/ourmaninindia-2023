@@ -40,7 +40,7 @@ a {
   color: darkslategray;
   transition: color .15s ease-in;
   &:hover {
-    color: #B01231;
+    color: darkblue;
   }
 }
 
@@ -85,7 +85,7 @@ li {
 }
 
 .ananke-socials {
-  margin-top: 15px;
+  //margin-top: 15px;
   & a {
     color: whitesmoke;
   }
@@ -509,7 +509,7 @@ header {
   .post-header-cover {
       display: table;
       position: relative;
-      background-color: red;
+      //background-color: red;
       top: 0;
       left: 0;
       background-size: cover;
@@ -580,6 +580,10 @@ header {
 }
 
 #navbar a:hover {
-  background-color: #ddd;
+  background-color: darkorange;
   color: black;
+}
+
+.tl p {
+  text-align: left;
 }

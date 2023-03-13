@@ -1,5 +1,5 @@
 +++
-categories = ["Management", "strategy"]
+categories = ["Management", "Strategy"]
 date = 2007-11-19T15:18:35Z
 description = "High Level Meet at the European Parliament"
 draft = false

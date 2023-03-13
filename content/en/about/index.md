@@ -1,6 +1,5 @@
 +++
 date = 2020-04-12T19:56:20Z
-categories = ["About"]
 tags = ["Directorship","Leadership","Independent director"]
 description = "A Dutch national with a Finance, IT, and Business Development background looking for a new leadership position."
 title = "About"

@@ -2,7 +2,6 @@
 categories = ["Management"]
 date = 2007-08-26T14:29:07Z
 description = ""
-draft = false
 slug = "diversity-and-inclusion"
 tags = ["Diversity & Inclusion", "HR"]
 title = "Diversity & Inclusion"

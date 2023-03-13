@@ -1,10 +1,9 @@
 +++
-categories = ["India, Business"]
+categories = ["India", "Business"]
 date = 2007-08-26T00:37:30Z
 description = "Let's meet in Brussels! A meet of the Europen India Chamber of Commerce at the European parliament"
-draft = false
 slug = "lets-meet-in-brussels"
-tags = ["EU parliament", "India"]
+tags = ["EU parliament"]
 title = "Let's meet in Brussels!"
 featured = false
 thumbnailImage = ""

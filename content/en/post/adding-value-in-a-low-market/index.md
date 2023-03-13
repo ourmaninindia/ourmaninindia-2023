@@ -1,5 +1,5 @@
 +++
-categories = ["Management"]
+categories = ["Alliances"]
 date = 2010-07-23T17:12:35Z
 description = "Adding value in a low value market: If one can borrow, why build or buy? More than ever, in today’s climate where cash is king and credit is tight, alliances are a smarter, swifter, more reactive and economical way to pursue strategic opportunities and gain competitive advantages."
 slug = "adding-value-in-a-low-market"
@@ -10,7 +10,7 @@ featured_image = ""
 
 +++
 
->If one can borrow, why build or buy? More than ever, in today’s climate where cash is king and credit is tight, alliances are a smarter, swifter, more reactive and economical way to pursue strategic opportunities and gain competitive advantages.  
+If one can borrow, why build or buy? More than ever, in today’s climate where cash is king and credit is tight, alliances are a smarter, swifter, more reactive and economical way to pursue strategic opportunities and gain competitive advantages.  
   
 These words of wisdom from INSEAD applied to the ING bank where I worked (increase the throughput in Change Management by means of outsourcing). It also applies to the shipbuilding industry, my current field of endeavour. Typically all shipyards have to invest heavily to gain a competitive edge which in turn demands a higher turnover to maintain their ROI. The high investment in capital machinery also required the skilled man power able to manage that.
 

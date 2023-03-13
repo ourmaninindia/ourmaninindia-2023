@@ -1,9 +1,8 @@
 +++
 autoThumbnailImage = false
-categories = ["management"]
+categories = ["Information Technology","open-source"]
 featured_image = "jamstack-v1.png"
 date = 2020-10-06T22:00:00Z
-draft = false
 keywords = ["jamstack","hugo","static website generators"]
 tags = ["jamstack"]
 thumbnailImage = "jamstack.png"

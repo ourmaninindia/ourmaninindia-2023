@@ -1,8 +1,7 @@
 +++
-categories = ["Management", "india"]
+categories = ["india","Management"]
 date = 2014-07-30T10:14:05Z
 description = ""
-draft = false
 slug = "brilliant-out-of-the-box-thinking"
 tags = ["Management", "india"]
 title = "Brilliant Out of the Box Thinking"

@@ -1,10 +1,10 @@
 +++
-categories = ["open-source", "perl", "html"]
+categories = ["open-source"]
 date = 2012-04-22T14:13:00Z
 description = ""
 draft = false
 slug = "strip-html-code"
-tags = ["open-source", "perl", "html"]
+tags = ["perl", "html"]
 title = "Strip HTML code"
 
 +++

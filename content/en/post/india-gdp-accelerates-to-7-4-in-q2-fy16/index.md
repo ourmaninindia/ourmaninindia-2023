@@ -1,13 +1,11 @@
 +++
-categories = ["india", "Management"]
+categories = ["India", "Economy"]
 date = 2015-12-05T09:51:36Z
 description = ""
-draft = false
 slug = "india-gdp-accelerates-to-7-4-in-q2-fy16"
 tags = ["india", "Management"]
 title = "India's GDP accelerates to 7.4% in Q2 FY16"
 thumbnailImage = "rupee.jpg"
-imageCover = ""
 +++
 
 

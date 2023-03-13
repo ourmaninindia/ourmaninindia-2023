@@ -1,11 +1,11 @@
 +++
 autoThumbnailImage = false
-categories = ["Cycling"]
+categories = ["Cycling","Tourism"]
 featured_image = "sella-route.png"
 date = 2021-09-19T22:00:00Z
 keywords = ["cycling","Italy", "Dolomites"]
 metaAlignment = ""
-tags = ["cycling"]
+tags = ["Italy"]
 featured = true
 thumbnailImage = "pordoi.jpg"
 thumbnailImagePosition = ""

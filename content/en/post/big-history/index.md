@@ -1,9 +1,9 @@
 +++
-categories = ["Management"]
+categories = ["Education"]
 date = 2012-11-03T09:25:42Z
 description = "Big History"
 slug = "big-history"
-tags = ["Management", "big history"]
+tags = ["Management", "Big History"]
 title = "Big History"
 thumbnailImage = "christian.jpg"
 imageCover = ""

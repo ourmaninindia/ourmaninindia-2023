@@ -1,5 +1,4 @@
 +++
-categories = ["About"]
 date = 2019-08-22T13:35:55Z
 description = "Life is like riding a bicycle. To keep your balance you have to keep moving. The problem was I had not. The doctor had just explained that I would need surgery. "
 featured = true

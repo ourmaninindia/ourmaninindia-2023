@@ -1,8 +1,7 @@
 +++
-categories = ["Management"]
+categories = ["Customer Service","Travel"]
 date = 2013-07-23T00:48:30Z
 description = "Alitalia Customer Service: an oxymoron or tautology?"
-featured = false
 thumbnailImage = ""
 slug = "alitalia-customer-service"
 tags = ["travel"]

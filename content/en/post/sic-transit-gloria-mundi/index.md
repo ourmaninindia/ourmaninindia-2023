@@ -1,20 +1,19 @@
 +++
-categories = ["Tourism"]
+categories = ["Tourism","Music"]
 date = 2012-04-22T14:57:45Z
 description = "sic-transit-gloria-mundi"
-draft = false
 slug = "sic-transit-gloria-mundi"
-tags = ["tourism, netherlands"]
+tags = ["Netherlands"]
 title = "Sic transit gloria mundi"
 thumbnailImage = "bavo.jpeg" 
 featured_image = ""
 +++
 
-I love Bach’s St Matthew Passion. Don’t get me wrong,  I am not a great fan of any *Danse Macabre* and prefer a *Nullus Funus Sine Fidula* (no funeral without a fiddle) anytime.  However, death used to be very much part of daily life. As a teenager I lived in the Gothic St Bavo cathedral in Haarlem where people still literally walk all over the dead as the interior flooring of the church is entirely made up of tomb stones. It was Napoleon that banned burials in churches in 1804, something which took quite a few decades to fully comply with. After all, it was a commercially attractive activity for the church. These days the only exceptions are made for members of the royal family.
+I love Bach’s St Matthew Passion. Don’t get me wrong, I am not a great fan of any *Danse Macabre* and prefer a *Nullus Funus Sine Fidula* (no funeral without a fiddle) anytime. However, death used to be very much part of daily life. As a teenager I lived in the Gothic St Bavo cathedral in Haarlem where people still literally walk all over the dead as the interior flooring of the church is entirely made up of tomb stones. It was Napoleon that banned burials in churches in 1804, something which took quite a few decades to fully comply with. After all, it was a commercially attractive activity for the church. These days the only exceptions are made for members of the royal family.
 
 Despite my Carpe Diem attitude I was struck by an article called [The Top Five Regrets of the Dying](http://www.guardian.co.uk/lifeandstyle/2012/feb/01/top-five-regrets-of-the-dying) which my sister-in-law emailed me the other day. It was an ever not so subtle reminder that there is more to my life than work. The article reminded me of Steve Jobs’ [commencement speech](http://www.youtube.com/watch?v=D1R-jKKp3NA) at Stanford in which he confessed to ask himself daily *“If today were the last day of my life, would I want to do what I am about to do today?”*.
 
-The article was on a book by Bronnie Ware, an Australian nurse, who wrote  about the main regrets people have when they know that they are about to die. We should all hang the top five on the wall of our office as a pentalogue of good personal management. Personally, as I travel a lot, my biggest issue is #2 and I try to balance it by working more frequently from home.
+The article was on a book by Bronnie Ware, an Australian nurse, who wrote about the main regrets people have when they know that they are about to die. We should all hang the top five on the wall of our office as a pentalogue of good personal management. Personally, as I travel a lot, my biggest issue is #2 and I try to balance it by working more frequently from home.
 
 So it is *Memento Mori* after all.
 

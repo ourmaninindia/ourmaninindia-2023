@@ -1,5 +1,5 @@
 +++
-categories = ["India, Management"]
+categories = ["India", "Business"]
 date = 2009-10-17T00:23:13Z
 description = "Leaders in India was the name of the business forum conference I attended in Mumbai last week. With some humility I could not help but think that most of us did not really qualify that title."
 draft = false

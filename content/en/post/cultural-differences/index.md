@@ -1,12 +1,11 @@
 +++
-categories = ["Tourism, India"]
+categories = ["HR"]
 date = 2015-11-17T00:28:16Z
 description = "Cultural Differences"
 slug = "cultural-differences"
 tags = ["culture","india"]
 title = "Cultural Differences"
 thumbnailImage = "cultural-differences.jpg"
-imageCover = ""
 
 +++
 
@@ -16,7 +15,7 @@ imageCover = ""
 
 
 Geert Hofstede once said 
->cultural differences are a nuisance at best and often a disaster.
+> Cultural differences are a nuisance at best and often a disaster.
 
 Already an impressive 77% of the foreign companies are making a profit with a further 9% breaking even. The success lies in the ability to understand and adapt to the Indian work culture. Unfortunately Western entrepreneurs often display a misplaced arrogance. Their directness is uncomfortable in a culture where saying ‘no’ is impolite. Our Germanic punktlichkeit is also often not understood in India. Time in India is more an abstract term and tomorrow does not necessarily mean in the next 24 hours.
 

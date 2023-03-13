@@ -1,9 +1,9 @@
 +++
-categories = ["Management"]
+categories = ["Management","China"]
 date = 2012-11-04T15:37:57Z
 description = "Bob Geldof and Jonathan Fenby speaking at Think in Goa"
 slug = "masterclass-china"
-tags = ["Management"]
+tags = ["Masterclass"]
 title = "Bob Geldof and Jonathan Fenby"
 thumbnailImage = "fenby.jpg"
 featured_image = ""

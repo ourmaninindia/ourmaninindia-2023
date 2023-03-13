@@ -1,10 +1,10 @@
 +++
-categories = ["open-source", "fedora"]
+categories = ["open-source"]
 date = 2012-10-14T21:26:00Z
 description = ""
 draft = false
 slug = "handbrake"
-tags = ["open-source", "fedora"]
+tags = ["fedora"]
 title = "HandBrake"
 
 +++
