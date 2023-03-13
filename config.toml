@@ -1,0 +1,211 @@
+title = "Our Man in India"
+baseurl = "/"
+languageCode = "en-gb"
+theme = "ananke"
+resourceDir = "../resources"
+DefaultContentLanguage = "en"
+Paginate = 10
+GoogleAnalytics = "UA-87912654-1" 
+disqusShortname = "ourmaninindia"
+# summaryLength = 50
+timeout = 25000
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
+canonifyURLs = true
+
+[permalinks]
+  post = "/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive  = "archives"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  text_color = ""
+  author = "Alfred Tuinman"
+  favicon = "favicon.ico"
+  site_logo = "images/alfred3.jpg"
+  body_classes = "avenir bg-white"
+  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "background"
+  recent_posts_number = 6
+  show_reading_time = true
+  custom_css = ["custom.scss"]
+  description = "Goa, where Vasco da Gama once landed only to be followed centuries later by Led Zeppelin, The Who and George Harrison, is a fascinating place with a constant influx of cosmopolitan thought. The former Portuguese colony is also known for its beaches, restaurant shacks with great food and low priced alcohol, and a relaxed lifestyle."
+
+
+[[params.ananke_socials]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/ourmaninindia"
+
+[[params.sharingOptions]]
+  name = "Facebook"
+  icon = "fa-facebook-official"
+  url  = "https://www.facebook.com/sharer/sharer.php?u=%s"
+
+[[params.sharingOptions]]
+  name = "Githubr"
+  icon = "fa-github"
+  url  = "https://github.com/ourmaninindia"
+
+[[params.sharingOptions]]
+  name = "Google+"
+  icon = "fa-google-plus"
+  url  = "https://plus.google.com/share?url=%s"
+
+[author]
+  name 		 = "Our Man in India"
+  bio  		 = "A man who is the representative of a country or organization in a particular place. The expert in the field."
+  job  		 = "Management Consultant"
+  location 	 = "Goa, India"
+  picture  	 = "img/alfred3.jpg" 
+  # twitter  = "https://twitter.com/OurManInIndia"
+  # twitterHandle = "ourmaninindia"
+  googlePlus = "+ourmaninindia"
+  linkedin   = "https://www.linkedin.com/in/ourmaninindia/"
+  facebook   = "https://www.facebook.com/ourmaninindia"
+  github     = "https://github.com/ourmaninindia"
+
+
+[output]
+  home = [ "HTML", "RSS", "JSON" ]
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = false
+    useSessionStorage = true
+  [privacy.instagram]
+    disable = true
+    simple = false
+  [privacy.twitter]
+    disable = true
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = true
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
+
+
+[languages]
+  [languages.en]
+    title = "Our Man in India"
+    weight = 1
+    contentDir = "content/en"
+    languageName = "English"
+    languageCode = "en-gb"
+    languageFlag = "🇬🇧"
+    unicode = "&#127468;&#127463;"
+
+[[languages.en.menu.main]]
+  weight = 1
+  identifier = "home"
+  name = "Home"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
+  url = "/"
+
+[[languages.en.menu.main]]
+  weight = 2
+  identifier = "post"
+  name = "Posts"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-edit\"></i>"
+  url = "/post"
+
+[[languages.en.menu.main]]
+  weight = 3
+  identifier = "open-source"
+  name = "Open Source"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-linux\"></i>"
+  url = "/open--source"
+
+[[languages.en.menu.main]]
+  weight = 4
+  identifier = "categories"
+  name = "Search"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
+  url = "/categories"
+
+[[languages.en.menu.main]]
+  weight = 5
+  identifier = "about-me"
+  name = "About"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
+
+[[languages.en.menu.main]]
+  weight = 51
+  parent = "about-me"
+  name = "About"
+  url = "/about"
+
+  [[languages.en.menu.main]]
+  weight = 52
+  parent = "about-me"
+  name = "Leadership"
+  url = "/leadership"
+
+  [[languages.en.menu.main]]
+  weight = 53
+  parent = "about-me"
+  name = "Contact"
+  url = "/contact"
+
+
+ [languages.nl]
+    title = "Onze Man in India"
+    weight = 2
+    contentDir = "content/nl"
+    languageName = "Dutch"
+    languageCode = "nl"
+    languageFlag = "🇳🇱"
+    unicode = "&#127475;&#127473;"
+ [languages.nl.params]
+    read_more_copy = "Lees meer"
+
+[[languages.nl.menu.main]]
+  weight = 1
+  identifier = "home"
+  name = "Home"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
+  url = "/"
+
+[[languages.nl.menu.main]]
+  weight = 2
+  identifier = "post"
+  name = "Posts"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-edit\"></i>"
+  url = "/post"
+
+[[languages.nl.menu.main]]
+  weight = 3
+  identifier = "open-source"
+  name = "Open Source"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-linux\"></i>"
+  url = "/open--source"
+
+[[languages.nl.menu.main]]
+  weight = 4
+  identifier = "categories"
+  name = "Zoeken"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
+  url = "/categories"
+
+[[languages.nl.menu.main]]
+  weight = 5
+  identifier = "about-me"
+  name = "Over mij"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
+  url = "/about-me"
+

@@ -1,0 +1,42 @@
+{
+  //"_comment": "Configuration file for JSDoc.",
+  "tags": {
+    "allowUnknownTags": true
+  },
+  "source": {
+    "include": ["./assets/js"],
+    "includePattern": ".+\\.(m)?js(doc|x)?$",
+    "excludePattern": "(node_modules|docs|sass)"
+  },
+  "recurseDepth": 10,
+  "sourceType": "module",
+  "plugins": ["plugins/markdown"], 
+  "templates": {
+    "cleverLinks": true,
+    "monospaceLinks": false
+  },
+  "opts": {
+    "recurse": true,
+    "destination": "./docs/",
+    "tutorials":"./tutorials",
+    "template": "node_modules/docdash"   
+  },
+  "docdash": {
+    "static": true,
+    "sort": true,
+    "search": true,
+    "collapse": true,
+    "typedefs": true,
+    "removeQuotes": "none",
+    "useLongnameInNav": true,
+    "scripts": [],
+    "menu":{
+      "Github repo": {
+        "href":"https://github.com/ourmaninindia/ourmaninindia-2023",
+        "target":"_blank",
+        "class":"menu-item",
+        "id":"repository"
+      }
+    }
+  }
+}

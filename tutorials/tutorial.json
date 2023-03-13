@@ -1,0 +1,17 @@
+{
+     "01-getting-started": {
+         "title": "Getting Started"
+     },
+     "03-layout": {
+         "title": "Layout"
+     },
+     "05-javascript": {
+         "title": "JavaScript version"
+     },
+     "07-logging":{
+        "title": "Logging"
+     },
+     "11-testing": {
+         "title": "Software Testing"
+     }
+ }

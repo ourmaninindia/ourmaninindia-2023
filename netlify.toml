@@ -1,0 +1,66 @@
+[build] 
+  publish = "public"
+  command = "hugo -b $URL --gc --minify"
+
+[build.processing.images]
+  compress = true
+
+[context.production.environment]
+  HUGO_VERSION = "0.100.0" 
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
+  
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.100.0"
+
+[context.branch-deploy.environment]
+  HUGO_VERSION = "0.100.0"
+  NODE_ENV = "development"
+
+[context.production] 
+  command = "hugo -b $URL --gc --minify"
+
+[context.development] 
+  command = "hugo --gc --minify"
+
+[[plugins]]
+package = "@netlify/plugin-lighthouse"
+  [plugins.inputs]
+  # optional, defaults to scanning the current built version of the site
+  audit_url = 'https://develop--ourmaninindia.netlify.app'
+  # optional, fails build when a category is below a threshold
+  [plugins.inputs.thresholds]
+    performance = 0
+    accessibility = 0
+    best-practices = 0
+    seo = 0
+    pwa = 0
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+
+
+## Cache Control
+# Paste the below in https://play.netlify.com/headers to test
+# Set max-age to 1 year (31536000 seconds) 
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
