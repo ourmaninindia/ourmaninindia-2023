@@ -1,0 +1,17 @@
+<footer class="{{ .Site.Params.background_color_class | default "bg-dark-blue" }} near-white bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <p class="flex" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+    <a class="near-white" property="dct:title" rel="cc:attributionURL" href="https://www.odyssey.co.in">{{ with .Site.Title | default .Site.Copyright}} {{ . | safeHTML }} &copy; {{ now.Format "2006"}} {{ end }}</a> 
+    <a class="invisible" rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.ourmaninindia.com">{{ .Site.Copyright }} </a>&nbsp; is licensed under <a  class="near-white flex" href="
+    http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">{{ .Site.Params.license }}
+      <img width="20" height="20" class="cc" src="/images/cc.svg" alt="Creative Commons logo">
+      <img width="20" height="20" class="cc" src="/images/by.svg"  alt="Creative Commons Attribution logo indicating you must give appropriate credit, provide a link to the license, and indicate if changes were made.">
+      <img width="20" height="20" class="cc" src="/images/sa_white.svg"  alt="Creative Commons logo indicating that if you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original."></a></p>
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.Home.Permalink }}policies">Policies</a>
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.Home.Permalink }}terms">Terms & Conditions</a>
+  
+    <div>{{ partial "social-follow.html" . }}</div>
+  </div>
+</footer>
+
+

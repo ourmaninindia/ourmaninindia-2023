@@ -1,0 +1,7 @@
+{{- if .Params.featured_image }}
+  <div class="post-header-cover {{ with .Params.coversize }}post-header-cover--{{ . }}{{ end }}" style="background-image:url('{{ (print .Permalink .Params.featured_image ) | relURL }}')" >
+    <div class="post-header main-content-wrap tc">
+    <h1 class="post-title" itemprop="headline">{{ .Params.Title }}</h1>
+  </div>
+  </div>
+{{- end }}

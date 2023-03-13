@@ -1,0 +1,11 @@
+<section>
+    <div id="sectionleft">
+    <figure {{ with .Get "class" }}class="{{.}}"{{ end }}>
+        <img src="{{ .Get "img" }}" {{ with .Get "width" }}width="{{ . }}"{{ end }} {{ with .Get "height" }}height="{{ . }}"{{ end }} {{ with .Get "alt" }}alt="{{ . }}"{{ end }} />
+        <figcaption>
+          <p class="i">{{ .Get "figcaption" }}</p>
+        </figcaption>
+    </figure>
+    </div>
+    <div class="tj" id="sectionright">{{ .Inner }}</div>
+</section>

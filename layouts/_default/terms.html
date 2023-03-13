@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<script>
+let tagMap = new Map();
+let tagArray = new Array();
+{{ range $key, $value := .Data.Terms }}
+    tagMap.set("{{ $key }}", {{ len $value }});
+    tagArray.push([{{ $key }}, {{ len $value }} ]);
+{{ end }}
+</script>
+
+  
+<canvas id="tag-canvas" width="600" height="300" style="border: 1px solid red;"></canvas>
+<script src="/js/wordcloud2.js"></script>
+<script>
+    WordCloud(document.querySelector("#tag-canvas"), {
+      list: tagArray,
+      // weightFactor: 8,
+    });
+</script>
+{{ end }}

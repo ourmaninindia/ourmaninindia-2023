@@ -1,0 +1,58 @@
+<!-- Slideshow container -->
+<h3>These are some of the authors I have met and whose books I have enjoyed.</h3p>
+</aricle>
+
+<div class="carousel">
+  <button class="carousel_button carousel_button--left is-hidden">
+    <img src="svg/back.svg" alt="">
+  </button>
+  <div class="carousel_track-container">
+    <ul class="carousel_track">
+
+      {{- range $index, $e := $.Page.Params.carousel }}
+      {{- $src := $.Page.Resources.GetMatch ( printf "*%s*" ($e.url)) }}
+
+      {{- if $src -}}
+
+      {{- $tinyw   := default "500x" }}
+      {{- $smallw  := default "800x" }}
+      {{- $mediumw := default "1200x" }}
+      {{- $largew  := default "1500x" -}}
+
+      {{- $.Scratch.Set "tiny"   ($src.Resize $tinyw) }}
+      {{- $.Scratch.Set "small"  ($src.Resize $smallw) }}
+      {{- $.Scratch.Set "medium" ($src.Resize $mediumw) }}
+      {{- $.Scratch.Set "large"  ($src.Resize $largew) -}}
+
+      {{- $tiny   := $.Scratch.Get "tiny" }}
+      {{- $small  := $.Scratch.Get "small" }}
+      {{- $medium := $.Scratch.Get "medium" }}
+      {{- $large  := $.Scratch.Get "large" -}}     
+      <li class="carousel_slide current-slide">
+        <picture>
+          {{ $isJPG := eq (path.Ext .url ) ".jpg" -}}
+          {{ if ($isJPG) -}}
+          {{ $webpPath:= replace .url ".jpg" ".webp" -}}
+          <source srcset="{{ $webpPath | safeURL }}" type="image/webp" />
+          <source srcset="{{ .url | safeURL }}" type="image/jpg" />
+          {{- end }}
+          <img class="carousel_image" loading="lazy" decoding="async" sizes="(min-width: 35em) 1200px, 100vw" data-srcset="
+          {{ with $tiny.RelPermalink }} {{.}} 500w{{ end -}}
+          {{ with $small.RelPermalink }},{{.}} 800w{{ end -}}
+          {{ with $medium.RelPermalink }},{{.}} 1200w{{ end -}}
+          {{ with $large.RelPermalink }},{{.}} 1500w{{ end -}}" width="930" height="510" src="{{- $src.RelPermalink -}}" alt='{{ (index . "title") }}' >
+        </picture> 
+      </li>
+      {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+  <button class="carousel_button carousel_button--right">
+    <img src="svg/forward.svg" alt="">
+  </button>
+  <div class="carousel_nav">
+    <button class="carousel_indicator current-slide"></button>
+    <button class="carousel_indicator"></button>
+    <button class="carousel_indicator"></button>
+  </div>
+</div>

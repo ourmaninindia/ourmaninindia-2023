@@ -1,0 +1,41 @@
+{{- define "main" }}
+ <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
+    {{ .Content }}
+  </article>
+  
+  {{- partial "carousel" . -}} 
+
+  {{- $mainSections := (slice "post") }}
+  {{- $section := where .Site.RegularPages "Section" "in" $mainSections }}
+  {{- $section_count := len $section -}}
+
+  {{- if ge $section_count 1 }}
+    {{- $section_name := "post" -}}
+
+    <div class="pa3 pa4-ns w-100 w-70-ns center">
+      {{- with .Site.GetPage "section" $section_name }}
+          <h1 class="w-100 mw8 center">
+            {{ $.Param "recent_copy" | default (i18n "recentTitle" .) }}
+          </h1>
+      {{- end }}
+
+      {{- $n_posts := $.Param "recent_posts_number" | default 3 }}
+      <section class="w-100 mw8 center">
+        {{- range (first $n_posts $section) }}
+          <div class="relative w-100 mb4">
+            {{ .Render "summary-with-image" }}
+          </div>
+        {{- end }}
+      </section>
+
+      {{- if ge $section_count (add $n_posts 1) }}
+      <section class="w-100">
+        {{- with .Site.GetPage "section" $section_name }}
+          <a href="{{ .RelPermalink }}" class="link db f6 pa2 br3 gray hover-black tc">{{ i18n "allTitle" . }}</a>
+        {{- end }}
+        </section>
+      {{- end }}
+
+      </div>
+  {{- end }}
+{{- end }}

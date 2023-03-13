@@ -1,0 +1,68 @@
+{{define "main"}}
+
+<script>
+let tagMap = new Map();
+let tagArray = new Array();
+{{ range $key, $value := .Data.Terms }}
+  tagMap.set("{{ $key }}", {{ len $value }});
+  tagArray.push([{{ $key }}, {{ len $value }} ]);
+{{ end }}
+</script>
+
+
+
+
+<article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+	<form id="search">
+	    <div class="form-group form-group-lg">
+	        <input type="text" class="form-control" id="google-search" placeholder="Enter search term" />
+	        <input id='submit' type="submit" value="Submit">
+	</form>
+
+
+	<div id="tag-wrapper" style="width: 100%; height: 400px;"></div>
+
+
+</article>
+
+<script src="/js/wordcloud2.js"></script>
+<script>
+
+document.getElementById('submit').addEventListener('click',(e) => {
+
+  let text = document.getElementById('google-search').value;
+
+  if (text.length > 0){
+    window.open('https://www.google.com/search?q=' + text + '+site:' + '{{ .Site.BaseURL | absLangURL }}' );
+  }
+})
+
+
+{{/* 
+https://github.com/timdream/wordcloud2.js 
+https://blog.cubieserver.de/2020/adding-a-tag-cloud-to-my-hugo-blog/
+*/}}
+
+
+  WordCloud(document.querySelector("#tag-wrapper"), {
+        list: tagArray,
+    });
+
+  const tagCanvas = document.querySelector("#tag-wrapper"); 
+
+  WordCloud(document.querySelector("#tag-wrapper"), {
+    list: tagArray,
+    classes: "tag-cloud-item", 
+    /* add a class to each tag element so we can easily loop over it */
+  });
+
+  tagCanvas.addEventListener('wordcloudstop', function (e) {
+    /* loop over all added elements (by class name) */
+    document.querySelectorAll('.tag-cloud-item').forEach(function (element) {
+        const word = element.innerHTML;
+        element.innerHTML = `<a href="/tags/${word}/" style="color: inherit;">${word}</a>`;
+    });
+});
+
+</script>
+{{ end }}

@@ -1,0 +1,21 @@
+{{- $data := index .Site.Data "authors" }}
+<div id="slider">
+	<p>{{ .Get "caption" }}</p>
+	<div class="slider">
+		{{- $path := print "content/en" .Page.RelPermalink (.Get "src") }}
+		{{- $url  := print .Page.RelPermalink (.Get "src") }}
+		{{- if fileExists $path }}
+			{{- range $i, $e := $data }}
+				<figure class="slide">
+					<img class="mySlides w3-animate-fading lazyload" data-src="{{ .Permalink }}{{ .url }}" title="{{.alt}}" alt="{{ .alt }}">
+					<figcaption>{{ .alt }}</figcaption>
+				</figure>
+			{{- end }}
+		{{- else }}
+			<p>The folder {{ $path }} does not exist.</p>
+		{{- end }}
+	</div>
+	<!-- Control buttons -->
+	<button class="btn btn-next">></button>
+	<button class="btn btn-prev"><</button>
+</div>

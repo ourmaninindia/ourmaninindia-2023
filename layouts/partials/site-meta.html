@@ -1,0 +1,153 @@
+    {{"<!-- Meta -->" | safeHTML }}
+    {{- $description := (cond (isset .Params "Description") .Description (cond .IsPage .Summary .Site.Params.description )) }}
+
+    {{"<!-- Title tags -->" | safeHTML }}
+    <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
+    <meta name="application-name" content="{{ .Title }} | {{ .Site.Title }}" />
+    <meta property="og:site_name" content="{{ .Site.Params.sitename }}" />
+    {{"<!-- Description tags -->" | safeHTML }}
+    <meta property="og:description" content="{{ $description | truncate 150 }}" />
+    {{"<!-- Link tags -->" | safeHTML }}
+    <base href="{{ .Permalink }}">
+    <link rel="canonical" href="{{ .Permalink }}" itemprop="url" /> 
+    <meta name="url" content="{{ .Permalink }}" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    {{"<!-- Language tags -->" | safeHTML }}
+    <meta property="og:locale" content="{{ .Language.Lang }}">
+    <meta name="language" content="{{ .Language.LanguageName }}">
+    {{- range .AllTranslations }}
+    <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
+    {{- end }}
+    {{"<!-- Image tags -->" | safeHTML }}
+    {{- with .Params.image }} 
+    <meta itemprop="image" content="{{ . | absURL }}" />
+    <meta property="og:image" content="{{ . | absURL }}" /> 
+    {{- else }}
+    <meta itemprop="image" content="{{ .Site.Params.ogimage | absURL }}" />
+    <meta property="og:image" content="{{ .Site.Params.ogimage | absURL }}" />
+    {{- end }}
+    {{"<!-- Date tags -->" | safeHTML }}
+    <meta property="og:updated_time" content={{ .Lastmod.Format "2006-01-02T15:04:05Z0700" | safeHTML }} />
+    {{"<!-- Sitemap & RSS Feed Tags -->" | safeHTML }}
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" /> 
+    {{- with .OutputFormats.Get "RSS" }}
+    <link href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+    <link href="{{ .Permalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+    {{- end }}
+    {{- if or (eq .Section "posts") (eq .Section "open-source") }} 
+    {{"<!-- Article tags -->" | safeHTML }}
+    <!-- Pagination meta tags for list pages only -->
+    {{- $paginator := .Paginate (where .Pages "Section" "blog") }}
+    {{- if $paginator }}
+    <link rel="first" href="{{ $paginator.First.URL }}">
+    <link rel="last" href="{{ $paginator.Last.URL }}">
+    {{- if $paginator.HasPrev }}
+    <link rel="prev" href="{{ $paginator.Prev.URL }}">
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <link rel="next" href="{{ $paginator.Next.URL }}">
+    {{- end }}
+    {{- end }}
+    <meta property="og:type" content="article" />
+    <meta property="article:publisher" content="{{ .Site.Author.linkedin }}" /> 
+    <meta property="og:article:author" content="{{ .Site.Author.name }}" />
+    <meta property="article:author" content="{{ .Site.Author.name }}" /> 
+    <meta name="author" content="{{ .Site.Author.name }}" /> 
+    {{ if .IsPage }}
+      {{ if not .Date.IsZero }}
+        <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05" }}">
+        <meta property="og:article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05" }}">
+      {{ end }}
+      {{ if not .Lastmod.IsZero }}
+        <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05" }}">
+      {{ end }}
+      {{ if not .ExpiryDate.IsZero }}
+        <meta property="article:expiration_time" content="{{ .ExpiryDate.Format "2006-01-02T15:04:05" }}">
+      {{ end }}
+      {{ with .Params.categories }}
+        {{ range $v := . }}
+          <meta property="article:section" content="{{ $v }}">
+        {{ end }}
+      {{ end }}
+      {{ with .Params.tags }}
+        {{ range $v := . }}
+          <meta property="article:tag" content="{{ $v }}">
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{- with .Params.category }} 
+    <meta name="news_keywords" content="{{ index . 0 }}" />
+    <meta property="article:section" content="{{ index . 0 }}" /> 
+    {{- end }}
+    <script defer type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": {{ .Title }},
+        "author": {
+          "@type": "Person",
+          "name": "{{ .Site.Author.github }}"
+        },
+        "datePublished": "{{ .Date.Format "2006-01-02" }}",
+        "description": {{ $description | truncate 150 }},
+        "wordCount": {{ .WordCount }},
+        "mainEntityOfPage": "True",
+        "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+        "image": {
+          "@type": "imageObject",
+          "url": "{{ with .Params.image }}{{ .Permalink }}{{ end }}"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "{{ .Site.Title }}",
+          "logo": {
+            "@type": "imageObject",
+            "url": "/favicon.ico"
+          }
+        }
+      }
+    </script>
+    {{- end }}
+    {{"<!-- Web page tags -->" | safeHTML }}
+    <meta property="og:type" content="website" /> 
+    <meta name="author" content="{{ .Site.Author.name }}" />
+    <script defer type="application/ld+json">
+      { 
+        "@context": "http://schema.org", 
+        "@type": "WebSite", 
+        "url": "{{ .Permalink }}", 
+        "sameAs": [
+          "{{ .Site.Author.facebook }}", 
+          "{{ .Site.Author.github }}"
+        ], 
+        "name": "{{ .Title }}", 
+        "logo": "/favicon.ico" 
+      }
+    </script>
+    <meta name="googlebot" content="index,follow" />
+    {{- with .Site.Params.fbAppId }}
+    <meta property="fb:app_id" content="{{ . }}">
+    {{- end }}
+    {{- with .Site.Params.fbAdminIds }}
+    <meta property="fb:admins" content="{{ . }}">
+    {{- end }}
+    {{"<!-- Other tags -->" | safeHTML }}
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#141414" /> 
+    <meta name="msapplication-TileColor" content="#141414" />
+    <meta name="keywords" content="{{ with .Keywords }}{{ delimit . ", " }}{{ end }}{{ if .Site.Params.keywords }}, {{ delimit .Site.Params.keywords ", " }}{{ end }}">
+    <meta name="imagemode" content="force" />
+    <meta name="coverage" content="Worldwide" /> 
+    <meta name="distribution" content="Global" />
+    <meta name="HandheldFriendly" content="True" /> 
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="apple-mobile-web-app-title" content="{{ .Site.Params.sitename }}" /> 
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-touch-fullscreen" content="yes" /> 
+    {{"<!-- Author -->" | safeHTML }}
+    {{- if .Scratch.Get "gravatarEmail" }}
+    <meta property="og:image" content="https://www.gravatar.com/avatar/{{ (md5 (.Scratch.Get "gravatarEmail")) | urlize }}?s=640">
+    {{- else if .Site.Author.picture }}
+    <meta property="og:image" content="{{ .Site.Author.picture | absURL }}">
+    {{- end }}

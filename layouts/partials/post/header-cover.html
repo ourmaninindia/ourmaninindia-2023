@@ -1,0 +1,7 @@
+{{- if .Params.featured_image }}
+<div class="post-header-cover {{ if .Params.theme}}theme-{{.Params.theme }}{{ end }} {{ if .Params.metaalignment }}text-{{ .Params.metaalignment }}{{ else }}text-left{{ end }} {{ with .Params.coversize }}post-header-cover--{{ . }}{{ end }}" style="background-image:url('{{ (print .Permalink .Params.featured_image ) | relURL }}')" data-behavior="{{ $.Scratch.Get "sidebarBehavior" }}">
+  <div class="post-header main-content-wrap text-left">
+    <h1 class="post-title" itemprop="headline">Tour de Tolerance 2020</h1>
+  </div>
+</div>
+{{- end }}
