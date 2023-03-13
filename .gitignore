@@ -1,0 +1,18 @@
+public/
+/node_modules/
+/dist/
+/docs/
+info.txt
+*.mp4
+.env
+
+# Local Netlify folder
+.netlify
+/resources
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Hugo
+.hugo_build.lock
