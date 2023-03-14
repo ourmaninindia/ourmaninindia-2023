@@ -31,7 +31,7 @@
       {{- if ge $section_count (add $n_posts 1) }}
       <section class="w-100">
         {{- with .Site.GetPage "section" $section_name }}
-          <a href="{{ .RelPermalink }}" class="link db f6 pa2 br3 gray hover-black tc">{{ i18n "allTitle" . }}</a>
+          <a href="{{ .RelPermalink }}" class="link db f6 pa2 br3 black hover-dark-blue tc">{{ i18n "allTitle" . }}</a>
         {{- end }}
         </section>
       {{- end }}

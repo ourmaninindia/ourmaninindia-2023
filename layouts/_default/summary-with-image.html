@@ -14,7 +14,7 @@
         <h1 class="f3 fw1 athelas mt0 mb1 lh-title">
           <a href="{{.RelPermalink}}" class="color-inherit dim link">{{ .Title }}</a>
         </h1>
-        <h5 class="fw4 mt0"><i>{{ .Date | time.Format (default "January 2, 2006" .Site.Params.date_format) -}}</i></h5>
+        <h2 class="f5 fw4 mt0"><i>{{ .Date | time.Format (default "January 2, 2006" .Site.Params.date_format) -}}</i></h2>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
           {{ $summary_splits := split .Summary "<!--endtoc-->" }}
           {{ if eq (len $summary_splits) 2 }}

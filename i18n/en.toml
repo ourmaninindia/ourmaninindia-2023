@@ -8,7 +8,7 @@ other = "See all {{.Title }}"
 other = "Recent {{.Title }}"
 
 [readMore]
-other = "read more"
+other = "Read the full post"
 
 [by]
 other = "By"

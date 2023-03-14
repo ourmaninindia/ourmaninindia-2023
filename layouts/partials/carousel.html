@@ -1,7 +1,7 @@
 <!-- Slideshow container -->
 <div class="carousel w-100 mw8 center">
   <h3>These are some of the authors I have met and whose books I have enjoyed.</h3>
-  <button class="carousel_button carousel_button--left is-hidden">
+  <button class="carousel_button carousel_button--left is-hidden" aria-label="Go to the previous image">
     <img src="images/back.svg" alt="View the previous picture">
   </button>
   <div class="carousel_track-container">
@@ -45,12 +45,12 @@
       {{ end }}
     </ul>
   </div>
-  <button class="carousel_button carousel_button--right">
+  <button class="carousel_button carousel_button--right" aria-label="Go to the next image">
     <img src="images/forward.svg" alt="View the next picture">
   </button>
   <div class="carousel_nav">
      {{- range $index, $e := $.Page.Params.carousel }}
-    <button class="carousel_indicator {{ if eq $index 0 }}current-slide{{ end }}"></button>
+    <button class="carousel_indicator {{ if eq $index 0 }}current-slide{{ end }}" aria-label="{{ if eq $index 0 }}This is the current image{{ else }}Click here to see that image{{ end }}"></button>
     {{ end }}
   </div>
 </div>
