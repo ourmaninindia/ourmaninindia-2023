@@ -1,7 +1,7 @@
 <footer class="{{ .Site.Params.background_color_class | default "bg-dark-blue" }} near-white bottom-0 w-100 pa2 pb0" role="contentinfo">
   <div class="flex flex-wrap justify-between">
-  <div class="flex mt2" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
-    <a class="near-white" property="dct:title" rel="cc:attributionURL" href="https://www.odyssey.co.in">{{ with .Site.Title | default .Site.Copyright}} {{ . | safeHTML }} &copy; {{ now.Format "2006"}} {{ end }}</a> 
+  <div class="flex mt2 white-70" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+    <a class="hover-white no-underline white-70" property="dct:title" rel="cc:attributionURL" href="https://www.odyssey.co.in">{{ with .Site.Title | default .Site.Copyright}} {{ . | safeHTML }} &copy; {{ now.Format "2006"}} {{ end }}</a> 
     <a class="invisible" rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.ourmaninindia.com">{{ .Site.Copyright }} 
     </a>
     &nbsp; is licensed under 
@@ -13,10 +13,10 @@
     </a>
   </div>
   <div>
-    <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pt1 pr3" href="{{ .Site.Home.Permalink }}policies">Policies</a>
+    <a class="fw4 hover-white no-underline white-70 dn dib-ns pt1 pr3" href="{{ .Site.Home.Permalink }}policies">Policies</a>
   </div>
   <div>
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pt1 pr3" href="{{ .Site.Home.Permalink }}terms">Terms & Conditions</a>
+  <a class="fw4 hover-white no-underline white-70 dn dib-ns pt1 pr3" href="{{ .Site.Home.Permalink }}terms">Terms & Conditions</a>
 </div>
     <div>{{ partial "social-follow.html" . }}</div>
   </div>

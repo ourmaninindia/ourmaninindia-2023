@@ -587,3 +587,17 @@ header {
 .tl p {
   text-align: left;
 }
+
+
+@media only screen and (max-width: 1000px) {
+
+  header {
+    #logo, .ananke-socials {
+      display: none;
+    }
+  }
+
+  footer .flex-wrap {
+    flex-direction: column;
+  }
+}
