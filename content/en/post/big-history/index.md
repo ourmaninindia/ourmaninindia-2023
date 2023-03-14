@@ -5,8 +5,8 @@ description = "Big History"
 slug = "big-history"
 tags = ["Management", "Big History"]
 title = "Big History"
-thumbnailImage = "christian.jpg"
-imageCover = ""
+cover = "cover-christian.jpg"
+featured_image = ""
 
 +++
 

@@ -2,11 +2,10 @@
 categories = ["India", "Management"]
 date = 2017-07-12T20:37:15Z
 description = "Internet neutrality is a big deal. It enables you, or anyone else, to complete at a true level playing field with large corporations."
-thumbnailImage = "net-neutrality.png"
+cover = "cover-net-neutrality.png"
 slug = "support-net-neutrality"
 tags = ["Management", "Open Source", "India"]
 title = "Support Net Neutrality"
-imageCover = ""
 +++
 
 

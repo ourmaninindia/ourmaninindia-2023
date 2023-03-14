@@ -5,7 +5,7 @@ description = "Move to the role of a large scale integrator"
 slug = "large-scale-integrator"
 tags = ["large scale integrator", "inovation", "maritime industry"]
 title = "Move to the role of a large scale integrator"
-thumbnailImage = "large-scale-integrator.jpg"
+cover = "cover-large-scale-integrator.jpg"
 featured_image = ""
 
 +++

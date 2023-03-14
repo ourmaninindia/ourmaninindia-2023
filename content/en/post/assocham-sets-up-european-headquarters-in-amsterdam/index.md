@@ -6,7 +6,7 @@ draft = false
 slug = "assocham-sets-up-european-headquarters-in-amsterdam"
 tags = ["Management", "india"]
 title = "Assocham sets up European headquarters in Amsterdam"
-thumbnailImage = "assocham.png"
+cover = "cover-assocham.png"
 featured_image = ""
 +++
 

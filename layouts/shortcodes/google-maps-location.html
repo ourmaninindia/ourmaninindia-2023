@@ -1,11 +1,8 @@
-<div class="shortcode shortcode--google-maps">
-	<iframe
-	    class="gmap lazyload"
-		data-src='https://www.google.com/maps/embed/v1/place?key={{ with .Get "key" }}{{ . }}{{ else }}{{ .Site.Params.googleMapsAPIKey }}{{end}}&q={{ .Get "location" }}{{ with .Get "center" }}&center={{ . }}{{end}}{{ with .Get "zoom" }}&zoom={{ . }}{{end}}{{ with .Get "maptype" }}&maptype={{ . }}{{end}}{{ with .Get "language" }}&language={{ . }}{{end}}{{ with .Get "region" }}&region={{ . }}{{end}}'
-		allowfullscreen
-		frameborder="0"
-		scrolling='{{ with .Get "scrolling" }}{{.}}{{else}}no{{end}}'
-		width='{{ with .Get "width" }}{{.}}{{else}}100%{{end}}'
-		height='{{ with .Get "height" }}{{.}}{{else}}300px{{end}}'>
-	</iframe>
+
+{{ " <!-- google map --> " | safeHTML }}
+<div class="container">
+  <div class="map-responsive">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9471.768587079365!2d73.77036559439425!3d15.539314556247366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfc1dd7ae415e7%3A0x7145d3d62713a823!2sOur%20Man%20in%20India!5e1!3m2!1sen!2sin!4v1678783739711!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
 </div>
+<!-- end of google map -->

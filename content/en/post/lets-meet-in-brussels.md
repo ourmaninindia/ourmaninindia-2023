@@ -6,7 +6,7 @@ slug = "lets-meet-in-brussels"
 tags = ["EU parliament"]
 title = "Let's meet in Brussels!"
 featured = false
-thumbnailImage = ""
+cover = ""
 featured_image = ""
 
 +++

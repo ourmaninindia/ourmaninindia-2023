@@ -5,7 +5,7 @@ description = ""
 draft = false
 tags = ["Management"]
 title = "The Green Thing"
-thumbnailImage = ""
+cover = ""
 featured_image = ""
 +++
 

@@ -2,7 +2,7 @@
 date = 2019-01-01T12:04:55Z
 description = "Goa, where Vasco da Gama once landed only to be followed centuries later by Led Zeppelin, The Who and George Harrison, is a fascinating place with a constant influx of cosmopolitan thought. The former Portuguese colony is also known for its beaches, restaurant shacks with great food and low priced alcohol, and a relaxed lifestyle."
 title = "Contact me"
-thumbnailImage = "office_3.png"
+cover = "office_3.png"
 featured_image = "header-study.jpg"
 disable_comments = true
 type = "contact"

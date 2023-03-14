@@ -5,7 +5,7 @@ description = "Bob Geldof and Jonathan Fenby speaking at Think in Goa"
 slug = "masterclass-china"
 tags = ["Masterclass"]
 title = "Bob Geldof and Jonathan Fenby"
-thumbnailImage = "fenby.jpg"
+cover = "cover-fenby.jpg"
 featured_image = ""
 +++
 

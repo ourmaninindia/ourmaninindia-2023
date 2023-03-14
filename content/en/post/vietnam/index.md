@@ -5,7 +5,7 @@ description = "My thigh muscles were aching for days afterwards. I had been craw
 slug = "vietnam"
 tags = ["Travel, Vietnam"]
 title = "Vietnam"
-thumbnailImage = "vietnam.jpg"
+cover = "cover-vietnam.jpg"
 featured_image = ""
 +++
 

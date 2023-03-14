@@ -5,7 +5,7 @@ description = ""
 slug = "india-symposium-amsterdam"
 tags = ["Management"]
 title = "India Symposium, Amsterdam"
-thumbnailImage = ""
+cover = ""
 imageCover = ""
 +++
 

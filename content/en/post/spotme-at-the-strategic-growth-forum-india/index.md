@@ -5,8 +5,8 @@ description = ""
 draft = false
 tags = ["Management"]
 title = "SpotMe™ at the Strategic Growth Forum™ India"
-thumbnailImage = "chawla.jpg"
-featured_image = ""
+cover = "spotme.png"
+featured_image = "chawla.jpg"
 +++
 
 {{< figure figcaption="Ms Chawla (Photo courtesy Luxury Works)" class="left" >}}

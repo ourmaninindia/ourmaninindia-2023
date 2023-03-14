@@ -6,7 +6,7 @@ draft = false
 slug = "the-republic-of-technology"
 tags = ["Management"]
 title = "The Republic of Technology"
-thumbnailImage = "sherry-turkle.jpg"
+cover = "cover-sherry-turkle.jpg"
 featured_image = ""
 +++
 

@@ -7,7 +7,7 @@ slug = "leaders-in-india"
 tags = ["Management", "india"]
 title = "Leaders in India"
 featured = false
-thumbnailImage = "leaders.jpg"
+cover = "cover-leaders.jpg"
 featured_image = ""
 +++
 

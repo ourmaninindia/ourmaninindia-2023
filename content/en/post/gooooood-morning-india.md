@@ -5,7 +5,7 @@ description = "I have accepted the offer of a Dutch company to become their CFO 
 slug = "gooooood-morning-india"
 tags = ["Management"]
 title = "Gooooood Morning India!"
-thumbnailImage = ""
+cover = ""
 imageCover = ""
 +++
 

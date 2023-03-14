@@ -7,7 +7,7 @@ slug = "summertime-villa-wins-world-boutique-award"
 tags = ["travel"]
 title = "World Boutique Hotel award"
 featured_image = "alfred-with-award2.jpg"
-thumbnailImage = "alfred-with-award2.jpg"
+cover = "cover-alfred-with-award2.jpg"
 +++
 
 On behalf of Odyssey Tours I was pleased to collect the World Boutique Hotel award which this year was held at the Merchant Taylor's Hall in London, November 9, 2016. Read more about it [here](https://www.boutiquehotelawards.com/luxury-hotels/summertime-villa).

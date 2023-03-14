@@ -5,8 +5,7 @@ description = "The book called Managing International Trade & Investment, the ne
 slug = "the-book-is-out"
 tags = ["International trade", "Book"]
 title = "The book is out!"
-featured = false
-thumbnailImage = "managing-international-trade-investment.jpg"
+cover = "cover-book.jpg"
 featured_image = ""
 
 +++

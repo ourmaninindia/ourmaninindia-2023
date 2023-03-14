@@ -6,7 +6,7 @@ slug = "asias-rise-how-and-when"
 tags = ["emerging economy"]
 title = "Hans Rosling: Asia's Rise -- How and When"
 featured = false
-thumbnailImage = "hans-rosling.jpg"
+cover = "cover-hans-rosling.jpg"
 featured_image = ""
 +++
 

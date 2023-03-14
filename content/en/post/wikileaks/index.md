@@ -5,7 +5,7 @@ description = ""
 slug = "wikileaks"
 tags = ["case study", "julian assange", "whistleblower", "wikileaks", "free press"]
 title = "WikiLeaks, a superb case study"
-thumbnailImage = "wikileaks.jpg"
+cover = "cover-wikileaks.jpg"
 featured_image = ""
 +++
 

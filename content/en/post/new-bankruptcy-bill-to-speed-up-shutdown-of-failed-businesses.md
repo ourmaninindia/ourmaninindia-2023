@@ -5,7 +5,7 @@ description = "New bankruptcy bill in India to speed up shutdown of failed busin
 slug = "new-bankruptcy-bill-to-speed-up-shutdown-of-failed-businesses"
 tags = ["india", "economy"]
 title = "New bankruptcy bill to speed up shutdown of failed businesses"
-thumbnailImage = ""
+cover = ""
 featured_image = ""
 
 +++

@@ -6,7 +6,7 @@ draft = false
 slug = "multicultural-managers-can-make-a-huge-difference"
 tags = ["Management"]
 title = "Multicultural managers can make a huge difference"
-thumbnailImage = ""
+cover = ""
 featured_image = ""
 +++
 

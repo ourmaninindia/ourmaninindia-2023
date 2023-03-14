@@ -13,7 +13,7 @@ let tagArray = new Array();
 
 <article class="cf pa3 pa4-m pa4-l">
   <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links {{ $.Param "text_color" | default "mid-gray" }}">
-   <h3> My tag cloud</h3>
+   <h3> {{ i18n "tagCloud" . }}</h3>
   </div>
 </article>
 <div class="mw8 center ba">
@@ -27,10 +27,14 @@ let tagArray = new Array();
 <div class="mw8 center">
   <section class="ph4">
     <p class="f4">
+    {{- $len := (len .Data.Pages) }}
+    {{- $index := 0 }}
     {{- range $term := .Data.Pages }}
       {{- $url := path.Split $term }}
+      {{- $index = add $index 1 }}
       {{- if ne $url.File "open-source)" }}
-      <a href="{{ $term.RelPermalink }}" class="link darkslategray hover-dark-blue">{{ $term.LinkTitle }}</a> -
+      <a href="{{ $term.RelPermalink }}" class="link darkslategray hover-dark-blue">{{ $term.LinkTitle }}</a>     
+      {{ if ne $index $len }}-{{ end }}
       {{- end }}
     {{- end }}
   </p>

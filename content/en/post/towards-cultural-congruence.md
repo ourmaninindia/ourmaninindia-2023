@@ -6,7 +6,7 @@ draft = false
 slug = "towards-cultural-congruence"
 tags = ["Management"]
 title = "Indian Management - Towards Cultural Congruence"
-thumbnailImage = ""
+cover = ""
 featured_image = ""
 +++
 

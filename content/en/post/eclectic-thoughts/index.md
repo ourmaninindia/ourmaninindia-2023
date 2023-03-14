@@ -5,8 +5,7 @@ description = "Eclectic thoughts"
 slug = "eclectic-thoughts"
 tags = ["Management"]
 title = "Eclectic thoughts"
-thumbnailImage = "havanna.jpeg"
-imageCover = ""
+cover = "cover-havanna.jpeg"
 
 +++
 

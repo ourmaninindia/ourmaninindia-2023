@@ -5,8 +5,8 @@ description = "sic-transit-gloria-mundi"
 slug = "sic-transit-gloria-mundi"
 tags = ["Netherlands"]
 title = "Sic transit gloria mundi"
-thumbnailImage = "bavo.jpeg" 
-featured_image = ""
+cover = "cover-bavo.jpeg" 
+featured_image = "bavo2.jpg"
 +++
 
 I love Bach’s St Matthew Passion. Don’t get me wrong, I am not a great fan of any *Danse Macabre* and prefer a *Nullus Funus Sine Fidula* (no funeral without a fiddle) anytime. However, death used to be very much part of daily life. As a teenager I lived in the Gothic St Bavo cathedral in Haarlem where people still literally walk all over the dead as the interior flooring of the church is entirely made up of tomb stones. It was Napoleon that banned burials in churches in 1804, something which took quite a few decades to fully comply with. After all, it was a commercially attractive activity for the church. These days the only exceptions are made for members of the royal family.
@@ -18,7 +18,7 @@ The article was on a book by Bronnie Ware, an Australian nurse, who wrote about 
 So it is *Memento Mori* after all.
 
 
-	{{< img src= "scroll.jpeg"  alt="The Pentalogue " >}}
+{{< img src= "scroll.jpeg"  alt="The Pentalogue " >}}
 
 
 **1. I wish I’d had the courage to live a life true to myself, not the life others expected of me.**

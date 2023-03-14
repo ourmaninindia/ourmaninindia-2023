@@ -5,7 +5,7 @@ date = 2013-01-20T16:57:28Z
 description = "Overcoming the Global Innovation Trade-Off"
 tags = ["Innovation"]
 title = "Overcoming the Global Innovation Trade-Off"
-thumbnailImage = "overcoming-global-innovation.gif"
+cover = "cover-overcoming-global-innovation.gif"
 featured_image = ""
 
 +++

@@ -1,9 +1,11 @@
 ---
 categories: []
 date: 2015-09-29T13:35:55Z
+modified: 2023-03-14T11:40:00Z
 description: "" # "Life is like riding a bicycle. To keep your balance you have to keep moving. "
 title: "Our Man in India"
 disable_comments: true
+books: "These are some of the authors I have met and whose books I have enjoyed."
 carousel:
   - url: header-breukelen.jpg 
     title: Hans van Breukelen 
@@ -26,5 +28,5 @@ carousel:
 ---
 
 
-Over the years I have written about issues, commented on events, or simply shared stories which I hope are worth sharing. For example, while rebuilding this website, I came across a story of a seminar I attended at THiNK in 2012. The topic of the lecture was *__The anatomy of an pandemic__* by Prof. Ian Lipkin! My last line was prophetic _"I cannot help but think we will hear of Dr Lipkin again…"._  Amazing when you read that blog again in the current context, the reason I featured it on the home page again below.
+Over the years I have written about issues, commented on events, or simply shared stories which I hope are worth sharing. For example, while rebuilding this website, I came across a story of a seminar I attended at THiNK in 2012. The topic of the lecture was *__The anatomy of an pandemic__* by Prof. Ian Lipkin! My last line in my blog about that was prophetic: _"I cannot help but think we will hear of Dr Lipkin again…".__  Amazing when you read that blog again after our experience with Covid, the reason I featured it on the home page again below.
 

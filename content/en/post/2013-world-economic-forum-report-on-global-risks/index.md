@@ -5,7 +5,7 @@ description = "2013 World Economic Forum Report on Global Risk"
 slug = "2013-world-economic-forum-report-on-global-risks"
 tags = ["Management"]
 title = "2013 World Economic Forum Report on Global Risks"
-thumbnailImage = "world-economic-forum.jpg" 
+cover = "cover-world-economic-forum.jpg" 
 featured_image = ""
 
 +++

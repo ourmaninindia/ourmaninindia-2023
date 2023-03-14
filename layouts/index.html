@@ -6,7 +6,8 @@
   {{- partial "carousel" . -}} 
 
   {{- $mainSections := (slice "post") }}
-  {{- $section := where .Site.RegularPages "Section" "in" $mainSections }}
+  {{- $section := where .Site.RegularPages ".Params.featured" true }}
+  {{/*- $section := where .Site.RegularPages "Section" "in" $mainSections */}}
   {{- $section_count := len $section -}}
 
   {{- if ge $section_count 1 }}

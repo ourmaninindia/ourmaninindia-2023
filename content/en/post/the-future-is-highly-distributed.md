@@ -7,8 +7,8 @@ draft = true
 keywords = []
 metaAlignment = ""
 tags = []
-thumbnailImage = "https://s3-us-west-2.amazonaws.com/images.ourmaninindia.com/./jamstack.png"
-thumbnailImagePosition = ""
+cover = "https://s3-us-west-2.amazonaws.com/images.ourmaninindia.com/./jamstack.png"
+coverPosition = ""
 title = "The future is highly distributed"
 
 +++

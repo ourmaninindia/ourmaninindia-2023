@@ -7,8 +7,8 @@ keywords = ["cycling","Italy", "Dolomites"]
 metaAlignment = ""
 tags = ["Italy"]
 featured = true
-thumbnailImage = "pordoi.jpg"
-thumbnailImagePosition = ""
+cover = "cover-pordoi.jpg"
+coverPosition = ""
 title = "Why do you show up even when it's hard"
 
 +++

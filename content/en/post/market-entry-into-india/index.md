@@ -5,7 +5,7 @@ description = "India has inched recently from 142 to 130 in the World Bank’s E
 draft = false
 tags = ["India"]
 title = "Market Entry into India"
-thumbnailImage = ""
+cover = "cover-mca.png"
 featured_image = "mca.jpg"
 +++
 

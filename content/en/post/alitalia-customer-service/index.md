@@ -2,14 +2,14 @@
 categories = ["Customer Service","Travel"]
 date = 2013-07-23T00:48:30Z
 description = "Alitalia Customer Service: an oxymoron or tautology?"
-thumbnailImage = ""
+cover = "cover-alitalia.jpg"
 slug = "alitalia-customer-service"
 tags = ["travel"]
 title = "Alitalia Customer Service: an oxymoron or tautology?"
-featured_image = "alitalia.jpg"
+featured_image = "cover-alitalia.jpg"
 
 +++
-You have received a customer complaint. Do you focus to minimise your financial loss or the loss of face your company may suffer? This thought crossed my mind when I lodged a claim with Alitalia for delayed delivery of our luggage on July 1. We had enjoyed a wonderful trip to Italy recently. For five days we stayed in a private apartment in Florence just round the corner of Piazza de Santa Croce.
+You have received a customer complaint. Do you focus to minimise your financial loss or the loss of face your company may suffer? This thought crossed my mind when I lodged a claim with Alitalia for delayed delivery of our luggage on July 1. We had enjoyed a wonderful trip to Italy recently. For five days we stayed in a private apartment in Florence just round the corner of Piazza de Santa Croce.
 
 When our luggage did not arrive at Rome airport we had to stand in line for over an hour to register the PIR. However, it had already been traced and would be sent after us to Florence. It saved us carrying the three backpacks and, let’s face it, mistakes do happen to the best of us. Having worked for two decades in the travel industry I appreciate only too well that it is the way you handle customer complaints which matters most. The lessons I learned were simple:
 
@@ -45,7 +45,7 @@ Three weeks after lodging my complaint:
 >
 > Met betrekking tot uw klacht informeren wij u dat volgens de EG Verordening 889/2002 (zie artikel 31 van het Verdrag van Montréal), in het geval van inefficiënte afhandeling van uw bagage (verlies, beschadiging, verkeerde afhandeling of vertraagde aflevering van de geregistreerde bagage) is 1131 SDR (gedefinieerd door het Internationale Monetair Fonds) de maximale verantwoordelijke limiet van de luchtvaartmaatschappij.
 >
-> Zonder te bevestigen aansprakelijk te zijn voor het incident, wilt Alitalia bevestigen een totaal bedrag van €280 tegemoetkomend aan de kosten dat u heeft moeten maken tijdens de dagen zonder uw bagage om de noodzaakelijke goederen in te kopen, door middel van een bankoverschrijving aan u te willen compenseren.
+> Zonder te bevestigen aansprakelijk te zijn voor het incident, wilt Alitalia bevestigen een totaal bedrag van €280 tegemoetkomend aan de kosten dat u heeft moeten maken tijdens de dagen zonder uw bagage om de noodzaakelijke goederen in te kopen, door middel van een bankoverschrijving aan u te willen compenseren.
 
 #### August 15
 Alitalia Rome called to check if I really didn’t want to accept their proposal. Florida, the friendly customer service person from Alitalia, initially went on about the Montreal Convention so I quickly explained that I understood the convention and that Alitalia had a scope of Euro 900. Then she went on about Alitalia’s own policies to which I put forward a simple question: can you buy a complete set of new clothes for Euro 78 per person? She understood the absurdity of this particularly as I highlighted the number of days we had been without luggage.
@@ -53,3 +53,6 @@ Alitalia Rome called to check if I really didn’t want to accept their proposal
 A few minutes later she called again to query one more escape route: we only have two tags as two bags were checked in together. This would mean Alitalia only had to pay for two people. Interesting point though the difficulty here is that Air France themselves had provided us with one of their own plastic bags labelled Air France to protect the straps of the backpacks. Alialita is, like the whole of Italy, on holidays in August so Florida explained that she would put the case again with her management so that we can expect a further response in a few weeks…
 
 In the end we were offered a voucher as compensation. We never flew Alitalia again.
+
+
+>August, 2021:  So pleased to hear that Alitalia went backrupt. That was many years overdue though. Alitalia had lost money for years owing to problems linked to government and political interference and reported only one year of profit (1998) since its foundation in 1946! Sounds like Air india...

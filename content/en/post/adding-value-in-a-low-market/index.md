@@ -5,7 +5,7 @@ description = "Adding value in a low value market: If one can borrow, why build 
 slug = "adding-value-in-a-low-market"
 tags = ["Management"]
 title = "Adding value in a low value market"
-thumbnailImage = "insead.jpg" 
+cover = "cover-insead.jpg" 
 featured_image = ""
 
 +++

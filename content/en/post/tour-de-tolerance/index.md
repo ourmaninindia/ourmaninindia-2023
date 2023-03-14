@@ -5,8 +5,7 @@ featured_image = "image.jpg"
 date = 2020-09-08T22:00:00Z
 tags = ["Italy"]
 featured = true
-thumbnailImage = "image.jpg"
-thumbnailImagePosition = ""
+cover = "cover.jpg"
 title = "Tour de Tolerance 2020"
 
 +++

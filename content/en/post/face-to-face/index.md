@@ -5,8 +5,8 @@ description = "Face to Face with Alfred Tuinman, an interview with Indian Ports 
 slug = "face-to-face"
 tags = ["Ports","Infrastructure"]
 title = "Face to Face, an interview with Indian Ports & Infrastructure"
-thumbnailImage = "ports.jpg"
-imageCover = ""
+cover = "cover-ports.jpg"
+featured_image = "cover-ports.jpg"
 +++
 
 {{< figure figcaption="Ports & Infrastructure " class="left" >}}

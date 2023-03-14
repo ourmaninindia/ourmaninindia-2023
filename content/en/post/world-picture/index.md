@@ -6,7 +6,7 @@ slug = "algorithm-and-our-world-picture"
 tags = ["Management"]
 title = "Algorithms and our world picture"
 featured = false
-thumbnailImage = "think2013.jpg"
+cover = "cover-think2013.jpg"
 featured_image = ""
 
 +++

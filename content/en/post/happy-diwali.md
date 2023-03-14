@@ -6,7 +6,7 @@ draft = false
 slug = "happy-diwali"
 tags = ["India","Diwali","Trade Mission"]
 title = "Happy Diwali"
-thumbnailImage = ""
+cover = ""
 imageCover = ""
 +++
 

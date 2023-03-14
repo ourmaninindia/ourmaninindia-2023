@@ -6,7 +6,7 @@ slug = "endurance"
 tags = ["cycling"]
 title = "Endurance"
 featured_image = "elevation_profile.jpg"
-thumbnailImage = "thumbnail.jpg"
+cover = "cover-thumbnail.jpg"
 +++
 
 

@@ -6,8 +6,7 @@ featured_image = "sustainable-development-goals.png"
 date = 2020-06-16T22:00:00Z
 keywords = ["sustainable goals", "covid-19", "circular economy","opportunity"]
 metaAlignment = ""
-thumbnailImage = "circular-economy.png"
-thumbnailImagePosition = ""
+cover = "cover-circular-economy.png"
 title = "Crisis = Danger + Opportunity!"
 slug = "crisis-is-danger-plus-opportunity!"
 featured = true

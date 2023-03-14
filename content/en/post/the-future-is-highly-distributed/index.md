@@ -1,11 +1,11 @@
 +++
 autoThumbnailImage = false
 categories = ["Information Technology","open-source"]
-featured_image = "jamstack-v1.png"
+featured_image = "jamstack-v1.png" 
 date = 2020-10-06T22:00:00Z
 keywords = ["jamstack","hugo","static website generators"]
 tags = ["jamstack"]
-thumbnailImage = "jamstack.png"
+cover = "cover-jamstack.png"
 title = "The future is highly distributed"
 featured = true
 theme = "darkblue"

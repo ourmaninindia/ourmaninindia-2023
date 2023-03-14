@@ -5,7 +5,7 @@ description = ""
 slug = "what-makes-people-successful"
 tags = ["Management"]
 title = "What makes people successful"
-thumbnailImage = ""
+cover = ""
 featured_image = ""
 +++
 

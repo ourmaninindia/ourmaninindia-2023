@@ -7,7 +7,7 @@ slug = "innovation-machine"
 tags = ["Management"]
 title = "Is the U.S. Killing Its Innovation Machine?"
 featured = false
-thumbnailImage = "killing_innovation.jpg"
+cover = "cover-killing_innovation.jpg"
 featured_image = ""
 +++
 

@@ -4,7 +4,7 @@ date = 2014-04-14T11:04:04Z
 description = "It was eight months ago that I had received a call, out of the blue, from the billionaire owner of the Group. He needed a troubleshooter and whether I was interested to work for him. "
 tags = ["Management", "india"]
 title = "To quit or not to quit as a director"
-thumbnailImage = "yerwada-central-jail-pune.jpg"
+cover = "cover-yerwada-central-jail-pune.jpg"
 featured_image = ""
 +++
 

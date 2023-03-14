@@ -6,7 +6,5 @@ description = "About Our Man in India"
 featured = "false"
 tags = []
 title = "About"
-thumbnailImage = ""
-coverImage = ""
 disable_comments = true
 +++

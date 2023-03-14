@@ -5,7 +5,7 @@ description = "You would find this workshop useful if you are a senior manager o
 slug = "leading_innovation"
 tags = ["Innovation"]
 title = "Leading Innovation"
-thumbnailImage = ""
+cover = ""
 featured_image = ""
 
 +++

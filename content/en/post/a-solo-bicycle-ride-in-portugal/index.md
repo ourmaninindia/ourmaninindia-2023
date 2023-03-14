@@ -3,12 +3,11 @@ categories = ["Travel"]
 date = 2020-01-25T14:59:40Z
 description = "As a last minute decision I decided to go cycling in Portugal escaping the grey wintry conditions. Or so I thought."
 featured = true
-thumbnailImage = "route-map.png"
+cover = "cover-route-map.png"
 slug = "a-solo-bicycle-ride-in-portugal"
 tags = ["cycling","Portugal"]
 title = "A solo cycle ride in Portugal"
 featured_image = "vila-pouca-de-aguiar.jpg"
-draft = false
 
 +++
 Like so often it seemed like a good idea at the time.

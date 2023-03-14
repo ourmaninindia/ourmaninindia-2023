@@ -186,7 +186,7 @@ canonifyURLs = true
   identifier = "post"
   name = "Posts"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-edit\"></i>"
-  url = "/post"
+  url = "/nl/post"
 
 [[languages.nl.menu.main]]
   weight = 3

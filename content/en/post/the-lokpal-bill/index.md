@@ -5,8 +5,7 @@ description = ""
 slug = "the-lokpal-bill"
 tags = ["lokpal"]
 title = "The Lokpal bill"
-thumbnailImage = "lokpal.jpeg"
-imageCover = ""
+cover = "cover-lokpal.jpeg"
 
 +++
 

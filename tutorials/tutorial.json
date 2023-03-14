@@ -2,16 +2,16 @@
      "01-getting-started": {
          "title": "Getting Started"
      },
-     "03-layout": {
-         "title": "Layout"
+     "02-netlify": {
+         "title": "Netlify"
      },
-     "05-javascript": {
-         "title": "JavaScript version"
+     "03-github": {
+         "title": "GitHub"
      },
-     "07-logging":{
-        "title": "Logging"
+     "04-javascript":{
+        "title": "Javascripts"
      },
-     "11-testing": {
+     "10-testing": {
          "title": "Software Testing"
      }
  }

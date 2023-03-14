@@ -6,7 +6,7 @@ slug = "klm-off-target"
 tags = ["Management"]
 title = "KLM off-target"
 featured_image = "klm.jpg"
-thumbnailImage = "klm2.jpg"
+cover = "cover-klm2.jpg"
 +++
 
 The plane is cruising at some 560 miles per hour somewhere over Pakistan. I am flying back to India after a meeting at head office in the Netherlands. I wonder if there are any drones around and subconsciously look outside as if I would be able to spot one in the dark. It amuses me that the military call Unmanned Aerial Vehicles drones as male honey bees don’t sting. The MQ-1 Predator drone, used a lot in Pakistan, flies at a medium altitude of 30,000ft, something I am doing right now. The RQ-4 Global Hawk flies at high altitudes of 60,000ft so at some stage would have to pass me to reach that level. I had been impressed by their use and apparent effectiveness. We all know that a few had hit a wrong target. A few hours earlier I knew that KLM had lost a target by a long shot.

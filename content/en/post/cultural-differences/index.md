@@ -5,7 +5,7 @@ description = "Cultural Differences"
 slug = "cultural-differences"
 tags = ["culture","india"]
 title = "Cultural Differences"
-thumbnailImage = "cultural-differences.jpg"
+cover = "cover-cultural-differences.jpg"
 
 +++
 

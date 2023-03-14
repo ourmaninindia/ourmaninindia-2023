@@ -6,7 +6,7 @@ draft = false
 slug = "modi-must-implement-structural-change-to-minimize-corruption"
 tags = ["india", "Management"]
 title = "Modi must implement structural change to minimize corruption"
-thumbnailImage = ""
+cover = ""
 featured_image = ""
 +++
 

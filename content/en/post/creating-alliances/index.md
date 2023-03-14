@@ -5,8 +5,7 @@ description = "Creating strategic alliances and partnerships"
 slug = "creating-alliances"
 tags = ["alliances", "JVs", "fair process", "partnerships", "social capital", "strategic alliance"]
 title = "Creating strategic alliances and partnerships"
-thumbnailImage = "doz.jpeg"
-imageCover = ""
+cover = "cover-doz.jpeg"
 
 +++
 

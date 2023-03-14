@@ -3,11 +3,11 @@ categories = ["Management"]
 date = 2012-11-04T09:03:48Z
 description = "Anatomy of a Pandemic"
 featured = true
-thumbnailImage = "lipkin.jpg"
+cover = "cover-lipkin.jpg"
 slug = "anatomy-of-a-pandemic"
 tags = ["Pandemic","Covid"]
 title = "Anatomy of a Pandemic"
-featured_image = ""
+featured_image = "cover-lipkin.jpg"
 
 +++
 

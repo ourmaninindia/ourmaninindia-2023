@@ -1,3 +1,4 @@
+  {{ $image := partial "func/GetFeaturedImage.html" . }}
   <div class="mb3 pa4 {{ $.Param "text_color" | default "mid-gray" }} overflow-hidden">
     {{ if .Date }}
       <div class="f6">
@@ -10,7 +11,10 @@
       </a>
     </h1>
     <div class="f5 flex-ns">
-      <div class="w-30-l pr3"><img src="{{.RelPermalink }}{{ with .Params.thumbnailImage }}{{ . }}{{ else }}{{ .Params.coverImage }}{{ end }} " alt=""></div>
+      {{ if gt (len $image) 0 }}
+      <div class="w-30-l pr3">
+        <img src="{{.RelPermalink }}{{ with .Params.cover }}{{ . }}{{ else }}{{ .Params.featured_image }}{{ end }} " alt="{{ .Title }}">
+      </div>
       <div class="w-70-l">
       {{ $summary_splits := split .Summary "#split#" }}
       {{ if eq (len $summary_splits) 2 }}
@@ -21,5 +25,17 @@
           {{ .Summary }}
       {{ end }}
       </div>
+      {{ else }}
+      <div class="w-100-l">
+      {{ $summary_splits := split .Summary "#split#" }}
+      {{ if eq (len $summary_splits) 2 }}
+          <!-- If the above special comment is present, output only the part after that comment as Summary. -->
+          {{ index $summary_splits 1 | safeHTML }}
+      {{ else }}
+          <!-- Print the whole Summary if the special comment is not found. -->
+          {{ .Summary }}
+      {{ end }}
+      </div>
+      {{ end }}
     </div>
   </div>

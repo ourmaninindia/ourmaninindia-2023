@@ -6,7 +6,7 @@ draft = false
 slug = "modern-druids"
 tags = ["Management"]
 title = "Modern Druids"
-thumbnailImage = "steven-cowley.jpeg"
+cover = "cover-steven-cowley.jpeg"
 featured_image = ""
 +++
 

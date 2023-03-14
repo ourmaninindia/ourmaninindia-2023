@@ -6,7 +6,7 @@ slug = "brilliant-out-of-the-box-thinking"
 tags = ["Management", "india"]
 title = "Brilliant Out of the Box Thinking"
 featured = false
-thumbnailImage = ""
+cover = ""
 +++
 
 

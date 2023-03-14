@@ -6,7 +6,7 @@ draft = false
 slug = "leadership-in-the-21st-century"
 tags = ["Management"]
 title = "Leadership in the 21st Century"
-thumbnailImage = "ilian_mihov.jpg"
+cover = "cover-ilian_mihov.jpg"
 featured_image = ""
 
 +++

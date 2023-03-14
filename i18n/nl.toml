@@ -8,7 +8,7 @@ other = "Alle {{.Title }}"
 other = "Recente {{.Title }}"
 
 [readMore]
-other = "meer lezen"
+other = "Lees deze post in zijn geheel"
 
 [whatsInThis]
 other = "Inhoud van deze {{ .Type }}"
@@ -36,3 +36,6 @@ other = "Below you will find pages that utilize the taxonomy term “{{ .Title }
 
 [pageTitle]
 other = "{{ .Name }} pagina"
+
+[tagCloud]
+other = "Mijn Tag wolk"
