@@ -42,18 +42,16 @@
 
   <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
 
-    {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
-    {{ block "header2" . }}{{ partial "header-cover.html" . }}{{ end}}
+    {{ block "header"  . }}{{ partial "site-header.html"  . }}{{ end }}
+    {{ block "header2" . }}{{ partial "header-cover.html" . }}{{ end }}
    
     <main class="pb7" role="main">
-      {{ block "main" . }}{{ end }}
+    {{ block "main" . }}{{ end }}
     </main>
     {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
   </body>
 
-  {{ partial "site-scripts.html" . }}
-  
- 
+  {{- partial "site-scripts.html" . }}
 
   {{- if (eq .Params.Type "contact") }}
   <script>

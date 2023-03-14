@@ -1,17 +1,19 @@
 {{- $featured_image := partial "func/GetFeaturedImage.html" . }}
 {{- if $featured_image }}
 <header id="header" data-behavior="5" class="">
-<i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i><div class="header-title">
-<a class="header-title-link" href="https://www.ourmaninindia.com/">Our Man in India</a></div>
-<a class="header-right-picture" href="https://www.ourmaninindia.com/#about">
-<img class="header-picture" src="https://www.ourmaninindia.com/img/alfred3.jpg" alt="Author's picture"></a>
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://www.ourmaninindia.com/">Our Man in India</a>
+  </div>
+  <a class="header-right-picture" href="https://www.ourmaninindia.com/#about">
+    <img class="header-picture" src="https://www.ourmaninindia.com/img/alfred3.jpg" alt="Author's picture">
+  </a>
 </header>
 {{- else }}
-  <header>
-    <div class="pb3-m">
-      {{ partial "site-navigation.html" . }}
-      <div class="tc-l pv3 ph3 ph4-ns">
-      </div>
-    </div>
-  </header>
+<header>
+  <div class="pb3-m">
+    {{/* see https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_hide_scroll */}}
+    {{ partial "site-navigation.html" . }}
+  </div>
+</header>
 {{- end }}
