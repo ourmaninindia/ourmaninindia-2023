@@ -5,7 +5,7 @@ description = "Eclectic thoughts"
 slug = "eclectic-thoughts"
 tags = ["Management"]
 title = "Eclectic thoughts"
-cover = "cover-havanna.jpeg"
+cover = "cover-havanna.jpg"
 
 +++
 

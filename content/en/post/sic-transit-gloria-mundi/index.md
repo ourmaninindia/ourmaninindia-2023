@@ -5,7 +5,7 @@ description = "sic-transit-gloria-mundi"
 slug = "sic-transit-gloria-mundi"
 tags = ["Netherlands"]
 title = "Sic transit gloria mundi"
-cover = "cover-bavo.jpeg" 
+cover = "cover-bavo.jpg" 
 featured_image = "bavo2.jpg"
 +++
 
@@ -18,7 +18,7 @@ The article was on a book by Bronnie Ware, an Australian nurse, who wrote about 
 So it is *Memento Mori* after all.
 
 
-{{< img src= "scroll.jpeg"  alt="The Pentalogue " >}}
+{{< img src= "scroll.jpg"  alt="The Pentalogue " >}}
 
 
 **1. I wish I’d had the courage to live a life true to myself, not the life others expected of me.**

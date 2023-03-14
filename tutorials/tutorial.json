@@ -11,7 +11,10 @@
      "04-javascript":{
         "title": "Javascripts"
      },
-     "10-testing": {
-         "title": "Software Testing"
+     "5-images": {
+         "title": "Images"
+     },
+      "6-css": {
+      "title": "Styles"
      }
  }

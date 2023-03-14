@@ -5,7 +5,7 @@ description = "A friend of mine called this morning to say that, despite the spa
 slug = "microsoft-how-can-we-help-you"
 tags = ["Management", "IT"]
 title = "Microsoft: How can we help you?"
-featured_image = "microsoft.jpeg"
+featured_image = "microsoft.jpg"
 # was http://support.microsoft.com/library/images/support/en-us/SMChero_0043_hero44-preferred-HOMEPAGE.jpg"
 cover = ""
 +++
