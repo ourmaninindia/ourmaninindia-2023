@@ -1,4 +1,4 @@
-<nav class="ph3 ph4-ns background" role="navigation">
+<nav class="ph2 ph2-ns background" role="navigation">
   <div  class="flex-l justify-between items-center center">
     <a href="{{ .Site.Home.RelPermalink }}" id="logo" class="f3 fw2 hover-white no-underline white-90 dib">
       {{ with .Site.Params.site_logo }}
@@ -8,7 +8,7 @@
       {{ end }}
     </a>
     
-    <div class="f2-ns white-90">{{ .Site.Title }}</div>
+    <div class="ourman nowrap f2-ns white-90 flex">{{ .Site.Title }}</div>
     <div class="flex-l items-center">
      
       {{ if .Site.Menus.main }}
@@ -42,8 +42,17 @@
                 </li>
             {{ end }}
         {{ end }}
+        {{ if .IsTranslated }}
+    {{ range .Translations }}
+    <li class="menu__item">
+        <a class="menu__link hover-white no-underline white-90" href="{{ .RelPermalink }}">
+            <i class="fa fa_lg"></i>
+            <span class="menu_text">{{ .Lang }}</span>
+        </a>
+    </li>
+    {{ end}}
+{{ end }}
     </ul>
-     {{ partial "i18nlist.html" . }}
       {{ end }}
       {{ partialCached "social-follow.html" . }}
     </div>

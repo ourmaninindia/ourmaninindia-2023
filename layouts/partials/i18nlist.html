@@ -1,10 +1,10 @@
 {{ if .IsTranslated }}
-<ul class="menu__list mr3">
+<div class="menu__list mr1">
     {{ range .Translations }}
-    <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
+    <div class="list f5 f4-ns fw4 dib pa1">
         <a class="hover-white no-underline white-90" href="{{ .RelPermalink }}">{{ .Lang }}</a>
-    </li>
+    </div>
     {{ end}}
-</ul>
+</div>
 <h4>{{ i18n "translations" }}</h4>
 {{ end }}
