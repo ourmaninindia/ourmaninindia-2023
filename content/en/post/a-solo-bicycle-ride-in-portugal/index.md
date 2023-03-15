@@ -1,15 +1,15 @@
 +++
-categories = ["Travel"]
+categories = ["Cycling","Travel"]
 date = 2020-01-25T14:59:40Z
 description = "As a last minute decision I decided to go cycling in Portugal escaping the grey wintry conditions. Or so I thought."
 featured = true
 cover = "cover-route-map.png"
-slug = "a-solo-bicycle-ride-in-portugal"
-tags = ["cycling","Portugal"]
+tags = ["Cycling","Portugal"]
 title = "A solo cycle ride in Portugal"
 featured_image = "vila-pouca-de-aguiar.jpg"
-
+toc = true
 +++
+
 Like so often it seemed like a good idea at the time.
 
 I was more than fed up with cycling in the Dutch cold and grey wintry conditions and needed to de-stress from work related issues. My son Daniel was meant to join but he needed his time to study. Or so he said, perhaps suspect of my intentions.
@@ -22,7 +22,7 @@ Browsing Skyscanner in my search for a last minute flight to the sun I found a g
 
 There are two routes: the coastal route and the mountainous route. In both cases I was keen to take a train for the first part as to make sure I would not run out of time on my way back. After all, I only had one week and who knows how my legs and tyres would perform? I would not reach Compostela but more about that later.
 
-**Day 1, (Dec 27) Lisbon**
+## **Day 1, (Dec 27) Lisbon**
 
 {{< figure figcaption="Lisbon's Alfama district" class="left" >}}
 	{{< img src="lisbon.jpg" alt="Lisbon Alfama district" >}}
@@ -30,7 +30,7 @@ There are two routes: the coastal route and the mountainous route. In both cases
 
 On landing in Lisbon at 15:35 I took the metro to my hostel and from there explored the Alfama district by foot. It is a delightful maze of narrow cobbled streets and ancient houses which lead up the steep hill from the waterfront to the _Castelo de São Jorge_.
 
-**Day 2, (Dec 28) Guarda**
+## **Day 2, (Dec 28) Guarda**
 
 The next morning, I went to the small shop of [Lisbon Bike Rentals](https://www.lisbonbikerentals.com/) to collect my **Canyon Endurace CF SL DISC 7.0**. After some adjustments, they gave me a larger frame size and off I went.
 
@@ -48,7 +48,7 @@ The Jewish community in Guarda was for a long period one of the country’s most
 
 After learning that unsavoury bit of history I walked quickly to _Guido's Point_, a cute place under the old watch tower, for dinner. It was bitterly cold outside and my cycle jersey was definitely not enough. I selected therefore a table in the corner closest to the black wood stove. I was nibbling on my starter when a loud noise broke the peace and glass shattered all over the stone floor around me. A small child upstairs had kicked over a glass and it had just not landed on my head.  The father of the child rushed down to apologize profusely in Portuguese waiving his arms as if I had not understood where the glass had come from. I got the gist and showed him the Google translate app on my mobile: _todas as coisas boas vêm de cima_ (all good things come from above) adding that I also have children. One that I was missing a lot on my ride.
 
-**Day 3, (Dec 29) Mirandela**
+## **Day 3, (Dec 29) Mirandela**
 
 {{< figure figcaption="Boa Viagam, Portugese for good journey" class="left" >}}
 	{{< img src="mirandale.jpg" alt="On my way to Mirandale" >}}
@@ -68,7 +68,7 @@ Luckily my lights were really good and fully charged. I needed that as it had be
 
 In the end I reached the _Hotel Jorge V_ at 20:47 after 156km and 2,127m of climbing. My hands were so cold I hardly had any strength in my fingers to lock my cycle. I had a hot shower and walked fast to a nearby restaurant scared it might close for the day.
 
-**Day 4, (Dec 30) Vila Pouca de Aguiar**
+## **Day 4, (Dec 30) Vila Pouca de Aguiar**
 
 After what turned out to be a daily standard breakfast of bread buns with ham or cheese, I took off in the direction of Valpaços, 30km away. It was again grey and cold. It was so foggy that the bottom of my pants became wet. It made me wonder about the wisdom of pursuing the route to Compostela, still 220km away once I would reach Valpaços. I could do it in two or three days but I was in no mood to be more masochistic. After all I came to Portugal for the sun.
 
@@ -82,7 +82,7 @@ With the knowledge of what I had gone through the day prior I thought it wise to
 
 The only accident that I would have during my trip happened that evening. While walking to a somewhat remote restaurant called _Rogerio._ I tripped over some pavers that were left there as unfinished business. The knee of my right-hand pant was cut and so was my  knee. The restaurant was closed. It was still too early at night for restaurants to open. I returned towards the centre in search of a pharmacy. Christmas music was still being blasted at moderate decibels through the many speakers that decorated the city centre. I managed to get a bottle of Betadine and band aid. It struck me though during my trip how few people speak English in Portugal. Even young and seemingly educated people like the staff in the pharmacy.
 
-**Day 5, (Dec 31) Porto**
+## **Day 5, (Dec 31) Porto**
 
 Well rested and having consumed the usual bread and ham for breakfast I prepared myself for the long climb up the mountain. Once I crossed the summit though I was on an incredibly long descend, some 20km. Though it was exciting, I was also chilled to the bone by the time I reached the foot of the mountain. Soon though, I could take off my jersey as I was forced to climb 530m. That pattern repeated a few times to a lesser degree as I was clearly leaving the mountains behind. For a long stretch I followed the scenic _Rota do Românico_.
 
@@ -113,7 +113,7 @@ After a shower I tried my luck. Restaurants were packed. I had already gobbled u
 
 The largest party in Porto takes place on _Avenida dos Aliados_. This is where also this year a huge crowd gathered to enjoy the musical entertainment and fireworks. I was standing near an Indian couple who said there were from the UK. I did not enquire further but thought instead of how much I missed beautiful Indian wife. The Portuguese music thrilled the crowd and shortly before midnight the countdown began with a light show displaying the digits on the tower of the adjacent Porto City Hall. A great fireworks display followed.
 
-**Day 6, (Jan 1) rest day in Porto**
+## **Day 6, (Jan 1) rest day in Porto**
 
 {{< figure figcaption="Beautiful Porto seen from the monastery across the river" class="left" >}}
 	{{< img src="porto.jpg" alt="Beautiful Porto seen from the monastery across the river" >}}
@@ -123,7 +123,7 @@ New Years day was my first day off. I was keen to explore Porto, a UNESCO world 
 
 I walked along the famous _Cais da Ribeira_ with its many restaurants to the base of the bridge. From there I made the long climb to the top bridge. The top bridge is exclusive for pedestrians and slow moving metro trains. Across the bridge is the huge _Monastery of Serra do Pilar_ from where one has a stunning vantage point of Porto. It was a beautiful sunny day and I enjoyed every minute of it. I walked around for hours, often wondering how some of the small cars were able to manoeuvre the steep alley ways.
 
-**Day 7, (Jan 2) Aveiro**
+## **Day 7, (Jan 2) Aveiro**
 
 As everything was closed on January 1, I decided to visit the _Livraria Lello_ first thing in the morning. I love book shops and this amazing specially designed book shop dates back to 1906. The large stained glass window bears the bookshop monogram with the motto "Decus in labore" (dignity at work, in Latin). It is so popular that these days one has to buy a Euro 5 book voucher to get in.
 
@@ -145,7 +145,7 @@ Just before 4pm I reached Aveiro. It is a weird but pretty place. Built on  form
 
 Walking around the old town was not much of an effort. It is small. To my delight I spotted a true bicycle cafe called [Zé das Bikes](https://zedasbikes.com). Paulo Ramirez gave me a port wine while he drank a Heineken and his colleague checked the tyres of my bike. Dinner that day consisted of a soup, a light pizza, and a spaghetti Bolognaise at the local Italian restaurant. While planning the next day I realised the guys at the bike shop had been a great source of information, useful for the next stage of my tour: Nazaré, 150km south.
 
-**Day 8, (Jan 3) Nazaré**
+## **Day 8, (Jan 3) Nazaré**
 
 When cycling long distances the main thing to do is to maintain a string of short realistic targets. Never think of the final destination but take one segment at the time.
 
@@ -179,7 +179,7 @@ The last stretch felt like an eternity. I was delighted to finally, after 174km 
 
 The dorm itself was a steam bath as a group of Germans had enjoyed a shower before me and obviously the ventilator was absent or did not work. I had a quick rather lousy meal around the corner and hit the sack. Lisbon was only 130km away. I was on track.
 
-**Day 9, (Jan 4) Lisbon**
+## **Day 9, (Jan 4) Lisbon**
 The final stage of my tour was tricky for me. The first place for me to reach was Óbidos, 37km away. I had seen that there were trains from there to Lisbon which was tempting but Óbidos was too close. The next place would be Torres Vedras after 70km. That would be the last point to catch a train to Lisbon and be there in time to hand in my cycle. My main concern was the amount of traffic into Lisbon.
 
 {{< figure figcaption="Obidos, a stunning castle town" class="left" >}}
@@ -202,7 +202,7 @@ The guy at the shop was very friendly offering me to use the shower etc. I was j
 
 The _Yes Lisbon Hostel_ was just 800m away. It was fabulous. Every evening the bar was open and you could join the group dinner at 9pm for just ten bucks. It felt as a warm welcome back.
 
-**Day 10, (Jan 5) rest day in Lisbon**
+## **Day 10, (Jan 5) rest day in Lisbon**
 
 The next day was a day of relaxation. It was sunny and the temperature was quite pleasant. In the morning I again walked around the _Alfama district_. The hill on which São Jorge Castle stands has played an important part in the history of Lisbon, having served as the location of fortifications occupied successively by Phoenicians, Carthaginians, Romans, and Moors, before its conquest by the Portuguese in the 1147 Siege of Lisbon during the Second Crusade.
 
@@ -214,7 +214,7 @@ I strolled along the water front back via _Terreiro do Paçoto_ to the Rua do Ar
 
 The hostel was a great place to meet fellow travellers. One of them was a Spanish history of art teacher who seemed to make travel his second profession. We agreed to travel together to Sintra the next day to see the _Castelo dos Mouros_, the Castle of the Moors.
 
-**Day 11, (Jan 6) Sintra and departure**
+## **Day 11, (Jan 6) Sintra and departure**
 
 The train ride to Sintra took about an hour. We passed Benfica station, a name that stuck with me since the 1969 football match against Ajax.
 

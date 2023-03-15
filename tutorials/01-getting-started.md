@@ -355,13 +355,4 @@ set HUGO_ENV=production
 hugo
 ```
 
-## Copyright
-The copy rights are specified in the footer, in our case under Creative Commons.
-
-## Forms
-Contract and subscribe forms are proceesed for Formspree (50 submisions per month for free), The url is specified in the config.toml file.
-
-## Images 
-All jpg files have been restructured to webp.
-
 

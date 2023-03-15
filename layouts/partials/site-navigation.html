@@ -1,5 +1,5 @@
 <nav class="ph2 ph2-ns background" role="navigation">
-  <div  class="flex-l justify-between items-center center">
+  <div id="nav" class="flex-l justify-between items-center center">
     <a href="{{ .Site.Home.RelPermalink }}" id="logo" class="f3 fw2 hover-white no-underline white-90 dib">
       {{ with .Site.Params.site_logo }}
         <img src="{{ relURL . }}" class="logo w100 mw5-ns" alt="{{ $.Site.Title }}" />
@@ -13,8 +13,8 @@
      
       {{ if .Site.Menus.main }}
         <ul class="menu__list flex-l">
-        {{- $currentNode := . }}
-        {{- $currentPage := . }}
+        {{ $currentNode := . }}
+        {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
                 <li class="menu__item menu__dropdown{{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} menu__item--active{{ end }}"> 
@@ -43,16 +43,16 @@
             {{ end }}
         {{ end }}
         {{ if .IsTranslated }}
-    {{ range .Translations }}
-    <li class="menu__item">
-        <a class="menu__link hover-white no-underline white-90" href="{{ .RelPermalink }}">
-            <i class="fa fa_lg"></i>
-            <span class="menu_text">{{ .Lang }}</span>
-        </a>
-    </li>
-    {{ end}}
-{{ end }}
-    </ul>
+            {{ range .Translations }}
+            <li class="menu__item">
+                <a class="menu__link hover-white no-underline white-90" href="{{ .RelPermalink }}">
+                    <i class="fa fa_lg"></i>
+                    <span class="menu_text">{{ .Lang }}</span>
+                </a>
+            </li>
+            {{ end}}
+        {{ end }}
+        </ul>
       {{ end }}
       {{ partialCached "social-follow.html" . }}
     </div>

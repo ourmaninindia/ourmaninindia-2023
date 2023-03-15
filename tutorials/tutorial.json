@@ -8,13 +8,16 @@
      "03-github": {
          "title": "GitHub"
      },
-     "04-javascript":{
+     "04-hugo":{
+        "title": "Hugo"
+     },
+     "05-javascript":{
         "title": "Javascripts"
      },
-     "5-images": {
+     "06-images": {
          "title": "Images"
      },
-      "6-css": {
+      "07-css": {
       "title": "Styles"
      }
  }

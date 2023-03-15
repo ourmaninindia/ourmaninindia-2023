@@ -1,11 +1,9 @@
 +++
-autoThumbnailImage = false
-categories = ["Cycling","Tourism"]
-featured_image = "image.jpg"
+categories = ["Cycling","Travel"]
+featured_image = "stelvio1.jpg"
 date = 2020-09-08T22:00:00Z
-tags = ["Italy"]
+tags = ["Cycling","Italy"]
 featured = true
-cover = "cover.jpg"
 title = "Tour de Tolerance 2020"
 
 +++

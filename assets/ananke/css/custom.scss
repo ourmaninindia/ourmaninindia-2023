@@ -13,6 +13,7 @@ figcaption {
 
 figure {
   text-align: center;
+  margin: 0;
 }
 
 p {
@@ -485,7 +486,7 @@ header {
 .post-header {
   color: white;
   font-size: 2em;
-  margin-top: 400px;
+  margin-top: 350px;
 }
 
 .post-title {
@@ -502,9 +503,6 @@ header {
   }
   .post-header-cover {
       background-attachment: fixed;
-      background-size: 100%;
-  }
-  .post-header-cover {
       display: table;
       position: relative;
       //background-color: red;
@@ -524,6 +522,45 @@ header {
   }
 }
 
+.cover { background-size: cover!important; }
+
+.contain { 
+    //background-size: contain!important;
+    width: 100%;
+    background-position: center;
+    position: relative;
+    display: table;
+    top: 0;
+    left: 0;
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: calc(55px + 30px)0 30px;
+    height: 900px;
+    z-index: 15;
+    transition: transform .25s ease-in-out;
+    -webkit-transition: -webkit-transform .25s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000; 
+}
+
+@media (--breakpoint-not-small) {
+  .cover-ns { background-size: cover!important; }
+  .contain-ns { background-size: contain!important; }
+}
+
+@media (--breakpoint-medium) {
+  .cover-m { background-size: cover!important; }
+  .contain-m { background-size: contain!important; }
+}
+
+@media (--breakpoint-large) {
+  .cover-l { background-size: cover!important; }
+  .contain-l { background-size: contain!important; }
+}
 
 
 
@@ -587,6 +624,22 @@ header {
 }
 
 
+footer {
+  a {
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 0.25rem;
+    padding-right: 1rem;
+    color: rgba(255,255,255,.7);
+    font-weight: 400;
+  }
+  .licensed {
+    padding-top: 0.7rem;
+  }
+}
+
+
+
 @media only screen and (max-width: 1000px) {
 
   header {
@@ -594,14 +647,33 @@ header {
       display: none;
     }
   }
+}
+
+// IPad Mini has 768 width
+@media only screen and (max-width: 767px) {
 
   footer .flex-wrap {
     flex-direction: column;
   }
 }
 
+
+
+
 @media screen and (max-width: 960px) {
   .ourman {
-    padding-left: 20px;
+    padding: 5px;
+    font-size: xx-large;
+    justify-content: center;
+  }
+
+  .memu__list {
+    flex-direction: column;
+  }
+
+  #nav {
+    display: flex;
+    flex-direction: column;
   }
 }
+

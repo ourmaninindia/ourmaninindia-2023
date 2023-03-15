@@ -23,6 +23,7 @@
     <ul class="pa0 list">
 	   {{ range . }}
 	     <li  class="mb2">
+        <div class="f7">{{ .Date | time.Format (default "January 2, 2006" .Site.Params.date_format) }}</div>
           <a href="{{ .RelPermalink }}">
             {{- .Title -}}
           </a>
