@@ -1,31 +1,43 @@
 <div class="flex-l justify-between">
+{{- $data := index .Site.Data "contact" }}
+{{- with $data }}
 <p>
-“Aranya”  <br>
-286 Boa Viagem Road  <br>
-Naikavaddo, Calangute, Goa 403 516<br>  
-India
+<small>
+	"{{ .address.name }}"<br>
+	{{ .address.address }}<br>
+	{{ .address.city }}, {{ .address.state }} {{ .address.postcode }}<br>
+	{{ .address.country }}
+</small>
 </p>
 <div>
 	<ul class='contact-list'>
 		<li>
-			<i class="fa fa-phone"></i> or <i class="fa fa-whatsapp"></i>&nbsp;&nbsp;&nbsp;+91 9923752407 (India) 
+			<i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;{{ .phone.india }} 
 		</li>
 		<li>
-			<i class="fa fa-phone"></i> or <i class="fa fa-whatsapp"></i>&nbsp;&nbsp;&nbsp;+31 6 11788443 (the Netherlands)
+			<i class="fa fa-whatsapp"></i>&nbsp;&nbsp;&nbsp;{{ .phone.india }} 
 		</li>
 		<li>
-			<i class="fa fa-envelope mail"></i>&nbsp;&nbsp;&nbsp;<a href="mailto:alfred+tuinman@ourmaninindia.com" target="_blank">alfred@ourmaninindia.com</a> 
+			<i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;{{ .phone.neth }}
 		</li>
 		<li>
-			<i class="fa fa-linkedin linkedin"></i>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/ourmaninindia/" target="_blank">ourmaninindia</a> 
+			<i class="fa fa-whatsapp"></i>&nbsp;&nbsp;&nbsp;{{ .phone.neth }}
+		</li>
+		<li>
+			<i class="fa fa-envelope mail"></i>&nbsp;&nbsp;&nbsp;<a href="mailto:{{ .email.address }}" target="_blank">{{ .email.display }}</a> 
+		</li>
+		<li>
+			<i class="fa fa-linkedin linkedin"></i>&nbsp;&nbsp;&nbsp;<a href="{{ .linkedin }}" target="_blank">ourmaninindia</a> 
 		</li>
 		<li>	
-			<i class="fa fa-facebook-square facebook"></i>&nbsp;&nbsp;&nbsp;ourmaninindia  
+			<i class="fa fa-facebook-square facebook"></i>&nbsp;&nbsp;&nbsp;<a href="{{ .facebook }}" target="_blank">ourmaninindia</a>  
 		</li>
 		<li>
-			<i class="fa fa-skype skype"></i>&nbsp;&nbsp;&nbsp;relinker2
+			<i class="fa fa-skype skype"></i>&nbsp;&nbsp;&nbsp;<a href="{{ .skype }}" target="_blank">relinker2</a>  
 		</li>
 	</ul>
 </div>
+{{ end }}
 </div>
+
 <img src="QR.png" alt="QR code" class="QR"> 

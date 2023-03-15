@@ -1,0 +1,16 @@
+address:
+  name: "Aranya"
+  address: "286 Boa Viagem Road"
+  city: "Naikavaddo, Calangute"
+  state: "Goa" 
+  postcode: "403 516"
+  country: "India"
+phone:
+  india: "+91 9923752407 (India)"
+  neth: "+31 11788443 (Netherlands)"
+email: 
+  address: "alfred+tuinman@ourmaninindia.com"
+  display: "alfred.tuinman@ourmaninindia.com"
+linkedin: "https://www.linkedin.com/in/ourmaninindia/"
+facebook: "facebook.com/ourmaninindia"
+skype: "relinker2"

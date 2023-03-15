@@ -25,3 +25,7 @@ The copy rights are specified in the footer, in our case under Creative Commons.
 
 ## Forms
 Contract and subscribe forms are proceesed for Formspree (50 submisions per month for free), The url is specified in the config.toml file.
+
+
+## TOC
+If a param called *toc* in frontmatter is set to true Hugo ctreates a TOC to be displayed in the *single* page. Condition is that the content must have multiple lines starting with ##  See e.g. my Portugal trip
