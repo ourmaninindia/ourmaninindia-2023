@@ -11,6 +11,7 @@ function ready() {
   const width  = window.innerWidth;
   let   height = 70;
 
+  /* the height of the navbar header depending on the screen size */
   if (width < 960 )  height = 117;
   if (width < 767 )  height = 255;
 

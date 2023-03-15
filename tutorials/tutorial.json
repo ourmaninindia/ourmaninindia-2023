@@ -19,5 +19,8 @@
      },
       "07-css": {
       "title": "Styles"
+     },
+     "08-netlify": {
+     "title": "Netlify"
      }
  }

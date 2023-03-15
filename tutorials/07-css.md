@@ -3,3 +3,12 @@ All css is stored in the folder *assets/ananke/css* . The file *custom.scss* has
 
 ## No wrap of a sentence
 white-space: nowrap;
+
+## Height of the navigation header
+
+This depends on the screen size, default like this
+
+```
+const width  = window.innerWidth;
+  let   height = 70;
+```
