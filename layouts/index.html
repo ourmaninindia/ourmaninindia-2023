@@ -16,7 +16,7 @@
 
     <div class="pa3 pa4-ns w-100 w-70-ns center">
       {{- with .Site.GetPage "section" $section_name }}
-          <h1 class="w-100 mw8 center">
+          <h1 class="ml3 w-100 mw8">
             {{ $.Param "recent_copy" | default (i18n "recentTitle" .) }}
           </h1>
       {{- end }}
