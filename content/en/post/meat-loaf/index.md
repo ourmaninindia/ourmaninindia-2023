@@ -20,7 +20,7 @@ Anyway, poor Meat Loaf RIP is now gone and I am as good as back again enjoying t
 
 To keep listening to Meat Loaf's music is the best way we can honour his memory.
 
-{{< figure figcaption="the geat musician" >}}
+{{< figure figcaption="The geat musician" >}}
 	{{< img src="meat-loaf.jpg" alt="Meat Loaf passed away" >}}
 {{< /figure >}} Photo courtesy of the BBC
 

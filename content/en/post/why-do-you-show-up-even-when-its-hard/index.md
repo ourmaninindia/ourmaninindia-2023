@@ -19,7 +19,7 @@ A couple of weeks ago, I had again joined the Tour de Tolerance, a group of cycl
 
 As a kind of a prologue, five of us commenced in Innsbruck and cycled across the Brenner and the Jaufenpass to Bolzano (137km, 1964m). Sitting at home looking at the map it had seemed doable. It turned out to be the maximum elevation on a day of the trip. It sure was a good warm up of what was to come.
 
-{{< figure figcaption="the Sella" >}}
+{{< figure figcaption="The Sella" >}}
 	{{< img src="sella.jpg" alt="the Sella" >}}
 {{< /figure >}}
 
@@ -27,7 +27,7 @@ Vast limestone peaks rise up vertically around you as you ride across the many p
 
 After a few days, the many mountain passes quickly became a bit of a blur: Siusi (1841m), Pinei (1437m), Costalunga (1752m), Gardena (2121m), Pelegrino (1918m), Campolongo (1875m), Valporola (2192m), Sella (2240m), Falzerego (2105m), Giau (2236m), Fedaia (2057m), and Lavaze (1808m). 
 
-{{< figure figcaption="picknick lunch" >}}
+{{< figure figcaption="Picknick lunch" >}}
 	{{< img src="lunch.jpg" alt="lunch along the way" >}}
 {{< /figure >}}
 
@@ -39,7 +39,7 @@ On our last climb day, we had crossed the Kaizerpass. As soon as we reached a pa
 
 The Pordoi (2239m) and Tre Cime (2357m) I won’t forget as I did not do them. The Pordoi I did not do as the day prior, on our rest day, I had climbed the Pellegrino and my legs were simply not up to it after already climbing quite a lot in the morning. A shame as the route was absolutely stunning. The Tre Cime is a bastard of a climb and I have nothing but admiration for the 8 guys who did manage to climb it. The last 4km have an *average* gradient of 10-13%. 
 
-{{< figure figcaption="relaxing in Trento, the climbs are over" >}}
+{{< figure figcaption="Relaxing in Trento, the climbs are over" >}}
 	{{< img src="trento.jpg" alt="downtown Trento" >}}
 {{< /figure >}}
 
@@ -47,6 +47,6 @@ Last Saturday, a week after the Tour, I once again cycled the Liege Bastogne Lie
 
 Give me the Dolomites any time though. You show up because it is hard.
 
-{{< figure figcaption="the Team in front of the Giro monument" >}}
+{{< figure figcaption="The team in front of the Giro monument" >}}
 	{{< img src="giro.jpg" alt="the team of Tour de Tolerance" >}}
 {{< /figure >}}

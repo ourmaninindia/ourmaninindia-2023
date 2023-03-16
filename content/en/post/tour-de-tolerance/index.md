@@ -59,6 +59,6 @@ On the way down we crossed a bridge and took a left. Up it went again and immedi
 
 A day later the three of us drove one of the backup vans back to Holland. It was an anti climax. The company had been absolutely fantastic. The cycling had been addictive. I did not want to leave. There were so many more mountains to climb. So many more pastas to devour, so much more wine to please the palate. Depressed I pushed the accelerator of the Mercedes van. It was indeed a Tour de Tolerance.
 
-{{< figure figcaption="the Team" >}}
+{{< figure figcaption="The Team" >}}
 	{{< img src="team.jpg" alt="the team of Tour de Tolerance" >}}
 {{< /figure >}}

@@ -1,50 +1,57 @@
-{{- $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
-{{- if $src }}
-
 {{- $tinyw   := default "500x"  }}
 {{- $smallw  := default "800x"  }}
 {{- $mediumw := default "1200x" }}
 {{- $largew  := default "1500x" }}
 
-{{- .Scratch.Set "tiny"   ($src.Resize $tinyw)   }}
-{{- .Scratch.Set "small"  ($src.Resize $smallw)  }}
-{{- .Scratch.Set "medium" ($src.Resize $mediumw) }}
-{{- .Scratch.Set "large"  ($src.Resize $largew)  }}
+{{- $webp := replace (.Get "src") ".jpg" ".webp" -}}
+{{- $webp  = .Page.Resources.GetMatch (printf "*%s*" $webp) }}
+{{- if $webp }}
 
-{{- $tiny   := .Scratch.Get "tiny"   }}
-{{- $small  := .Scratch.Get "small"  }}
-{{- $medium := .Scratch.Get "medium" }}
-{{- $large  := .Scratch.Get "large"  }}
+	{{- .Scratch.Set "tiny"   ($webp.Resize $tinyw)   }}
+	{{- .Scratch.Set "small"  ($webp.Resize $smallw)  }}
+	{{- .Scratch.Set "medium" ($webp.Resize $mediumw) }}
+	{{- .Scratch.Set "large"  ($webp.Resize $largew)  }}
 
-{{ $class := .Get "class" | default "mb-3" }}
-{{ $alt   := .Get "alt"   | default "alt" }}
-{{ $sizes := .Get "sizes" | default "(min-width: 35em) 1200px, 100vw" }}
+	{{- $tiny   := .Scratch.Get "tiny"   }}
+	{{- $small  := .Scratch.Get "small"  }}
+	{{- $medium := .Scratch.Get "medium" }}
+	{{- $large  := .Scratch.Get "large"  }}
+{{ end }}
 
-{{- if eq (.Get "width") "container" }}  
+{{- $jpg := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
+{{- if $jpg }}
+
+	{{- .Scratch.Set "tiny"   ($jpg.Resize $tinyw)   }}
+	{{- .Scratch.Set "small"  ($jpg.Resize $smallw)  }}
+	{{- .Scratch.Set "medium" ($jpg.Resize $mediumw) }}
+	{{- .Scratch.Set "large"  ($jpg.Resize $largew)  }}
+
+	{{- $tiny   := .Scratch.Get "tiny"   }}
+	{{- $small  := .Scratch.Get "small"  }}
+	{{- $medium := .Scratch.Get "medium" }}
+	{{- $large  := .Scratch.Get "large"  }}
+
+	{{ $class := .Get "class" | default "mb-3" }}
+	{{ $alt   := .Get "alt"   | default "alt" }}
+	{{ $caption := .Get "caption" | default "" }}
+	
+	{{- if eq (.Get "width") "container" }}  
+		<div class="row block">
+	{{ end }}
+		<picture>
+        <source srcset="{{ $webp | safeURL }}" type="image/webp" >
+        <source srcset="{{ $jpg  | safeURL }}" type="image/jpeg" >
+		<img  loading="lazy" decoding="async" sizes="(min-width: 35em) 1200px, 100vw"
+		itemprop="image" class="{{ $class }}" alt="{{ $alt }}"  width="{{ $jpg.Width }}" height="{{ $jpg.Height }}" srcset='
+		{{- if ge $jpg.Width "500"  }}{{ with $tiny.RelPermalink   }}, {{.}} 500w  {{ end }}{{ end }}
+		{{- if ge $jpg.Width "800"  }}{{ with $small.RelPermalink  }}, {{.}} 800w  {{ end }}{{ end }}
+		{{- if ge $jpg.Width "1200" }}{{ with $medium.RelPermalink }}, {{.}} 1200w {{ end }}{{ end }}
+		{{- if ge $jpg.Width "1500" }}{{ with $large.RelPermalink  }}, {{.}} 1500w {{ end }}{{ end }}' 
+		{{ if .Get (print $medium) }} 
+		src="{{ $medium.RelPermalink }}" {{ else }} src="{{ $jpg.RelPermalink }}"{{ end }}>
+		<figcaption>{{ $caption }}</figcaption>
+		 </picture>
+	{{- if eq (.Get "width") "container" }}  
 		</div>
-	</div>
-</div>
-<div class="row block">
-<img itemprop="image" class="{{ $class }}" alt="{{ $alt }}" sizes="{{ $sizes }}" srcset='
-{{- if ge $src.Width "500"  }}{{ with $tiny.RelPermalink   }}, {{.}} 500w  {{ end }}{{ end }}
-{{- if ge $src.Width "800"  }}{{ with $small.RelPermalink  }}, {{.}} 800w  {{ end }}{{ end }}
-{{- if ge $src.Width "1200" }}{{ with $medium.RelPermalink }}, {{.}} 1200w {{ end }}{{ end }}
-{{- if ge $src.Width "1500" }}{{ with $large.RelPermalink  }}, {{.}} 1500w {{ end }}{{ end }}' 
-{{ if .Get (print $medium) }} 
-src="{{ $medium.RelPermalink }}" {{ else }} src="{{ $src.RelPermalink }}"{{ end }}>
-</div>
-<div class="container">
-	<div class="row">
-		<div class="mx-auto w-50 p-1">
-			&nbsp;
-{{- else }}
-
-<img itemprop="image" class="{{ $class }}" alt="{{ $alt }}" sizes="{{ $sizes }}" srcset='
-{{- if ge $src.Width "500"  }}{{ with $tiny.RelPermalink   }}, {{.}} 500w  {{ end }}{{ end }}
-{{- if ge $src.Width "800"  }}{{ with $small.RelPermalink  }}, {{.}} 800w  {{ end }}{{ end }}
-{{- if ge $src.Width "1200" }}{{ with $medium.RelPermalink }}, {{.}} 1200w {{ end }}{{ end }}
-{{- if ge $src.Width "1500" }}{{ with $large.RelPermalink  }}, {{.}} 1500w {{ end }}{{ end }}' 
-{{ if .Get (print $medium) }} 
-src="{{ $medium.RelPermalink }}" {{ else }} src="{{ $src.RelPermalink }}"{{ end }}>
-{{- end }}
+	{{- end }}
 {{- end }}

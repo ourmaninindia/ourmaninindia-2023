@@ -86,7 +86,7 @@ The only accident that I would have during my trip happened that evening. While 
 
 Well rested and having consumed the usual bread and ham for breakfast I prepared myself for the long climb up the mountain. Once I crossed the summit though I was on an incredibly long descend, some 20km. Though it was exciting, I was also chilled to the bone by the time I reached the foot of the mountain. Soon though, I could take off my jersey as I was forced to climb 530m. That pattern repeated a few times to a lesser degree as I was clearly leaving the mountains behind. For a long stretch I followed the scenic _Rota do Românico_.
 
-{{< figure figcaption="the Rota Romanico was indeed beautiful" class="left" >}}
+{{< figure figcaption="The Rota Romanico was indeed beautiful" class="left" >}}
 	{{< img src="view.jpg" alt="Rota Romanico" >}}
 {{< /figure >}}
 
