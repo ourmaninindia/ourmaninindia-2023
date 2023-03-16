@@ -1,5 +1,5 @@
 <!-- Slideshow container -->
-<h3>These are some of the authors I have met and whose books I have enjoyed.</h3p>
+<h3>These are some of the authors I have met and whose books I have enjoyed.X</h3p>
 </aricle>
 
 <div class="carousel">
@@ -9,10 +9,10 @@
   <div class="carousel_track-container">
     <ul class="carousel_track">
 
-      {{- range $index, $e := $.Page.Params.carousel }}
+      {{- range $index, $e := index .Site.Data "contact" }}
       {{- $src := $.Page.Resources.GetMatch ( printf "*%s*" ($e.url)) }}
 
-      {{- if $src -}}
+      {{- if $src -}} 
 
       {{- $tinyw   := default "500x" }}
       {{- $smallw  := default "800x" }}
@@ -40,7 +40,8 @@
           {{ with $tiny.RelPermalink }} {{.}} 500w{{ end -}}
           {{ with $small.RelPermalink }},{{.}} 800w{{ end -}}
           {{ with $medium.RelPermalink }},{{.}} 1200w{{ end -}}
-          {{ with $large.RelPermalink }},{{.}} 1500w{{ end -}}" width="930" height="510" src="{{- $src.RelPermalink -}}" alt='{{ (index . "title") }}' >
+          {{ with $large.RelPermalink }},{{.}} 1500w{{ end -}}" width="930" height="510" src="{{- $src.RelPermalink -}}" alt='{{ $e.alt }}' >
+          <figcaption>{{ $e.caption }}</figcaption>
         </picture> 
       </li>
       {{ end }}

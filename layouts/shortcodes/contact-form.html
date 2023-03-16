@@ -1,7 +1,7 @@
 {{ $.Scratch.Add "labelClasses" "f6 b db mb1 mt3 sans-serif mid-gray" }}
 {{ $.Scratch.Add "inputClasses" "w-100 f5 pv3 ph3 bg-light-gray bn" }}
 
-<form name="contact" class="black-80 sans-serif" action="/success/" method="POST" data-netlify="true" netlify-honeypot="useless" role="form">
+<form name="contact" class="black-80 sans-serif" action="/success/" method="POST" data-netlify="true" netlify-honeypot="useless" data-netlify-recaptcha="true" role="form">
 <input type="hidden" name="form-name" value="contact" />
     <p class="dn">
       <label>
@@ -19,6 +19,8 @@
 
     <label class="{{ $.Scratch.Get "labelClasses" }}" for="message">{{ i18n "message" }}</label>
     <textarea id="message" name="message" class="{{ $.Scratch.Get "inputClasses" }} h4" aria-labelledby="message"></textarea>
+
+    <div data-netlify-recaptcha="true"></div>
 
     <input class="db w-100 mv2 white pa3 bn hover-shadow hover-bg-dark-blue bg-animate bg-blue" type="submit" value="{{ i18n "send" }}" />
 

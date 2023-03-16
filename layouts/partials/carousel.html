@@ -1,13 +1,13 @@
 <!-- Slideshow container -->
 <div class="carousel w-100 mw8 center">
-  <h3>{{ .Params.books }}</h3>
+  <h3 class="tc">{{ .Params.books }}</h3>
   <button class="carousel_button carousel_button--left is-hidden" aria-label="Go to the previous image">
     <img src="/images/back.svg" alt="View the previous picture">
   </button>
   <div class="carousel_track-container">
     <ul class="carousel_track">
 
-      {{- range $index, $e := $.Page.Params.carousel }}
+      {{- range $index, $e := index .Site.Data "authors" }}
       {{- $src := $.Page.Resources.GetMatch ( printf "*%s*" ($e.url)) }}
 
       {{- if $src -}}
@@ -39,6 +39,7 @@
           {{ with $small.RelPermalink }},{{.}} 800w{{ end -}}
           {{ with $medium.RelPermalink }},{{.}} 1200w{{ end -}}
           {{ with $large.RelPermalink }},{{.}} 1500w{{ end -}}" width="930" height="510" src="{{- $src.RelPermalink -}}" alt='{{ (index . "title") }}' >
+             <figcaption>{{ $e.caption }}</figcaption>
         </picture> 
       </li>
       {{ end }}

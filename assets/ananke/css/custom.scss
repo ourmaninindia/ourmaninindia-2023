@@ -396,18 +396,16 @@ header {
 
 .carousel{
   position: relative;
-  height: 350px;
+  height: 300px;
   width: 80%;
   margin: 0 auto;
 }
 .carousel_image{
   width: 100%;
-  height: 100%;
   object-fit: cover;
 }
 .carousel_track-container{
-  background: lightblue;
-  height: 250px;
+  height: 220px;
   position: relative;
   overflow: hidden;
 }
@@ -596,7 +594,6 @@ header {
 // -------------------
 
 #navbar {
-  background-color: #333; /* Black background color */
   position: fixed; /* Make it stick/fixed */
   top: 0; /* Stay on top */
   width: 100%; /* Full width */
@@ -606,12 +603,13 @@ header {
 
 /* Style the navbar links */
 #navbar a {
-  float: left;
+  //float: left;
   display: block;
   color: white;
   text-align: center;
   //padding: 15px;
   text-decoration: none;
+  text-align: left;
 }
 
 #navbar a:hover {
@@ -638,6 +636,10 @@ footer {
   }
 }
 
+#btn-open {
+  display: none;
+}
+
 
 
 @media only screen and (max-width: 1000px) {
@@ -648,17 +650,6 @@ footer {
     }
   }
 }
-
-// IPad Mini has 768 width
-@media only screen and (max-width: 767px) {
-
-  footer .flex-wrap {
-    flex-direction: column;
-  }
-}
-
-
-
 
 @media screen and (max-width: 960px) {
   .ourman {
@@ -677,6 +668,86 @@ footer {
   }
 }
 
+// IPad Mini has 768 width
+@media only screen and (max-width: 768px) {
+
+  #btn-open {
+    display: block;
+  }
+
+  #drop {
+    display: none;
+  }
+
+  footer .flex-wrap {
+    flex-direction: column;
+  }
+
+  .w-70-ns {
+    width: 100%;
+  }
+
+  .carousel_track-container {
+    height: 160px;
+  }
+}
+
+// Samsung galaxy S20
+@media only screen and (max-width: 412px) {
+ h1 { font-size: 1.25rem; }
+ .carousel {
+    height: 250px;
+  }
+
+  .carousel_track-container {
+    height: 110px;
+  }
+}
+
+// Samsung Galaxy S8 
+@media only screen and (max-width: 360px) {
+  .f-6,
+  .f-headline { font-size: 4rem; }
+  .f-5,
+  .f-subheadline { font-size: 3rem; }
+  .f1 { font-size: 2rem; }
+  .f2 { font-size: 2rem; }
+  .f3 { font-size: 1.25rem; }
+  .f4 { font-size: 1rem; }
+  .f5 { font-size: .875rem; }
+  .f6 { font-size: .75rem; }
+  .f7 { font-size: .5rem; }
+   h1 { font-size: 1.25rem; }
+
+  .carousel {
+    height: 250px;
+  }
+
+  .carousel_track-container {
+    height: 110px;
+  }
+}
+
+
+
+
+
+main {
+  margin-top: 70px;
+}
+
+figure.round > img {
+  border-radius: 45%;
+}
+
+.development {
+  margin: 0 100px;
+  & > div span {
+    color: darkred;
+  }
+}
+
+
 
 // fa icons
 .fa-whatsapp {
@@ -691,3 +762,10 @@ footer {
   color: #00aff0;}
 .mail { 
   color: #dd4b39;}
+.fa-bars {
+  color: black;
+  background-color: white;
+  margin: 14px;
+}
+
+

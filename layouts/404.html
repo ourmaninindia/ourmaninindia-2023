@@ -1,5 +1,7 @@
 {{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
 {{ define "main" }}
+{{- .Scratch.Set "layout" "layouts/404.html" -}}
+
     <article class="center cf pv5 measure-wide-l">
       <h1>
         This is not the page you were looking for

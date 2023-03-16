@@ -1,16 +1,11 @@
-<nav class="ph2 ph2-ns background" role="navigation">
+<nav class="ph2-ns background" role="navigation">
   <div id="nav" class="flex-l justify-between items-center center">
-    <a href="{{ .Site.Home.RelPermalink }}" id="logo" class="f3 fw2 hover-white no-underline white-90 dib">
-      {{ with .Site.Params.site_logo }}
-        <img src="{{ relURL . }}" class="logo w100 mw5-ns" alt="{{ $.Site.Title }}" />
-      {{ else }}
-        {{ .Site.Title }}
-      {{ end }}
-    </a>
+    <div class="flex justify-between">
+        <i id="btn-open" class="fa fa-lg fa-bars"></i>
+    <div class="ourman nowrap f2-ns white-90 flex"><a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a></div>
+    </div>
     
-    <div class="ourman nowrap f2-ns white-90 flex">{{ .Site.Title }}</div>
-    <div class="flex-l items-center">
-     
+    <div id="drop"  class="flex-l items-center"> 
       {{ if .Site.Menus.main }}
         <ul class="menu__list flex-l">
         {{ $currentNode := . }}

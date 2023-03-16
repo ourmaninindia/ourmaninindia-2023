@@ -1,14 +1,5 @@
-{{ $featured_image := partial "func/GetFeaturedImage.html" . }}
-{{ if $featured_image }}
-  <header id="navbar" class="">
-    <div class="">
-      {{ partial "site-navigation.html" . }}
-    </div>
-  </header>
-{{ else }}
-  <header>
-    <div class="{{ .Site.Params.background_color_class | default "bg-dark-blue" }}">
-      {{ partial "site-navigation.html" . }}
-    </div>
-  </header>
-{{ end }}
+<header id="navbar" class="">
+  <div class="">
+    {{ partial "site-navigation.html" . }}
+  </div>
+</header>

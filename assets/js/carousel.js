@@ -18,16 +18,31 @@ function ready() {
   window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
    
-    document.getElementById("navbar").style.top = (prevScrollpos > currentScrollPos) ? 0 : "-" + height + "px";
+    if (prevScrollpos > currentScrollPos) {
+      navbar.style.top = 0 ;
+    } else {
+      navbar.style.top = "-" + height + "px";
+    }
     
     prevScrollpos = currentScrollPos;
   };
 }
 
+const navbar = document.getElementById('navbar');
+const btn    = document.getElementById('btn-open');
+const drop   = document.getElementById('drop');
+
+/* the dropdown of the navbar menu if clicked */
+btn.addEventListener('click',(e) => {
+
+  if (drop.style.display == '' )  drop.style.display = "none";
+
+  drop.style.display = (drop.style.display === "none" ) ? "block" : "none";
+});
+
 document.addEventListener("DOMContentLoaded", ready);
 
 <!-- carousel --->
-
 
 const track = document.querySelector('.carousel_track');
 

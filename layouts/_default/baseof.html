@@ -49,6 +49,8 @@
     {{ block "main" . }}{{ end }}
     </main>
     {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
+
+    {{- partial "development.html" . -}}
   </body>
 
   {{- partial "site-scripts.html" . }}

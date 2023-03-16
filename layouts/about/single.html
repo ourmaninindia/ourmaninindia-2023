@@ -4,6 +4,8 @@
 {{ end }}
 
 {{ define "main" }}
+{{- .Scratch.Set "layout" "layouts/about/single.html" -}}
+
   {{ $section := .Site.GetPage "section" .Section }}
   <article class="pa3 pa4-ns w-100 w-70-ns mw8 center">
     <header class="mt4 w-100 mr2">
