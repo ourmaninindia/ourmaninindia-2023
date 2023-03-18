@@ -2,13 +2,11 @@
 categories = ["Management"]
 date = 2010-12-22T19:13:55Z
 description = ""
-draft = false
-slug = "leadership-in-the-21st-century"
 tags = ["Management"]
 title = "Leadership in the 21st Century"
 cover = "cover-ilian_mihov.jpg"
 featured_image = ""
-
+read_more_copy = "Read more about this session"
 +++
 
 {{< figure figcaption="Prof. Ilian Mihov " class="left" >}}

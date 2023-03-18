@@ -50,3 +50,6 @@ other = "{{ .Name }} page"
 
 [tagCloud]
 other = "My Tag Cloud"
+
+[subscribe]
+other = "Subscribe"

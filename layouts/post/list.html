@@ -1,5 +1,6 @@
 {{ define "main" }}
-{{- .Scratch.Set "layout" "layouts/post/list.html" -}}
+
+  {{ .Scratch.Set "layout" "layouts/post/list.html" }}
 
   <article class="nested-copy-line-height">
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
@@ -8,7 +9,7 @@
     <aside class="flex-ns flex-wrap justify-around mt1">
       {{ range .Paginator.Pages }}
         <div class="relative w-100 w-50-l mb4 bg-white">
-          {{ .Render "summary" }}
+        {{ .Render "summary" }}
         </div>
       {{ end }}
     </aside>

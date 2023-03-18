@@ -8,7 +8,7 @@ title = "Algorithms and our world picture"
 featured = false
 cover = "cover-think2013.jpg"
 featured_image = ""
-
+read_more_copy = "Read more about this session"
 +++
 
 {{< figure figcaption="Arun Sehrawat" class="left" >}}

@@ -8,6 +8,7 @@ tags = ["Cycling","Portugal"]
 title = "A solo cycle ride in Portugal"
 featured_image = "vila-pouca-de-aguiar.jpg"
 toc = true
+read_more_copy = "Read more about this fabulous ride"
 +++
 
 Like so often it seemed like a good idea at the time.

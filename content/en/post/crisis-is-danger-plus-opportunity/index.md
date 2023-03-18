@@ -1,16 +1,12 @@
 +++
-autoThumbnailImage = false
 categories = ["Sustainability"]
 tags = ["circular economy", "sustainable goals"]
 featured_image = "sustainable-development-goals.png"
 date = 2020-06-16T22:00:00Z
 keywords = ["sustainable goals", "covid-19", "circular economy","opportunity"]
-metaAlignment = ""
 cover = "cover-circular-economy.png"
 title = "Crisis = Danger + Opportunity!"
-slug = "crisis-is-danger-plus-opportunity!"
 featured = true
-blackTitle = true
 +++
 
 The Chinese word for crisis consists of two characters representing danger and opportunity respectively. Symbols of wisdom and extremely relevant with the current Covid-19 raging the world.

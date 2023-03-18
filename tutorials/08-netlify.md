@@ -5,7 +5,13 @@ Set up all, or at least both, production and development as aan active branch on
 
 ## Forms
 
-Add *data-netlify="true"* to the <form> tag. Also add *action="/success/"* with success being the new content url. 
+Add *data-netlify="true"* to the <form> tag. Also add the url of the success page to the form page. 
+
+```
+action="{{ $.Page.Site.Params.form_action }}"
+```
+
+and add *form_action = "/success/"* to the config.toml page.
 
 
 So create a new content folder called *success* with a file called *index.md*.

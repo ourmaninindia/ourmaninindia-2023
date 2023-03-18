@@ -7,8 +7,8 @@ cover = "cover-einstein-thumb.jpg"
 tags = ["Cycling","India"]
 title = "A pothole"
 featured_image = "einstein.jpg"
-
 +++
+
 “May I make a phone call first?” I asked the doctor as he had just explained that I would need surgery. I had participated in the “Kankavli magic”, a 200km Brevets Randonneurs Mondiaux (BRM) ride. The short rest at the 100km control point had done me good. I realised on my way back that I had a pleasant tail wind. No wonder I had been pushing hard thus far. I did over 30km per hour when I hit a deep pothole. The image of it was somewhat hidden between the shadows on the roads. It was more like a crater. I saw it too late.
 
 My friends explained I had somersaulted. I could not remember. The next thing I knew I was sitting dazed on the side of the road attended by Terence who apparently had just cycled by in the opposite direction. “Can you move your arm up?” he asked. “Sure” I said as I lifted my right arm. “No, the other arm” he said. That proved tricky. I couldn’t. I touched my shoulder and it felt as if I had two acromonia instead of one. That was the end of my ride. A tube was used as a sling to support my arm. Vinayak and Dr Pankaj who had attended the control post drove me the remaining almost 100km back to the hospital in Panaji.

@@ -7,6 +7,7 @@ tags = ["Ports","Infrastructure"]
 title = "Face to Face, an interview with Indian Ports & Infrastructure"
 cover = "cover-ports.jpg"
 featured_image = "cover-ports.jpg"
+read_more_copy = "Read more about this interview"
 +++
 
 {{< figure figcaption="Ports & Infrastructure " class="left" >}}

@@ -7,7 +7,7 @@ slug = "alitalia-customer-service"
 tags = ["travel"]
 title = "Alitalia Customer Service: an oxymoron or tautology?"
 featured_image = "cover-alitalia.jpg"
-
+read_more_copy = "Read more about my frustrations"
 +++
 You have received a customer complaint. Do you focus to minimise your financial loss or the loss of face your company may suffer? This thought crossed my mind when I lodged a claim with Alitalia for delayed delivery of our luggage on July 1. We had enjoyed a wonderful trip to Italy recently. For five days we stayed in a private apartment in Florence just round the corner of Piazza de Santa Croce.
 

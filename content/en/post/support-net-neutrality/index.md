@@ -6,6 +6,7 @@ cover = "cover-net-neutrality.png"
 slug = "support-net-neutrality"
 tags = ["Management", "Open Source", "India"]
 title = "Support Net Neutrality"
+read_more_copy = "Read more about my concern"
 +++
 
 

@@ -101,15 +101,26 @@ Hi alfred-tuinman You've successfully authenticated, but but GitHub does not pro
 git remote set-url origin ssh://ourman/ourmaninindia/ourmaninindia-23.git
 
 
+## LFS Large File System
 
+To install lfs on your local pc run
+
+```
 sudo apt-get install git-lfs
 git lfs install
+```
 
+To download all images to your local pc, rather than maintaining references, run
 
+```
 git lfs pull
+```
 
+To test that no references are there to commit you can run this
 
+```
 git add .
 git status 
 git lfs fsck
+```
 

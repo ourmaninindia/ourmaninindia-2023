@@ -7,6 +7,7 @@ tags = ["Management"]
 title = "SpotMe™ at the Strategic Growth Forum™ India"
 cover = "spotme.png"
 featured_image = "chawla.jpg"
+read_more_copy = "Read more about this event"
 +++
 
 {{< figure figcaption="Ms Chawla (Photo courtesy Luxury Works)" class="left" >}}

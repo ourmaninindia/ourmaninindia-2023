@@ -6,6 +6,7 @@ tags = ["Management", "Strategy"]
 title = "Selecting software for a greenfield"
 cover = "cover-centos.jpg"
 featured_image = ""
+read_more_copy = "Read more about my article"
 +++
 
 {{< figure figcaption="Centos" class="left" >}}

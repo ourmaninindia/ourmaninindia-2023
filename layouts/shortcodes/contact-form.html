@@ -1,7 +1,7 @@
 {{ $.Scratch.Add "labelClasses" "f6 b db mb1 mt3 sans-serif mid-gray" }}
 {{ $.Scratch.Add "inputClasses" "w-100 f5 pv3 ph3 bg-light-gray bn" }}
 
-<form name="contact" class="black-80 sans-serif" action="/success/" method="POST" data-netlify="true" netlify-honeypot="useless" data-netlify-recaptcha="true" role="form">
+<form name="contact" class="black-80 sans-serif" action="{{ $.Page.Site.Params.form_action }}" method="POST" data-netlify="true" netlify-honeypot="useless" data-netlify-recaptcha="true" role="form">
 <input type="hidden" name="form-name" value="contact" />
     <p class="dn">
       <label>

@@ -7,9 +7,8 @@ tags = ["Travel, Vietnam"]
 title = "Vietnam"
 cover = "cover-vietnam.jpg"
 featured_image = ""
+read_more_copy = "Read more about my journey"
 +++
-
-
 
 
 Bon Apetite in Vietnam

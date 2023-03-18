@@ -6,6 +6,7 @@ tags = ["Management", "india"]
 title = "To quit or not to quit as a director"
 cover = "cover-yerwada-central-jail-pune.jpg"
 featured_image = ""
+read_more_copy = "Read more about my resignation"
 +++
 
 {{< figure figcaption="Yerwada central jail (courtesy www.walkthroughindia.com)" class="left" >}}

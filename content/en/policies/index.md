@@ -44,18 +44,18 @@ Below are all privacy settings and their value .
 
 ### Google Analytics
 
-###### _anonymizeIP_
+#### _anonymizeIP_
 Enabled so the users’ IP addresses are anonymized within Google Analytics.
 
-###### _respectDoNotTrack_
+#### _respectDoNotTrack_
 Enabled to make the GA templates respect the “Do Not Track” HTTP header.
 
-###### _useSessionStorage_
+#### _useSessionStorage_
 Enabled to disable the use of Cookies and use Session Storage to Store the GA Client ID.
 
 ### YouTube
 
-###### _privacyEnhanced_
+#### _privacyEnhanced_
 Privacy-enhanced mode is turned on as a result of which YouTube won’t store information about visitors on your website unless the user plays the embedded video.
 
 ### Disqus

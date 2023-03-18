@@ -2,7 +2,6 @@
 categories = ["India", "Economy"]
 date = 2010-07-23T17:37:48Z
 description = "Hans Rosling: Asia's Rise -- How and When"
-slug = "asias-rise-how-and-when"
 tags = ["emerging economy"]
 title = "Hans Rosling: Asia's Rise -- How and When"
 featured = false

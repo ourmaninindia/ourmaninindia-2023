@@ -2,8 +2,6 @@
 categories = ["Management"]
 date = 2009-10-07T00:26:46Z
 description = ""
-draft = false
-slug = "innovation-machine"
 tags = ["Management"]
 title = "Is the U.S. Killing Its Innovation Machine?"
 featured = false

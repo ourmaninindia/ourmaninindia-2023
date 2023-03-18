@@ -9,7 +9,7 @@ cover = "cover-jamstack.png"
 title = "The future is highly distributed"
 featured = true
 theme = "darkblue"
-
+read_more_copy = "Read more about this session"
 +++
 In any business environment these days you almost invariably have all your data in different systems. A single ERP may be the driving force behind your organisation but having a monolithic system also limits you.
 

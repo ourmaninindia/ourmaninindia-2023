@@ -6,6 +6,7 @@ slug = "india-gdp-accelerates-in-fy16"
 tags = ["india", "Management"]
 title = "India's GDP accelerates to 7.4% in Q2 FY16"
 cover = "cover-rupee.jpg"
+read_more_copy = "Read more about this news"
 +++
 
 

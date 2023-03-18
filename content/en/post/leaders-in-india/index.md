@@ -2,13 +2,12 @@
 categories = ["India", "Business"]
 date = 2009-10-17T00:23:13Z
 description = "Leaders in India was the name of the business forum conference I attended in Mumbai last week. With some humility I could not help but think that most of us did not really qualify that title."
-draft = false
-slug = "leaders-in-india"
 tags = ["Management", "india"]
 title = "Leaders in India"
 featured = false
 cover = "cover-leaders.jpg"
 featured_image = ""
+read_more_copy = "Read more about this session"
 +++
 
 Leaders in India was the name of the business forum conference I attended in Mumbai last week. With some humility I could not help but think that most of us did not really qualify that title. Then again, the only criteria was that you had to be a CEO.  

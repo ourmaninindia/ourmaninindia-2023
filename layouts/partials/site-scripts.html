@@ -1,10 +1,15 @@
 <script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-TLB6883"></script>
 
-{{- $cookie   := resources.Get "/js/cookie-consent.js" | resources.ExecuteAsTemplate "js/cookie-consent.js" . }}
-{{- $lazy     := resources.Get "/js/lazysizes.min.js" -}}
+{{- $cookie   := resources.Get "/js/cookie-consent3.js" }}
 {{- $share    := resources.Get "/js/share-options.js" -}}
 {{- $carousel := resources.Get "/js/carousel.js" }} 
 {{- $sw       := resources.Get "/js/sw.js" -}}
 
-{{- $js := slice $sw $carousel | resources.Concat "js/script.js"   }}
+{{- $js := slice $sw $cookie $carousel | resources.Concat "js/script.js"   }}
+
+<!-- minify only when you are not in development mode -->
+{{- if eq hugo.Environment "production" -}}
+    {{- $js = $js | minify | fingerprint -}}
+{{- end -}}
+
 <script src="{{ $js.RelPermalink }}" ></script>

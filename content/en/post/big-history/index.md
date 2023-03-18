@@ -2,12 +2,11 @@
 categories = ["Education"]
 date = 2012-11-03T09:25:42Z
 description = "Big History"
-slug = "big-history"
 tags = ["Management", "Big History"]
 title = "Big History"
 cover = "cover-christian.jpg"
 featured_image = ""
-
+read_more_copy = "Read more about this session"
 +++
 
 David Christian raised the interesting question at [THiNK 2012](http://thinkworks.in/guest-blog-david-literally-left-us-in-the-dark/ "THiNK 2012") that many parents will have: what problems and issues will our children be faced with?

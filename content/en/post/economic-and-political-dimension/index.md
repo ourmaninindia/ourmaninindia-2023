@@ -6,7 +6,7 @@ slug = "economic_and_political_dimension_of_the_eu-india_strategic_partnership"
 tags = ["Management"]
 title = "Economic and Political Dimension of the EU-India Strategic Partnership"
 cover = "cover-kamal-nath.jpg"
-
+read_more_copy = "Read more about this session"
 +++
 
 {{< figure figcaption="Kamal Nath " class="left" >}}

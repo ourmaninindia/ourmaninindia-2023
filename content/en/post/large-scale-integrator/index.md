@@ -2,12 +2,10 @@
 categories = ["Maritime"]
 date = 2011-09-16T18:56:31Z
 description = "Move to the role of a large scale integrator"
-slug = "large-scale-integrator"
 tags = ["large scale integrator", "inovation", "maritime industry"]
 title = "Move to the role of a large scale integrator"
 cover = "cover-large-scale-integrator.jpg"
 featured_image = ""
-
 +++
 
 

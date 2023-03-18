@@ -4,11 +4,10 @@ date = 2012-11-04T09:03:48Z
 description = "Anatomy of a Pandemic"
 featured = true
 cover = "cover-lipkin.jpg"
-slug = "anatomy-of-a-pandemic"
 tags = ["Pandemic","Covid"]
 title = "Anatomy of a Pandemic"
 featured_image = "cover-lipkin.jpg"
-
+read_more_copy = "Read more about this session"
 +++
 
 {{< figure figcaption="Dr Ian Lipkin " class="left" >}}

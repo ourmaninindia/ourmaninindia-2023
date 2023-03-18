@@ -8,6 +8,7 @@ tags = ["india", "JIT", "outsourcing", "skill sets", "strategy"]
 title = "Not outsourcing to increase own skill sets?"
 cover = "cover-negombo.jpg"
 featured_image = ""
+read_more_copy = "Read more about my journey"
 +++
 
 {{< figure figcaption="Outside Negombo " class="left" >}}

@@ -7,7 +7,7 @@ tags = ["Management"]
 title = "2013 World Economic Forum Report on Global Risks"
 cover = "cover-world-economic-forum.jpg" 
 featured_image = ""
-
+read_more_copy = "Read more about this news"
 +++
 
 
