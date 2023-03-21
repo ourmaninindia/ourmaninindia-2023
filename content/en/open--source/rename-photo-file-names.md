@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2013-03-16T19:36:46Z
-description = ""
-draft = false
-slug = "rename-photo-file-names"
-tags = ["open-source"]
-title = "Rename photo file names"
+---
+categories : ["open-source"]
+date : 2013-03-16T19:36:46Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Rename photo file names"
 
-+++
+---
 
 
 Normally your photos in your digital camera are saved with some number which says very little and may conflict with the next batch after you clear your memory. One of the best programs I have ever used to rename my photos is jhead. This takes the date when the picture was actually taken. Fabulous! Try it out, I promise you won’t regret it.

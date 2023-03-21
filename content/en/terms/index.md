@@ -1,15 +1,16 @@
-+++
-title = "Terms & Conditions"
-date = 2018-05-25T14:59:40Z
-date_revised = "2023-03-12"
-description = "Website terms and conditions establish the legal relationship between the business and the customer and offer legal disclaimers. "
-featured = "false"
-cover = "key.jpg"
-featured_image = "header-alfred.jpg"
-disable_comments = true
-disableToc = false
-noindex = true
-+++
+---
+title : "Terms & Conditions"
+date : 2018-05-25T14:59:40Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+date_revised : "2023-03-12"
+description : "Website terms and conditions establish the legal relationship between the business and the customer and offer legal disclaimers. "
+featured : "false"
+cover : "key.jpg"
+featured_image : "header-alfred.jpg"
+disable_comments : true
+disableToc : false
+noindex : true
+---
 
 {{< table-of-contents >}}
 

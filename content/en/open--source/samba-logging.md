@@ -1,13 +1,11 @@
-+++
-categories = ["open-source"]
-date = 2012-12-10T15:42:37Z
-description = ""
-draft = false
-slug = "samba-logging"
-tags = ["open-source"]
-title = "Samba logging"
-
-+++
+---
+categories : ["open-source"]
+date : 2012-12-10T15:42:37Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Samba logging"
+---
 
 
 A staff member came to me to state that his Yahoo account had been hacked from our company account, or so he claimed. This made me look at the samba logs and realise that user logging was not actually implemented while it is relatively easy to do so.

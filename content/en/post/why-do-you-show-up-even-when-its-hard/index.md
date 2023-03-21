@@ -1,14 +1,15 @@
-+++
-categories = ["Cycling","Travel"]
-featured_image = "sella-route.png"
-date = 2021-09-19T22:00:00Z
-keywords = ["Cycling","Italy", "Dolomites"]
-tags = ["Cycling","Italy"]
-featured = true
-cover = "cover-pordoi.jpg"
-title = "Tour de Tolerance 2021"
-read_more_copy = "Read more about this wonderful ride"
-+++
+---
+categories : ["Cycling","Travel"]
+featured_image : "sella-route.png"
+date : 2021-09-19T22:00:00Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+keywords : ["Cycling","Italy", "Dolomites"]
+tags : ["Cycling","Italy"]
+featured : true
+cover : "cover-pordoi.jpg"
+title : "Tour de Tolerance 2021"
+read_more_copy : "Read more about this wonderful ride"
+---
 
 Why do you show up even when it's hard? That was the title of a recent Strava post trying to explain the atlete in you. Reflecting on challenging events is important to moving forward.
 

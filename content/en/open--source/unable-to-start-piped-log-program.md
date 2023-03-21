@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2012-08-07T21:21:16Z
-description = ""
-draft = false
-slug = "unable-to-start-piped-log-program"
-tags = ["open-source"]
-title = "Unable to start piped log program"
+---
+categories : ["open-source"]
+date : 2012-08-07T21:21:16Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Unable to start piped log program"
 
-+++
+---
 
 
 >unable to start piped log program ' /usr/local/ispconfig/server/scripts/vlogger -s access.log -t "%Y%m%d-access.log" -d "/etc/vlogger-dbi.conf" /var/log/ispconfig/httpd': No such file or directory Unable to open logs

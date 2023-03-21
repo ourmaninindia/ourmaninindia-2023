@@ -1,13 +1,14 @@
-+++
-categories = ["Business"]
-date = 2012-11-03T10:26:40Z
-description = "Profit and Prejudice. Heavy industry minister Praful Patel, Rajan Mittal of Bharti Airtel fame, and Sajjan Jindal of JSW, spoke at the THiNK 2012 in Goa."
-tags = ["Management"]
-title = "Profit and Prejudice"
-featured_image = ""
-cover = "cover-rajan-bharti-mittal.jpg"
-read_more_copy = "Read more about this session"
-+++
+---
+categories : ["Business"]
+date : 2012-11-03T10:26:40Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "Profit and Prejudice. Heavy industry minister Praful Patel, Rajan Mittal of Bharti Airtel fame, and Sajjan Jindal of JSW, spoke at the THiNK 2012 in Goa."
+tags : ["Management"]
+title : "Profit and Prejudice"
+featured_image : ""
+cover : "cover-rajan-bharti-mittal.jpg"
+read_more_copy : "Read more about this session"
+---
 
 Heavy industry minister Praful Patel, Rajan Mittal of Bharti Airtel fame, and Sajjan Jindal of JSW, spoke at the [THiNK 2012](http://thinkworks.in "THiNK 2012") in Goa. Praful Patel joked that credibility of politicians is at an all time high referring to the many scams being uncovered.
 

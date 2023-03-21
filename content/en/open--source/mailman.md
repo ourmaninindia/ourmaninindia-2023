@@ -1,12 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2013-02-26T23:23:07Z
-description = ""
-draft = false
-tags = ["open-source"]
-title = "Mailman"
+---
+categories : ["open-source"]
+date : 2013-02-26T23:23:07Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Mailman"
 
-+++
+---
 
 I was looking at creating a simple alias to enable to send a mail out to everybody. My first thought was to set an alias in /etc/aliases but that didn’t work as the email is was not recognized by postfix. I use ISPconfig, the latest version of which is supposed to support mailman. Hence I thought to quickly install that but ran into some minor problems. The main problem being that Google shows very few posts related to my problems. The main issue was to find support though that is available on http://www.gnu.org/software/mailman.
 

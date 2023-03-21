@@ -50,7 +50,7 @@
     <img src="/images/forward.svg" alt="View the next picture">
   </button>
   <div class="carousel_nav">
-     {{- range $index, $e := $.Page.Params.carousel }}
+     {{- range $index, $e := index .Site.Data "authors" }}
     <button class="carousel_indicator {{ if eq $index 0 }}current-slide{{ end }}" aria-label="{{ if eq $index 0 }}This is the current image{{ else }}Click here to see that image{{ end }}"></button>
     {{ end }}
   </div>

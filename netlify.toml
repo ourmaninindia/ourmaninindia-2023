@@ -18,7 +18,7 @@
   NODE_ENV = "development"
 
 [context.production] 
-  command = "hugo -b $URL_ADDRESS --gc --minify"
+  command = "hugo -b https://www.ourmaninindia.com --gc --minify"
 
 [context.development] 
   command = "hugo --gc --minify"
@@ -35,6 +35,15 @@ package = "@netlify/plugin-lighthouse"
     best-practices = 0
     seo = 0
     pwa = 0
+
+[[plugins]]
+  package = "netlify-plugin-hugo-cache-resources"
+
+  [plugins.inputs]
+  # If it should show more verbose logs (optional, default = true)
+  debug = true
+  # Relative path to source directory in case you use Hugo's "--s" option
+  # srcdir = "https://www.ourmaninindia.com"
 
 [[redirects]]
   from = "/*"

@@ -1,13 +1,11 @@
-+++
-categories = ["open-source"]
-date = 2012-08-08T13:08:05Z
-description = ""
-draft = false
-slug = "cron-working-but-not-executing"
-tags = ["open-source"]
-title = "Cron working but not executing?"
-
-+++
+---
+categories : ["open-source"]
+date : 2012-08-08T13:08:05Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Cron working but not executing?"
+---
 
 
 I was struggling to understand why cron, which was running ok, was not executing my file in /etc/cron.hourly/hourly.backup while if I would run this script by hand it was working file!

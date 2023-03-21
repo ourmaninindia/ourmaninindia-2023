@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2012-08-07T10:54:49Z
-description = ""
-draft = false
-slug = "synology"
-tags = ["open-source"]
-title = "Synology"
+---
+categories : ["open-source"]
+date : 2012-08-07T10:54:49Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Synology"
 
-+++
+---
 
 
 The SynologyAssistant had worked out of the box on Ubuntu but for FC17 I had to do some extra work. First of all I had to add quite a few packages:

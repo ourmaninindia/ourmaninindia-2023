@@ -1,0 +1,17 @@
+{{ $.Scratch.Add "labelClasses" "f6 b db mb1 mt3 sans-serif mid-gray" }}
+{{ $.Scratch.Add "inputClasses" "w-100 f5 pv3 ph3 bg-light-gray bn" }}
+<form class="black-80 sans-serif" accept-charset="UTF-8" action="{{ $.Page.Site.Params.form_action2 }}" method="POST" data-netlify="true" netlify-honeypot="useless" data-netlify-recaptcha="true" role="form">
+    <input type="hidden" name="form-name" value="subscribe" />
+    <p class="dn">
+      <label>
+        You seem to be a useless character: <input name="useless" />
+      </label>
+    </p>
+    <label class="{{ $.Scratch.Get "labelClasses" }}" for="email">{{ i18n "emailAddress" }}</label>
+    <input type="email" id="email" name="email" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" "  aria-labelledby="email"/>
+    <div class="requirements f6 gray glow i ph3 overflow-hidden">
+      {{ i18n "emailRequiredNote" }}
+    </div>
+    <div data-netlify-recaptcha="true"></div>
+    <input class="db w-100 mv2 white pa3 bn hover-shadow hover-bg-dark-blue bg-animate bg-blue" type="submit" value="{{ i18n "send" }}" />
+</form>

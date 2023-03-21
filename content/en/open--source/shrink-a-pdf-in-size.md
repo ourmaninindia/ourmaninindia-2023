@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2015-09-09T15:46:39Z
-description = ""
-draft = false
-slug = "shrink-a-pdf-in-size"
-tags = ["open-source"]
-title = "Reduce the size of a pdf"
+---
+categories : ["open-source"]
+date : 2015-09-09T15:46:39Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Reduce the size of a pdf"
 
-+++
+---
 
 
 A somewhat weird but simple way to reduce a pdf is to concert it to a ps and back e.g.

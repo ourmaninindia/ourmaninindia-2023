@@ -1,30 +1,11 @@
 ---
 categories: []
 date: 2015-09-29T13:35:55Z
-modified: 2023-03-14T11:40:00Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
 description: "" # "Life is like riding a bicycle. To keep your balance you have to keep moving. "
 title: "Our Man in India"
 disable_comments: true
 books: "These are some of the authors I have met and whose books I have enjoyed."
-carousel:
-  - url: header-breukelen.jpg 
-    title: Hans van Breukelen 
-    alt: Lavish luxury pool villa in north Goa
-  - url: header-fenby.jpg 
-    title: Fenby
-    alt: Luxury lounging space in Goa villa
-  - url: header-friedman.jpg 
-    title: Friedman
-    alt: Luxury Goa villa with romantic four-poster bed
-  - url: header-sampitroda.jpg
-    title: Sam Pitroda 
-    alt: Goa villa with luxury king-size bed in Koi Suite
-  - url: header-stuarthart.jpg 
-    title: Stuart Hart 
-    alt: Luxury north Goa villa with koi pond
-  - url: header-tejpal.jpg
-    title: Tarun Tejpal
-    alt: Luxury hilltop villa in Goa with waterfall
 ---
 
 

@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2014-07-13T15:26:58Z
-description = ""
-draft = false
-slug = "file-encryption-with-ccrypt"
-tags = ["open-source"]
-title = "File encryption with ccrypt"
+---
+categories : ["open-source"]
+date : 2014-07-13T15:26:58Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "File encryption with ccrypt"
 
-+++
+---
 
 
 No doubt you have, like me, one or more documents that you would like extra protected. How can you remember all your passwords, access codes, urls etc which you know you should not have available in plain text. In Linux there are several tools that make file encrypting easy.

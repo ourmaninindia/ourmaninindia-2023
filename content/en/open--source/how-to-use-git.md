@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2013-04-11T10:57:41Z
-description = ""
-draft = false
-slug = "how-to-use-git"
-tags = ["open-source"]
-title = "How to use GIT"
+---
+categories : ["open-source"]
+date : 2013-04-11T10:57:41Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "How to use GIT"
 
-+++
+---
 
 
 Set up a git account on github.com. Upload your ssh key. To verify this is done click on top right Account Settings, then ssh keys on left. Then proceed to create a repository on Github. Don’t add a README.  

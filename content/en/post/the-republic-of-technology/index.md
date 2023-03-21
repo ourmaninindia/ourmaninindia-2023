@@ -1,13 +1,14 @@
-+++
-categories = ["HR"]
-date = 2012-11-04T15:00:15Z
-description = "Sherry Turkle spoke on the social network: why are robots are becoming human and men machines. As a psychologist, over the years she became more concerned with the change to a virtual reality in that we become social robots. "
-tags = ["Management"]
-title = "The Republic of Technology"
-cover = "cover-sherry-turkle.jpg"
-featured_image = ""
-read_more_copy = "Read more about this session"
-+++
+---
+categories : ["HR"]
+date : 2012-11-04T15:00:15Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "Sherry Turkle spoke on the social network: why are robots are becoming human and men machines. As a psychologist, over the years she became more concerned with the change to a virtual reality in that we become social robots. "
+tags : ["Management"]
+title : "The Republic of Technology"
+cover : "cover-sherry-turkle.jpg"
+featured_image : ""
+read_more_copy : "Read more about this session"
+---
 
 {{< figure figcaption="Sherry Turkle" class="left" >}}
 	{{< img src="sherry-turkle.jpg"   alt="Sherry Turkle " >}}

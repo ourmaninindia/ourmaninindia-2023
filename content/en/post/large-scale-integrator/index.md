@@ -1,12 +1,13 @@
-+++
-categories = ["Maritime"]
-date = 2011-09-16T18:56:31Z
-description = "Move to the role of a large scale integrator"
-tags = ["large scale integrator", "inovation", "maritime industry"]
-title = "Move to the role of a large scale integrator"
-cover = "cover-large-scale-integrator.jpg"
-featured_image = ""
-+++
+---
+categories : ["Maritime"]
+date : 2011-09-16T18:56:31Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "Move to the role of a large scale integrator"
+tags : ["large scale integrator", "inovation", "maritime industry"]
+title : "Move to the role of a large scale integrator"
+cover : "cover-large-scale-integrator.jpg"
+featured_image : ""
+---
 
 
 Shipyards should move to the role of a large integrator and partner with innovative solution providers. Imitation and low pricing won’t last long and is based on volume. Innovation is what adds real value. In this forever faster changing global world we can achieve this through continuous search for excellence.  

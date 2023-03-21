@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2012-08-08T13:54:19Z
-description = ""
-draft = false
-slug = "backup-script"
-tags = ["open-source"]
-title = "Backup script"
-
-+++
+---
+categories : ["open-source"]
+date : 2012-08-08T13:54:19Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+draft : false
+tags : ["open-source"]
+title : "Backup script"
+---
 
 
 I use rsync for all my backup scripts. It is fast and easy.

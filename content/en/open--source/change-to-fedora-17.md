@@ -1,11 +1,10 @@
-+++
-categories = ["open-source"]
-date = 2012-08-07T08:12:17Z
-draft = false
-tags = ["open-source"]
-title = "Change to Fedora 17"
-
-+++
+---
+categories : ["open-source"]
+date : 2012-08-07T08:12:17Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+tags : ["open-source"]
+title : "Change to Fedora 17"
+---
 
 
 Recently I installed Ubuntu 12.04 server only to find that the samba server was horribly slow. I replaced it with Fedora 15 and it runs like a train. Yes, I know 15 is an old version but for a production site you don’t want the latest bugs. Also, [howtoforge](http://www.howtoforge.com/perfect-server-fedora-15-x86_64-ispconfig-3) has a stunningly good article on how to set up a perfect server.
@@ -87,5 +86,5 @@ At a loss here
 
 lookup_read_master: lookup(nisplus): couldn't locate nis+ table auto.master
 
-This occurs in particular whenever the autofs service is started/restarted/reloaded. It appears to be an old unresolved bug [https://bugzilla.redhat.com/show_bug.cgi?id=425968](https://bugzilla.redhat.com/show_bug.cgi?id=425968)
+This occurs in particular whenever the autofs service is started/restarted/reloaded. It appears to be an old unresolved bug [https://bugzilla.redhat.com/show_bug.cgi?id:425968](https://bugzilla.redhat.com/show_bug.cgi?id:425968)
 

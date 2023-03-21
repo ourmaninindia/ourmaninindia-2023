@@ -1,4 +1,4 @@
-<nav class="ph2-ns background" role="navigation">
+<nav class="ph2-ns" role="navigation">
   <div id="nav" class="flex-l justify-between items-center center">
     <div class="flex justify-between">
         <i id="btn-open" class="fa fa-lg fa-bars"></i>
@@ -32,7 +32,7 @@
                 <li class="menu__item {{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} menu__item--active{{ end }}">
                     <a class="menu__link" href="{{ .URL }}">
                         {{ .Pre }}
-                        <span class="menu_text">{{ .Name }}</span>
+                        {{ if ne .Name "Home"}}<span class="menu_text">{{ .Name }}</span>{{ end }}
                     </a>
                 </li>
             {{ end }}

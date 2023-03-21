@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2013-03-17T11:43:28Z
-description = ""
-draft = false
-slug = "unreadable-sectors"
-tags = ["open-source"]
-title = "Currently unreadable (pending) sectors"
+---
+categories : ["open-source"]
+date : 2013-03-17T11:43:28Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Currently unreadable (pending) sectors"
 
-+++
+---
 
 
 I have been receiving alerts from root that “Device: /dev/sda [SAT], 4 Currently unreadable (pending) sectors”. As all my data is backup properly I don’t worry about it. Googling it, I didn’t find a straight answer for this.

@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2015-07-19T02:08:54Z
-description = ""
-draft = false
-slug = "two-git-repositories-on-the-same-server"
-tags = ["open-source"]
-title = "Two git repositories on the same server for a single user"
+---
+categories : ["open-source"]
+date : 2015-07-19T02:08:54Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Two git repositories on the same server for a single user"
 
-+++
+---
 
 
 I discovered that it is not possible, at least not for the same user, to have two git projects in the same account as github uses the ssh key to identify your repository. Once I realized that this was the problem, the quick fix was to clone the repository in another account. I created a new user and set it up from there. I created a ssh key which I copied across onto the github site. Voila, it worked instantly. BUT …

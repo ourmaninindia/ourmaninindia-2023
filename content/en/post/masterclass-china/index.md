@@ -1,14 +1,15 @@
-+++
-categories = ["Management","China"]
-date = 2012-11-04T15:37:57Z
-description = "Bob Geldof and Jonathan Fenby speaking at Think in Goa"
-slug = "masterclass-china"
-tags = ["Masterclass"]
-title = "Bob Geldof and Jonathan Fenby"
-cover = "cover-fenby.jpg"
-featured_image = ""
-read_more_copy = "Read more about this session"
-+++
+---
+categories : ["Management","China"]
+date : 2012-11-04T15:37:57Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "Bob Geldof and Jonathan Fenby speaking at Think in Goa"
+slug : "masterclass-china"
+tags : ["Masterclass"]
+title : "Bob Geldof and Jonathan Fenby"
+cover : "cover-fenby.jpg"
+featured_image : ""
+read_more_copy : "Read more about this session"
+---
 
 
 Earlier in the day Bob Geldof had stated that China has uplifted hundreds of millions of people out of poverty. Can this be sustained or not? Jonathan Fenby, founding partner of Trusted Sources, the emerging markets research and consultancy firm, spoke on this topic at [THiNK 2012](http://thinkworks.in/ "THiNK 2012").

@@ -1,11 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2018-04-23T14:25:12Z
-description = "Delete @eaDIR folders on your Synology NAS"
-tags = ["open-source"]
-title = "Delete @eaDIR folders"
+---
+categories : ["open-source"]
+date : 2018-04-23T14:25:12Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "Delete @eaDIR folders on your Synology NAS"
+tags : ["open-source"]
+title : "Delete @eaDIR folders"
+---
 
-+++
 These are index folders, the presence of which can be quite annoying.
 
 To locate them

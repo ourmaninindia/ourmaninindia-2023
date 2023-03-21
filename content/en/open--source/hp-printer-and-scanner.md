@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2012-08-07T10:54:19Z
-description = ""
-draft = false
-slug = "hp-printer-and-scanner"
-tags = ["open-source"]
-title = "HP printer and scanner"
+---
+categories : ["open-source"]
+date : 2012-08-07T10:54:19Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "HP printer and scanner"
 
-+++
+---
 
 
 I use xsane which needs to be added as well as some other development packages

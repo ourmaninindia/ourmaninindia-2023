@@ -1,13 +1,11 @@
-+++
-categories = ["open-source"]
-date = 2012-08-07T10:23:36Z
-description = ""
-draft = false
-slug = "mysql-backup-and-restore"
-tags = ["open-source"]
-title = "MySQL backup and restore"
-
-+++
+---
+categories: ["open-source"]
+date: 2012-08-07T10:23:36Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description: ""
+tags: ["open-source"]
+title: "MySQL backup and restore"
+---
 
 
 To backup a single database:

@@ -1,11 +1,10 @@
-+++
-date = 2012-08-07T08:21:43Z
-description = ""
-draft = false
-slug = "usefull-commands"
-title = "Find and delete files"
+---
+date : 2012-08-07T08:21:43Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+title : "Find and delete files"
 
-+++
+---
 
 
 find . -type f -iname "file(s)-to-delete" -exec rm -f {} \;

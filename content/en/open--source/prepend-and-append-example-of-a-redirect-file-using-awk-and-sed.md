@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2015-08-28T13:19:48Z
-description = ""
-draft = false
-slug = "prepend-and-append-example-of-a-redirect-file-using-awk-and-sed"
-tags = ["open-source"]
-title = "Prepend and append example of a redirect file using awk and sed"
+---
+categories : ["open-source"]
+date : 2015-08-28T13:19:48Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Prepend and append example of a redirect file using awk and sed"
 
-+++
+---
 
 
 I needed to generate a .htaccess redirect file where each line has a simple command

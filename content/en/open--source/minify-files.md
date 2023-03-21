@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2015-10-04T17:21:27Z
-description = ""
-draft = false
-slug = "minify-files"
-tags = ["open-source"]
-title = "Minify files"
+---
+categories : ["open-source"]
+date : 2015-10-04T17:21:27Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Minify files"
 
-+++
+---
 
 
 I use yui-compressor to minify my files. It’s so easy. In Ubuntu (15.04) it’s available via apt-get.

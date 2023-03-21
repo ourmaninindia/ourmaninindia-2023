@@ -1,16 +1,17 @@
-+++
-date = 2019-08-22T13:35:55Z
-description = "Life is like riding a bicycle. To keep your balance you have to keep moving. The problem was I had not. The doctor had just explained that I would need surgery. "
-featured = true
-title = "Leadership"
-tags = ["Leadership"]
-featured_image = "view.jpg"
-cover = "insead.jpg"
-metaAlignment = "center"
-coverMeta = "in"
-disable_comments = true
-type = "about"
-+++
+---
+date : 2019-08-22T13:35:55Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "Life is like riding a bicycle. To keep your balance you have to keep moving. The problem was I had not. The doctor had just explained that I would need surgery. "
+featured : true
+title : "Leadership"
+tags : ["Leadership"]
+featured_image : "view.jpg"
+cover : "insead.jpg"
+metaAlignment : "center"
+coverMeta : "in"
+disable_comments : true
+type : "about"
+---
 
 I was born in the sixties. No surprise perhaps I enjoyed reading Kerouc's _'On the Road'_, Steinbeck's _'Travels with Charlie'_, Michener's _'The Drifters'_, and for that matter most of Hemingway's books. The members of the Beat Generation developed a reputation as new bohemian hedonists, who celebrated non-conformity and spontaneous creativity. I relate to that quite a bit though instead of a Dharma Bum, I am much more a Happy Warrior.  
 

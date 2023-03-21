@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2013-03-16T19:30:49Z
-description = ""
-draft = false
-slug = "last-reboot"
-tags = ["open-source"]
-title = "Last reboot"
+---
+categories : ["open-source"]
+date : 2013-03-16T19:30:49Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Last reboot"
 
-+++
+---
 
 
 Want to know when your server rebooted lately? Simple

@@ -1,13 +1,13 @@
-+++
-categories = ["History"]
-date = 2012-10-06T17:04:37Z
-description = ""
-draft = false
-tags = ["Management"]
-title = "The Green Thing"
-cover = ""
-featured_image = ""
-+++
+---
+categories : ["History"]
+date : 2012-10-06T17:04:37Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["Management"]
+title : "The Green Thing"
+cover : ""
+featured_image : ""
+---
 
 
 The following story has been published multiple times without me or anyone else for that matter being able to trace the source. It is a good story which struck a chord with me. Checking out at the store, the young cashier suggested to the older woman that she should bring her own grocery bags because plastic bags weren’t good for the environment.

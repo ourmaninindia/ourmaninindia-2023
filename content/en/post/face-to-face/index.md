@@ -1,14 +1,15 @@
-+++
-categories = ["Maritime"]
-date = 2012-03-19T15:06:39Z
-description = "Face to Face with Alfred Tuinman, an interview with Indian Ports & Infrastructure magazine"
-slug = "face-to-face"
-tags = ["Ports","Infrastructure"]
-title = "Face to Face, an interview with Indian Ports & Infrastructure"
-cover = "cover-ports.jpg"
-featured_image = "cover-ports.jpg"
-read_more_copy = "Read more about this interview"
-+++
+---
+categories : ["Maritime"]
+date : 2012-03-19T15:06:39Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "Face to Face with Alfred Tuinman, an interview with Indian Ports & Infrastructure magazine"
+slug : "face-to-face"
+tags : ["Ports","Infrastructure"]
+title : "Face to Face, an interview with Indian Ports & Infrastructure"
+cover : "cover-ports.jpg"
+featured_image : "cover-ports.jpg"
+read_more_copy : "Read more about this interview"
+---
 
 {{< figure figcaption="Ports & Infrastructure " class="left" >}}
 	{{< img src=  "ports.jpg" alt="Ports & Infrastructure" >}}

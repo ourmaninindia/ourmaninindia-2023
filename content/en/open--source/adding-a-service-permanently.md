@@ -1,12 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2012-11-15T11:03:03Z
-description = ""
-draft = false
-tags = ["open-source"]
-title = "Adding a service permanently"
-
-+++
+---
+categories : ["open-source"]
+date : 2012-11-15T11:03:03Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+draft : false
+tags : ["open-source"]
+title : "Adding a service permanently"
+---
 
 
 systemctl enable name-of-the-service

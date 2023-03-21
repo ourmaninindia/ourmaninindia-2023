@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2013-04-11T13:19:55Z
-description = ""
-draft = false
-slug = "set-up-perlbrew"
-tags = ["open-source"]
-title = "Set up Perlbrew"
+---
+categories : ["open-source"]
+date : 2013-04-11T13:19:55Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Set up Perlbrew"
 
-+++
+---
 
 
 HTML development work often is done remotely with all dangers of messing up a production version. My friend Gurunandan Bhat suggested I set up a local development environment. As always all credit goes to him for his support.

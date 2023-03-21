@@ -1,13 +1,11 @@
-+++
-categories = ["open-source"]
-date = 2012-08-07T21:22:31Z
-description = ""
-draft = false
-slug = "debian-sys-maint"
-tags = ["open-source"]
-title = "Access denied for user ‘debian-sys-maint’@'localhost’"
-
-+++
+---
+categories : ["open-source"]
+date : 2012-08-07T21:22:31Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Access denied for user ‘debian-sys-maint’@'localhost’"
+---
 
 
 debian-sys-maint is a system MySQL user created to be able to start/stop the databases and to carry out maintenance operations. The above error message is therefore due to a mismatch between the mysql debian-sys-maint password in the mysql database and that in the configuration file /etc/debian.cnf. Check and copy the password on file:

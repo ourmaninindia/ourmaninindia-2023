@@ -1,16 +1,17 @@
-+++
-date = 2020-04-12T19:56:20Z
-tags = ["Directorship","Leadership","Independent director"]
-description = "A Dutch national with a Finance, IT, and Business Development background looking for a new leadership position."
-title = "About"
-featured_image = "alfred2.jpg"
-cover = "alfred.jpg"
-metaAlignment= "center"
-coverMeta= "in"
-clearReading = true
-disable_comments = true
-type = "about"
-+++
+---
+date : 2020-04-12T19:56:20Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+tags : ["Directorship","Leadership","Independent director"]
+description : "A Dutch national with a Finance, IT, and Business Development background looking for a new leadership position."
+title : "About"
+featured_image : "alfred2.jpg"
+cover : "alfred.jpg"
+metaAlignment: "center"
+coverMeta: "in"
+clearReading : true
+disable_comments : true
+type : "about"
+---
 
 
 I am a Dutch national with a Finance, IT, and Business Development background. I have worked as a co-owner, as an employee, as a management consultant, and on contract. Indirect reports varied from a handful to 1200 plus. I have worked in Australia, India and Europe across a wide range of sectors such as Oil & Gas, EPC, Banking, Insurance, and Tourism. Some of them with Blue Chip companies like ING Bank and Shell. At the end of the day, the involvement and commitment of the people I work with matters. The tone at the top is crucial and its value often underestimated.
@@ -39,7 +40,6 @@ Cooperation and competition exist in both nature and socio-economic systems. It 
 * Master of Financial Control – Amsterdam Business School, The Netherlands (2004-2006)
 * Bachelor of Science (Zoology) – University of New South Wales, Sydney, Australia (1982-1985)
 * Teacher Training Institute – d’ Witte Leli, Amsterdam (1978-79)
-
 
 ---
 

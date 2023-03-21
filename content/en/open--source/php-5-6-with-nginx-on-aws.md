@@ -1,11 +1,10 @@
-+++
-date = 2017-02-24T02:24:17Z
-description = ""
-draft = false
-slug = "php-5-6-with-nginx-on-aws"
-title = "PHP 5.6 with Nginx on AWS"
+---
+date : 2017-02-24T02:24:17Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+title : "PHP 5.6 with Nginx on AWS"
 
-+++
+---
 
 
 Look whether the version you like is available. For a producion server you may not want to install the very latest.
@@ -48,7 +47,7 @@ server {
     client_body_timeout 60;
 
     location ~ \.php$ {
-        try_files $uri =404;
+        try_files $uri :404;
         fastcgi_pass 127.0.0.1:9000; 
         fastcgi_index index.php;
         fastcgi_param SCRIPT_FILENAME $document_root/$fastcgi_script_name;
@@ -61,7 +60,7 @@ server {
         log_not_found off;
     }
 
-    location = /_.gif {
+    location : /_.gif {
         expires max;
         empty_gif;
     }

@@ -1,13 +1,14 @@
-+++
-categories = ["Cycling"]
-date = 2014-11-24T12:29:45Z
-description = "Endurance, the BRM 300"
-slug = "endurance"
-tags = ["Cycling","India"]
-title = "Endurance"
-featured_image = "elevation_profile.jpg"
-cover = "cover-thumbnail.jpg"
-+++
+---
+categories : ["Cycling"]
+date : 2014-11-24T12:29:45Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "Endurance, the BRM 300"
+slug : "endurance"
+tags : ["Cycling","India"]
+title : "Endurance"
+featured_image : "elevation_profile.jpg"
+cover : "cover-thumbnail.jpg"
+---
 
 
 My 13 year old son Daniel called me from school this morning. “Papa, I don't feel well. I have thrown up already twice.” To which I queried “You mean to say can you pick me up now?” In a muttered tone he confessed “I know you are tired…” probably expecting me to be still in bed.

@@ -1,12 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2014-10-07T06:59:16Z
-description = "Wireless not working in Ubuntu 14.04"
-slug = "wireless-not-working-in-ubuntu-14-04"
-tags = ["open-source", "ubuntu 14.04"]
-title = "Wireless not working in Ubuntu 14.04"
+---
+categories : ["open-source"]
+date : 2014-10-07T06:59:16Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "Wireless not working in Ubuntu 14.04"
+tags : ["open-source", "ubuntu 14.04"]
+title : "Wireless not working in Ubuntu 14.04"
 
-+++
+---
 I did a fresh install the other day of Ubuntu 14.04 on a little notebook for my daughter. All worked out of the box with the exception of the wireless which had worked before using version 12.
 
 The following terminal commands may give you a clue as to which network controller you have.

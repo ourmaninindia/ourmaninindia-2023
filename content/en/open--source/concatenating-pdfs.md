@@ -1,13 +1,11 @@
-+++
-categories = ["open-source"]
-date = 2012-10-08T15:55:30Z
-description = ""
-draft = false
-slug = "concatenating-pdfs"
-tags = ["open-source"]
-title = "Concatenating pdfs"
-
-+++
+---
+categories : ["open-source"]
+date : 2012-10-08T15:55:30Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Concatenating pdfs"
+---
 
 
 Use Ghostscript to contatenate pdf files:

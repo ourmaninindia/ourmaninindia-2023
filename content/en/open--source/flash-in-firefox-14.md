@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2012-08-07T10:53:26Z
-description = ""
-draft = false
-slug = "flash-in-firefox-14"
-tags = ["open-source"]
-title = "Flash in Firefox 14"
+---
+categories : ["open-source"]
+date : 2012-08-07T10:53:26Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Flash in Firefox 14"
 
-+++
+---
 
 
 For my Adobe flash plugin to work I had to install a few extra packages

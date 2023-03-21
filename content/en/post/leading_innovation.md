@@ -1,15 +1,13 @@
-+++
-categories = ["Business"]
-date = 2007-02-08T01:32:23Z
-description = "You would find this workshop useful if you are a senior manager of any healthcare related activities with a stakeholder role"
-slug = "leading_innovation"
-tags = ["Innovation"]
-title = "Leading Innovation"
-cover = ""
-featured_image = ""
-
-+++
-
+---
+categories : ["Business"]
+date : 2007-02-08T01:32:23Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "You would find this workshop useful if you are a senior manager of any healthcare related activities with a stakeholder role"
+tags : ["Innovation"]
+title : "Leading Innovation"
+cover : ""
+featured_image : ""
+---
 
 ####Workshop ‘Leading innovation: ensuring patient satisfaction in health care  
  Tuesday afternoon (16.00 -20.00 hrs), 27 February 2007  

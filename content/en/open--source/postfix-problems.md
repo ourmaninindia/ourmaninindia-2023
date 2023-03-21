@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2012-09-24T20:06:13Z
-description = ""
-draft = false
-slug = "postfix-problems"
-tags = ["open-source"]
-title = "Postfix problems"
+---
+categories : ["open-source"]
+date : 2012-09-24T20:06:13Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Postfix problems"
 
-+++
+---
 
 
 For some reason my postfix installation went totally wrong. I don’t know why other that I suspect that my IT manager may have given the wrong command and in his enthusiasm messed things up.

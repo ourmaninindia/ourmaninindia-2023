@@ -1,13 +1,14 @@
-+++
-categories = ["India", "Economy"]
-date = 2015-12-05T09:51:36Z
-description = ""
-slug = "india-gdp-accelerates-in-fy16"
-tags = ["india", "Management"]
-title = "India's GDP accelerates to 7.4% in Q2 FY16"
-cover = "cover-rupee.jpg"
-read_more_copy = "Read more about this news"
-+++
+---
+categories : ["India", "Economy"]
+date : 2015-12-05T09:51:36Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+slug : "india-gdp-accelerates-in-fy16"
+tags : ["india", "Management"]
+title : "India's GDP accelerates to 7.4% in Q2 FY16"
+cover : "cover-rupee.jpg"
+read_more_copy : "Read more about this news"
+---
 
 
 The optimism regarding passage of Goods and Services Tax (GST) bill in the ongoing winter session of the Parliament has increased, after top leaders from ruling and major Opposition Party met on Friday evening for negotiations.

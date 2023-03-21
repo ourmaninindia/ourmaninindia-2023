@@ -1,22 +1,22 @@
-+++
-categories = ["Tourism"]
-date = 2011-03-22T17:01:43Z
-description = "My thigh muscles were aching for days afterwards. I had been crawling for some 100 metres through the Viet Kong tunnels at Củ Chi, north of Saigon. These escape routes from the American soldiers during the Vietnam war had been a bit widened and heightened for the tourists."
-slug = "vietnam"
-tags = ["Travel, Vietnam"]
-title = "Vietnam"
-cover = "cover-vietnam.jpg"
-featured_image = ""
-read_more_copy = "Read more about my journey"
-+++
+---
+categories : ["Tourism"]
+date : 2011-03-22T17:01:43Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "My thigh muscles were aching for days afterwards. I had been crawling for some 100 metres through the Viet Kong tunnels at Củ Chi, north of Saigon. These escape routes from the American soldiers during the Vietnam war had been a bit widened and heightened for the tourists."
+tags : ["Travel, Vietnam"]
+title : "Vietnam"
+cover : "cover-vietnam.jpg"
+featured_image : ""
+read_more_copy : "Read more about my journey"
+---
 
 
 Bon Apetite in Vietnam
 
 My thigh muscles were aching for days afterwards. I had been crawling for some 100 metres through the Viet Kong tunnels at Củ Chi, north of Saigon. These escape routes from the American soldiers during the Vietnam war had been a bit widened and heightened for the tourists. Even though I still had to come across the first tall or fat Vietnamese, it was difficult to comprehend any human being able to manoeuvre himself through these.  
   
-{{< figure figcaption="Bon Apetite in Vietnam " class="left" >}}
-	{{< img src= "vietnam.jpg"  alt="Bon Apetite in Vietnam " >}}
+{{< figure figcaption="Bon Apetite in Vietnam" class="left" >}}
+	{{< img src= "vietnam.jpg"  alt="Bon Apetite in Vietnam" >}}
 {{< /figure >}}
 
 

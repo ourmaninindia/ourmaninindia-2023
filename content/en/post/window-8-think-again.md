@@ -1,13 +1,11 @@
-+++
-categories = ["Information Technology"]
-date = 2012-06-05T12:26:24Z
-description = ""
-draft = false
-slug = "window-8-think-again"
-tags = ["Information Technology", "Management"]
-title = "Window 8? Think again!"
-
-+++
+---
+categories : ["Information Technology"]
+date : 2012-06-05T12:26:24Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["Information Technology", "Management"]
+title : "Window 8? Think again!"
+---
 
 
 Planning to buy a computer with a Windows 8 sticker, think again! Microsoft has said that Windows 8 will ship with a so-called UEFI Secure Boot, a replacement of the old BIOS. This will hurt Linux distributions that don’t have the resources to sign everything to meet Microsoft’s unilaterally imposed security regime. Microsoft use this requirement to make it extremely difficult for users to install alternative operating systems.

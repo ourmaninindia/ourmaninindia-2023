@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2013-08-28T13:47:36Z
-description = ""
-draft = false
-slug = "unexpected-rcode-refused"
-tags = ["open-source"]
-title = "Error: unexpected RCODE REFUSED"
+---
+categories : ["open-source"]
+date : 2013-08-28T13:47:36Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Error: unexpected RCODE REFUSED"
 
-+++
+---
 
 
 If you get many of these in your massages log, it is as a result of spammers hitting the mail server with bogus domains and the DNS is trying to resolve the IP to the domain, it is coming back false, and the mail server drops the message as designed.

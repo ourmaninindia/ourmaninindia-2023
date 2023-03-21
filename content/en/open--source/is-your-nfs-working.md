@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2017-10-07T11:45:30Z
-description = ""
-draft = false
-slug = "is-your-nfs-working"
-tags = ["open-source"]
-title = "Is your nfs working"
+---
+categories : ["open-source"]
+date : 2017-10-07T11:45:30Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Is your nfs working"
 
-+++
+---
 
 
 I use nfs quite a lot. It allows local access to remote files i.e. the remote folder is mounted locally so you can access the remote files locally.
@@ -24,7 +23,7 @@ Proper install details are descriped in  https://www.tecmint.com/how-to-setup-nf
 
 /etc/exports is the file that needs to list the folders accessible to nfs, for example this directory called photo on my nas:
 
-<pre><i>/volume1/photo	*(rw,async,no_wdelay,no_root_s/pre>quash,insecure_locks,sec=sys,anonuid=0,anongid=0)</i></pre>
+<pre><i>/volume1/photo	*(rw,async,no_wdelay,no_root_s/pre>quash,insecure_locks,sec:sys,anonuid:0,anongid:0)</i></pre>
 
 The showmount will list all the mount points at a parcticular ip address while the command mount will show them on your local machine, if any.
 

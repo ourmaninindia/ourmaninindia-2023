@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2013-03-16T19:22:00Z
-description = ""
-draft = false
-slug = "prompt-colour"
-tags = ["open-source"]
-title = "prompt colour"
+---
+categories : ["open-source"]
+date : 2013-03-16T19:22:00Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "prompt colour"
 
-+++
+---
 
 
 As I often work on multiple servers it is rather dangerous that one give a command on the wrong server. To minimise the risk it is good practise to colour the terminal prompt by adding this at the end of the ~/.bash_profile file.

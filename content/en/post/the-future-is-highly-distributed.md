@@ -1,17 +1,17 @@
-+++
-autoThumbnailImage = false
-categories = ["Information Technology"]
-featured_image = ""
-date = 2020-10-06T22:00:00Z
-draft = true
-keywords = []
-metaAlignment = ""
-tags = []
-cover = "https://s3-us-west-2.amazonaws.com/images.ourmaninindia.com/./jamstack.png"
-coverPosition = ""
-title = "The future is highly distributed"
+---
+autoThumbnailImage : false
+categories : ["Information Technology"]
+featured_image : ""
+date : 2020-10-06T22:00:00Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+keywords : []
+metaAlignment : ""
+tags : []
+cover : "https://s3-us-west-2.amazonaws.com/images.ourmaninindia.com/./jamstack.png"
+coverPosition : ""
+title : "The future is highly distributed"
+---
 
-+++
 In any business environment these days you almost invariably have all your data in different systems. A single ERP may be the driving force behind your organisation but having a monolithic system also limits you.
 
 This is the reason I am very enthusiastic about Jamstack, a new standard architecture for the web. It relies on microservices, APIs to various sites to get the data from plain text files. So often you have data available but it is a pain to link it. Microservices does not necessarily mean small. Rather, it is built to be lean as each service has a very specific role and its own codebase.

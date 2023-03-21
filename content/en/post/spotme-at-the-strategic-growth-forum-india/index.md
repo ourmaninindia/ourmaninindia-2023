@@ -1,14 +1,14 @@
-+++
-categories = ["Business"]
-date = 2012-09-16T14:57:04Z
-description = ""
-draft = false
-tags = ["Management"]
-title = "SpotMe™ at the Strategic Growth Forum™ India"
-cover = "spotme.png"
-featured_image = "chawla.jpg"
-read_more_copy = "Read more about this event"
-+++
+---
+categories : ["Business"]
+date : 2012-09-16T14:57:04Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["Management"]
+title : "SpotMe™ at the Strategic Growth Forum™ India"
+cover : "spotme.png"
+featured_image : "chawla.jpg"
+read_more_copy : "Read more about this event"
+---
 
 {{< figure figcaption="Ms Chawla (Photo courtesy Luxury Works)" class="left" >}}
 	{{< img src="hawla.jpg" alt="Ms Chawla of Luxury Works" >}}

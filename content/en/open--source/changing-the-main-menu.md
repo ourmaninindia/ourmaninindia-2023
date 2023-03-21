@@ -1,12 +1,11 @@
-+++
-categories = ["open-source"]
-date = 2012-08-07T21:23:34Z
-description = ""
-slug = "changing-the-main-menur"
-tags = ["mediawiki"]
-title = "Changing the main menu (sidebar)"
-
-+++
+---
+categories : ["open-source"]
+date : 2012-08-07T21:23:34Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["mediawiki"]
+title : "Changing the main menu (sidebar)"
+---
 
 
 in mediawiki change the url suffix to

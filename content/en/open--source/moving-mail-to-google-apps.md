@@ -1,12 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2013-09-29T22:13:18Z
-description = ""
-slug = "moving-mail-to-google-apps"
-tags = ["business"]
-title = "Moving mail to Google Apps"
+---
+categories : ["open-source"]
+date : 2013-09-29T22:13:18Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["business"]
+title : "Moving mail to Google Apps"
 
-+++
+---
 
 
 After my server was attacked and brought down by the Chinese I wasn’t certain whether or not the machine was compromised. I decided though to move my mail to Google Apps instead, preferring a good sleep over worries of another more ferocious attack.

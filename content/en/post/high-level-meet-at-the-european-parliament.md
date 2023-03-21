@@ -1,13 +1,12 @@
-+++
-categories = ["Management", "Strategy"]
-date = 2007-11-19T15:18:35Z
-description = "High Level Meet at the European Parliament"
-draft = false
-slug = "high-level-meet-at-the-european-parliament"
-tags = ["Management", "strategy"]
-title = "High Level Meet at the European Parliament"
+---
+categories : ["Management", "Strategy"]
+date : 2007-11-19T15:18:35Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "High Level Meet at the European Parliament"
+tags : ["Management", "strategy"]
+title : "High Level Meet at the European Parliament"
 
-+++
+---
 
 
 I was invited to the Symposium on Ethics in Business­ Corporate Culture & Spirituality 2007, held at the Hotel Sheraton and the European Parliament in Brussels on 2nd and 3rd December 2007. This symposium was organized by the International Association for Human Values (IAHV) in cooperation with the Europe-India Chamber of Commerce of which I am a member.  

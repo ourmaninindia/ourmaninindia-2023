@@ -1,13 +1,13 @@
-+++
-categories = ["Management"]
-date = 2010-12-10T22:02:31Z
-description = ""
-slug = "wikileaks"
-tags = ["case study", "julian assange", "whistleblower", "wikileaks", "free press"]
-title = "WikiLeaks, a superb case study"
-cover = "cover-wikileaks.jpg"
-featured_image = ""
-+++
+---
+categories : ["Management"]
+date : 2010-12-10T22:02:31Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["case study", "julian assange", "whistleblower", "wikileaks", "free press"]
+title : "WikiLeaks, a superb case study"
+cover : "cover-wikileaks.jpg"
+featured_image : ""
+---
 
 Fascinating. Absolutely fascinating. There is no other word to describe how the world is scrambling to deal with the WikiLeaks information and in particular with its founder Julian Assange. There is no cohesive response as everybody is shooting from the hip, often totally ignorant about the legal issues at stake.  
 The latter is even unclear to the legal community due to the novelty and the international character of the case. No surprise therefore that legal human rights heavy weight lawyer Geoffrey Robertson QC is going to defend Mr Assange.Before we jump to conclusions this is indeed a superb management case study in progress. Just consider this for a moment:

@@ -1,13 +1,14 @@
-+++
-categories = ["Management"]
-date = 2010-12-22T19:13:55Z
-description = ""
-tags = ["Management"]
-title = "Leadership in the 21st Century"
-cover = "cover-ilian_mihov.jpg"
-featured_image = ""
-read_more_copy = "Read more about this session"
-+++
+---
+categories : ["Management"]
+date : 2010-12-22T19:13:55Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["Management"]
+title : "Leadership in the 21st Century"
+cover : "cover-ilian_mihov.jpg"
+featured_image : ""
+read_more_copy : "Read more about this session"
+---
 
 {{< figure figcaption="Prof. Ilian Mihov " class="left" >}}
 	{{< img src="ilian_mihov.jpg"   alt="Prof. Ilian Mihov " >}}

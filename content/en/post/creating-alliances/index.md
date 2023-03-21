@@ -1,12 +1,13 @@
-+++
-categories = ["Alliances"]
-date = 2010-12-07T13:13:41Z
-description = "Creating strategic alliances and partnerships"
-slug = "creating-alliances"
-tags = ["alliances", "JVs", "fair process", "partnerships", "social capital", "strategic alliance"]
-title = "Creating strategic alliances and partnerships"
-cover = "cover-doz.jpg"
-+++
+---
+categories : ["Alliances"]
+date : 2010-12-07T13:13:41Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "Creating strategic alliances and partnerships"
+slug : "creating-alliances"
+tags : ["alliances", "JVs", "fair process", "partnerships", "social capital", "strategic alliance"]
+title : "Creating strategic alliances and partnerships"
+cover : "cover-doz.jpg"
+---
 
 
 I just boarded the flight to Goa and thought about the comments of Prof Yves Doz with his typical French accent:

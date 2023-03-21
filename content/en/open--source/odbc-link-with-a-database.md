@@ -1,13 +1,11 @@
-+++
-categories = ["open-source"]
-date = 2015-06-10T14:26:44Z
-description = ""
-draft = false
-slug = "odbc-link-with-a-database"
-tags = ["open-source"]
-title = "ODBC link with a database"
-
-+++
+---
+categories: ["open-source"]
+date: 2015-06-10T14:26:44Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description: ""
+tags: ["open-source"]
+title: "ODBC link with a database"
+---
 
 
 I have a web server which needs to link to a MS SQL server (not my choice). In my case I use Plack which calls the database in four steps. The catch I often struggle with is that some other files with the same name may float around and which you may not be aware off.

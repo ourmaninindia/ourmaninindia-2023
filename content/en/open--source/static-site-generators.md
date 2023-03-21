@@ -1,11 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2020-06-16T22:00:00Z
-keywords = ["seo", "google speed", "static web site", "hugo"]
-tags = ["hugo", "static webpages"]
-title = "Static site generators"
+---
+categories : ["open-source"]
+date : 2020-06-16T22:00:00Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+keywords : ["seo", "google speed", "static web site", "hugo"]
+tags : ["hugo", "static webpages"]
+title : "Static site generators"
 
-+++
+---
 Due to my busy work schedule my personal web site was dated. So much so that it was a few releases behind schedule. I had built it using Ghost (headless Node.js CMS) and by quickly  building some Docker containers I managed to upgrade the database relatively fast.
 
 I have built many data driven dynamic sites most based on PHP or Perl. However, it was also time to re-evaluate whether to continue with Ghost. My eye fell on static site generators. There is not much difference with database driven sites other than that the site is generated in advance which for a blog like my site is no issue. Of course there is no feedback but contact forms are done through third party. Similarly, if you like to add comment pages one has the option to add Discus.

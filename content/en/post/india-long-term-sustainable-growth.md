@@ -1,12 +1,12 @@
-+++
-categories = ["India", "Economy"]
-date = 2005-10-24T00:07:53Z
-description = ""
-slug = "india-long-term-sustainable-growth"
-tags = ["India", "Strategy"]
-title = "India, long-term sustainable growth?"
+---
+categories : ["India", "Economy"]
+date : 2005-10-24T00:07:53Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["India", "Strategy"]
+title : "India, long-term sustainable growth?"
 
-+++
+---
 
 
 *Written by Alfred Tuinman,  published in FM Corporate (Nr 1 Vol 1, Nov 2005)*  

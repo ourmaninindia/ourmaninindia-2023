@@ -4,7 +4,7 @@ languageCode = "en-GB"
 theme = "ananke"
 resourceDir = "../resources"
 DefaultContentLanguage = "en"
-Paginate = 10
+Paginate = 20
 GoogleAnalytics = "UA-87912654-1" 
 disqusShortname = "ourmaninindia"
 # summaryLength = 50
@@ -14,18 +14,24 @@ enableGitInfo = true
 enableRobotsTXT = true
 canonifyURLs = false
 
+[author]
+  name     = "Our Man in India"
+  bio      = "A man who is the representative of a country or organization in a particular place. The expert in the field."
+  job      = "Management Consultant"
+  location   = "Goa, India"
+  picture    = "img/alfred3.jpg" 
+  # twitter  = "https://twitter.com/OurManInIndia"
+  # twitterHandle = "ourmaninindia"
+  googlePlus = "+ourmaninindia"
+  linkedin   = "https://www.linkedin.com/in/ourmaninindia/"
+  facebook   = "https://www.facebook.com/ourmaninindia"
+  github     = "https://github.com/ourmaninindia"
+
+[output]
+  home = [ "HTML", "RSS", "JSON" ]
+
 [permalinks]
   post = "/:slug/"
-
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  archive  = "archives"
-
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
 
 [params]
   text_color = ""
@@ -40,9 +46,8 @@ canonifyURLs = false
   background_color_class = "background"
   recent_posts_number = 6
   show_reading_time = true
-  custom_css = ["custom.scss","cookie-consent2-3.1.1.scss"]
+  custom_css = ["cookie-consent2-3.1.1.scss","custom.scss"]
   description = "Goa, where Vasco da Gama once landed only to be followed centuries later by Led Zeppelin, The Who and George Harrison, is a fascinating place with a constant influx of cosmopolitan thought. The former Portuguese colony is also known for its beaches, restaurant shacks with great food and low priced alcohol, and a relaxed lifestyle."
-
 
 [[params.ananke_socials]]
   name = "linkedin"
@@ -62,23 +67,6 @@ canonifyURLs = false
   name = "Google+"
   icon = "fa-google-plus"
   url  = "https://plus.google.com/share?url=%s"
-
-[author]
-  name 		 = "Our Man in India"
-  bio  		 = "A man who is the representative of a country or organization in a particular place. The expert in the field."
-  job  		 = "Management Consultant"
-  location 	 = "Goa, India"
-  picture  	 = "img/alfred3.jpg" 
-  # twitter  = "https://twitter.com/OurManInIndia"
-  # twitterHandle = "ourmaninindia"
-  googlePlus = "+ourmaninindia"
-  linkedin   = "https://www.linkedin.com/in/ourmaninindia/"
-  facebook   = "https://www.facebook.com/ourmaninindia"
-  github     = "https://github.com/ourmaninindia"
-
-
-[output]
-  home = [ "HTML", "RSS", "JSON" ]
 
 [privacy]
   [privacy.disqus]
@@ -102,6 +90,18 @@ canonifyURLs = false
     disable = false
     privacyEnhanced = true
 
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive  = "archives"
+
+
+#---  the menus ---
 
 [languages]
   [languages.en]

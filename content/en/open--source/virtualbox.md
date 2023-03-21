@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2012-08-08T13:10:04Z
-description = ""
-draft = false
-slug = "virtualbox"
-tags = ["open-source"]
-title = "Virtualbox"
+---
+categories : ["open-source"]
+date : 2012-08-08T13:10:04Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Virtualbox"
 
-+++
+---
 
 
 I did try to in vain install vmware so I changed to virtualbox. There I got the following error:

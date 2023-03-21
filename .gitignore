@@ -5,14 +5,15 @@ public/
 info.txt
 *.mp4
 .env
+/admin
 
 # Local Netlify folder
 .netlify
 /resources
 
+# Hugo
+.hugo_build.lock
+
 # OS
 .DS_Store
 Thumbs.db
-
-# Hugo
-.hugo_build.lock

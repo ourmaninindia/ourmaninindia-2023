@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2013-09-29T09:50:40Z
-description = ""
-draft = false
-slug = "non-root-user_public-key-without-a-password"
-tags = ["open-source"]
-title = "Public key without a password as a non root user"
+---
+categories : ["open-source"]
+date : 2013-09-29T09:50:40Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Public key without a password as a non root user"
 
-+++
+---
 
 
 After the Chinese attacked my system trice recently I am a bit paranoid about securing my system. I used to sync data using rsync which uses ssh. However, using this as root is not a good idea hence I decided to use rsync as a non-root user without a prompt for a password. This post is therefore an update from the one I wrote almost exactly two years ago.
@@ -23,7 +22,7 @@ Check that ssh does not allow root logon.
 
 edit the relevant line as follows (this may already be set correctly)
 
-    PermitRootLogin = no
+    PermitRootLogin : no
 
 if you changed a setting here you need to restart the deamon
 
@@ -66,11 +65,11 @@ First, copy the public key of root on the local machine to the authorized_keys2 
 
 Add a line as follows
 
-     mybackup ALL= NOPASSWD:/usr/bin/rsync
+     mybackup ALL: NOPASSWD:/usr/bin/rsync
 
 Then we need to use the –rsync-path option to make rsync on the source run as root
     
-     rsync -av -e "ssh" --rsync-path="sudo rsync" mybackup@remote
+     rsync -av -e "ssh" --rsync-path:"sudo rsync" mybackup@remote
 
 If this works you can add it, as mybackup user, to the cron
 
@@ -78,5 +77,5 @@ If this works you can add it, as mybackup user, to the cron
 
 I generally use the following string which excludes a number of files or directories such as trash, logs etc.
 
-     sudo rsync -rptgoDLKve ssh --delete-excluded --safe-links --exclude-from=/home/myself/etc/rsync_exclude --rsync-path="sudo rsync" mybackup@mydomain.com:/source/path/ /dest/path/
+     sudo rsync -rptgoDLKve ssh --delete-excluded --safe-links --exclude-from:/home/myself/etc/rsync_exclude --rsync-path:"sudo rsync" mybackup@mydomain.com:/source/path/ /dest/path/
 

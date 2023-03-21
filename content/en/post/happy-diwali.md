@@ -1,14 +1,13 @@
-+++
-categories = ["Holidays"]
-date = 2007-11-09T15:31:40Z
-description = ""
-draft = false
-slug = "happy-diwali"
-tags = ["India","Diwali","Trade Mission"]
-title = "Happy Diwali"
-cover = ""
-imageCover = ""
-+++
+---
+categories : ["Holidays"]
+date : 2007-11-09T15:31:40Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["India","Diwali","Trade Mission"]
+title : "Happy Diwali"
+cover : ""
+imageCover : ""
+---
 
 
 We wish you all a very happy Diwali and look forward to catch up soon again.

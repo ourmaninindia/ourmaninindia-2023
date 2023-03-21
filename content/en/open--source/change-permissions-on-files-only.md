@@ -1,12 +1,11 @@
-+++
-categories = ["open-source"]
-date = 2012-08-07T10:22:57Z
-description = ""
-draft = false
-tags = ["open-source"]
-title = "Change permissions on files only"
-
-+++
+---
+categories : ["open-source"]
+date : 2012-08-07T10:22:57Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Change permissions on files only"
+---
 
 
 find . -type f -print0 | xargs -0 chmod 444

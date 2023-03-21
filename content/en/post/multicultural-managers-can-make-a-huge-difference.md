@@ -1,14 +1,13 @@
-+++
-categories = ["HR"]
-date = 2013-08-08T14:03:59Z
-description = ""
-draft = false
-slug = "multicultural-managers-can-make-a-huge-difference"
-tags = ["Management"]
-title = "Multicultural managers can make a huge difference"
-cover = ""
-featured_image = ""
-+++
+---
+categories : ["HR"]
+date : 2013-08-08T14:03:59Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["Management"]
+title : "Multicultural managers can make a huge difference"
+cover : ""
+featured_image : ""
+---
 
 
 >“*Many multinational companies have hidden, unrecognised multicultural gems within their ranks. To find these and get the most from their unique skills means taking the time and trouble to carefully develop and deploy multicultural managers in critical positions.*” 

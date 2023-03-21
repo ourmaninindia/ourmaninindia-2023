@@ -1,13 +1,14 @@
-+++
-categories = ["India","Management"]
-date = 2014-04-14T11:04:04Z
-description = "It was eight months ago that I had received a call, out of the blue, from the billionaire owner of the Group. He needed a troubleshooter and whether I was interested to work for him. "
-tags = ["Management", "india"]
-title = "To quit or not to quit as a director"
-cover = "cover-yerwada-central-jail-pune.jpg"
-featured_image = ""
-read_more_copy = "Read more about my resignation"
-+++
+---
+categories : ["India","Management"]
+date : 2014-04-14T11:04:04Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "It was eight months ago that I had received a call, out of the blue, from the billionaire owner of the Group. He needed a troubleshooter and whether I was interested to work for him. "
+tags : ["Management", "india"]
+title : "To quit or not to quit as a director"
+cover : "cover-yerwada-central-jail-pune.jpg"
+featured_image : ""
+read_more_copy : "Read more about my resignation"
+---
 
 {{< figure figcaption="Yerwada central jail (courtesy www.walkthroughindia.com)" class="left" >}}
 	{{< img src= "yerwada-central-jail-pune.jpg"  alt=" " >}}

@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2012-04-22T14:13:00Z
-description = ""
-draft = false
-slug = "strip-html-code"
-tags = ["perl", "html"]
-title = "Strip HTML code"
+---
+categories : ["open-source"]
+date : 2012-04-22T14:13:00Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["perl", "html"]
+title : "Strip HTML code"
 
-+++
+---
 
 
 Use the sed terminal command with an input file called say test.html

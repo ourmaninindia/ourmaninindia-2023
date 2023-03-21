@@ -1,13 +1,14 @@
-+++
-categories = ["Business", "india"]
-date = 2015-12-02T08:47:09Z
-description = ""
-tags = ["Management", "india"]
-title = "Assocham sets up European headquarters in Amsterdam"
-cover = "cover-assocham.png"
-featured_image = ""
-read_more_copy = "Read more about this news"
-+++
+---
+categories : ["Business", "india"]
+date : 2015-12-02T08:47:09Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["Management", "india"]
+title : "Assocham sets up European headquarters in Amsterdam"
+cover : "cover-assocham.png"
+featured_image : ""
+read_more_copy : "Read more about this news"
+---
 
 {{< figure figcaption="The Associated Chambers of Commerce and Industry of India " class="left" >}}
 	{{< img src= "assocham.png"  alt="The Associated Chambers of Commerce and Industry of India " >}}

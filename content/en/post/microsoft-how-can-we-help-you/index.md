@@ -1,14 +1,15 @@
-+++
-categories = ["Customer Service"]
-date = 2013-02-08T13:10:56Z
-description = "A friend of mine called this morning to say that, despite the spamassassin I had installed, he had received almost 2000 spam messages and whether I could help. Not certain how one could receive suddenly so much spam I was somewhat bewildered and took an eager look."
-slug = "microsoft-how-can-we-help-you"
-tags = ["Management", "IT"]
-title = "Microsoft: How can we help you?"
-featured_image = "microsoft.jpg"
+---
+categories : ["Customer Service"]
+date : 2013-02-08T13:10:56Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "A friend of mine called this morning to say that, despite the spamassassin I had installed, he had received almost 2000 spam messages and whether I could help. Not certain how one could receive suddenly so much spam I was somewhat bewildered and took an eager look."
+slug : "microsoft-how-can-we-help-you"
+tags : ["Management", "IT"]
+title : "Microsoft: How can we help you?"
+featured_image : "microsoft.jpg"
 # was http://support.microsoft.com/library/images/support/en-us/SMChero_0043_hero44-preferred-HOMEPAGE.jpg"
-cover = ""
-+++
+cover : ""
+---
 
 
 How can we help you?

@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2012-10-14T21:26:00Z
-description = ""
-draft = false
-slug = "handbrake"
-tags = ["fedora"]
-title = "HandBrake"
+---
+categories : ["open-source"]
+date : 2012-10-14T21:26:00Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["fedora"]
+title : "HandBrake"
 
-+++
+---
 
 
 I have a Sony home theatre and I have been bugged for ages as only some of my video files where showing up. A real bummer. After lots of searching and trying different programs, which all had some issue, I bumped into handbrake.

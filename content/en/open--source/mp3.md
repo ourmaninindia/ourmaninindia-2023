@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2012-08-08T13:43:26Z
-description = ""
-draft = false
-slug = "mp3"
-tags = ["open-source"]
-title = "MP3"
+---
+categories : ["open-source"]
+date : 2012-08-08T13:43:26Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "MP3"
 
-+++
+---
 
 
 You have to add the repository to be able to get plugins for mp3

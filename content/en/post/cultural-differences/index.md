@@ -1,13 +1,14 @@
-+++
-categories = ["HR"]
-date = 2015-11-17T00:28:16Z
-description = "Cultural Differences"
-slug = "cultural-differences"
-tags = ["culture","india"]
-title = "Cultural Differences"
-cover = "cover-cultural-differences.jpg"
+---
+categories : ["HR"]
+date : 2015-11-17T00:28:16Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "Cultural Differences"
+slug : "cultural-differences"
+tags : ["culture","india"]
+title : "Cultural Differences"
+cover : "cover-cultural-differences.jpg"
 
-+++
+---
 
 {{< figure figcaption="Cultural differences " class="left" >}}
 	{{< img src= "cultural-differences.jpg"  alt="Cultural differences " >}}

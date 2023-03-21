@@ -1,14 +1,14 @@
-+++
-categories = ["India", "Economy"]
-date = 2015-11-04T23:13:20Z
-description = "New bankruptcy bill in India to speed up shutdown of failed businesses"
-slug = "new-bankruptcy-bill-to-speed-up-shutdown-of-failed-businesses"
-tags = ["india", "economy"]
-title = "New bankruptcy bill to speed up shutdown of failed businesses"
-cover = ""
-featured_image = ""
+---
+categories : ["India", "Economy"]
+date : 2015-11-04T23:13:20Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "New bankruptcy bill in India to speed up shutdown of failed businesses"
+tags : ["india", "economy"]
+title : "New bankruptcy bill to speed up shutdown of failed businesses"
+cover : ""
+featured_image : ""
 
-+++
+---
 
 *by Economic Times of India*
 

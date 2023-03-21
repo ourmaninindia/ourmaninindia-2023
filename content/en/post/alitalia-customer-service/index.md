@@ -1,14 +1,15 @@
-+++
-categories = ["Customer Service","Travel"]
-date = 2013-07-23T00:48:30Z
-description = "Alitalia Customer Service: an oxymoron or tautology?"
-cover = "cover-alitalia.jpg"
-slug = "alitalia-customer-service"
-tags = ["travel"]
-title = "Alitalia Customer Service: an oxymoron or tautology?"
-featured_image = "cover-alitalia.jpg"
-read_more_copy = "Read more about my frustrations"
-+++
+---
+categories : ["Customer Service","Travel"]
+date : 2013-07-23T00:48:30Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "Alitalia Customer Service: an oxymoron or tautology?"
+cover : "cover-alitalia.jpg"
+slug : "alitalia-customer-service"
+tags : ["travel"]
+title : "Alitalia Customer Service: an oxymoron or tautology?"
+featured_image : "cover-alitalia.jpg"
+read_more_copy : "Read more about my frustrations"
+---
 You have received a customer complaint. Do you focus to minimise your financial loss or the loss of face your company may suffer? This thought crossed my mind when I lodged a claim with Alitalia for delayed delivery of our luggage on July 1. We had enjoyed a wonderful trip to Italy recently. For five days we stayed in a private apartment in Florence just round the corner of Piazza de Santa Croce.
 
 When our luggage did not arrive at Rome airport we had to stand in line for over an hour to register the PIR. However, it had already been traced and would be sent after us to Florence. It saved us carrying the three backpacks and, let’s face it, mistakes do happen to the best of us. Having worked for two decades in the travel industry I appreciate only too well that it is the way you handle customer complaints which matters most. The lessons I learned were simple:

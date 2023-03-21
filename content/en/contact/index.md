@@ -1,12 +1,13 @@
-+++
-date = 2019-01-01T12:04:55Z
-description = "Goa, where Vasco da Gama once landed only to be followed centuries later by Led Zeppelin, The Who and George Harrison, is a fascinating place with a constant influx of cosmopolitan thought. The former Portuguese colony is also known for its beaches, restaurant shacks with great food and low priced alcohol, and a relaxed lifestyle."
-title = "Contact me"
-cover = "office_3.png"
-featured_image = "header-study.jpg"
-disable_comments = true
-type = "contact"
-+++
+---
+date : 2019-01-01T12:04:55Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "Goa, where Vasco da Gama once landed only to be followed centuries later by Led Zeppelin, The Who and George Harrison, is a fascinating place with a constant influx of cosmopolitan thought. The former Portuguese colony is also known for its beaches, restaurant shacks with great food and low priced alcohol, and a relaxed lifestyle."
+title : "Contact me"
+cover : "office_3.png"
+featured_image : "header-study.jpg"
+disable_comments : true
+type : "contact"
+---
 
 Goa, where Vasco da Gama once landed only to be followed centuries later by Led Zeppelin, The Who and George Harrison, is a fascinating place with a constant influx of cosmopolitan thought. The former Portuguese colony is also known for its beaches, restaurant shacks with great food and low priced alcohol, and a relaxed lifestyle.
 
@@ -25,4 +26,4 @@ I like to call it home and it is a green oasis to recharge my batteries after fr
 
 {{< img src="header-pool.jpg" alt="Alfred Tuinman" >}}
 
-{{< contact-form >}}
+{{< form-contact >}}

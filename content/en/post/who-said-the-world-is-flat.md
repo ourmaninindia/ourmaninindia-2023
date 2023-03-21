@@ -1,13 +1,14 @@
-+++
-categories = ["Management"]
-date = 2011-06-15T13:21:10Z
-description = "Who said the world is flat? As a former zoologist it is only natural that I back Galileo."
-tags = ["Management"]
-title = "Who said the world is flat?"
-cover = ""
-featured_image = ""
+---
+categories : ["Management"]
+date : 2011-06-15T13:21:10Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "Who said the world is flat? As a former zoologist it is only natural that I back Galileo."
+tags : ["Management"]
+title : "Who said the world is flat?"
+cover : ""
+featured_image : ""
 
-+++
+---
 
 
 As a former zoologist it is only natural that I back Galileo. The world is not flat. Alright, people travel in greater numbers, communication has become much cheaper and pervaisive, distances are more and more virtual and data more readily available and therefore often more transparent. An Indian software engineer can easily take over the work of his American collegue sitting in Bangalore. It is flawed to consider this argument as the world being flat when it comes to management. On the contrary.

@@ -1,13 +1,11 @@
-+++
-categories = ["open-source"]
-date = 2012-08-15T16:52:38Z
-description = ""
-draft = false
-slug = "changing-date-format-in-thunderbird"
-tags = ["open-source"]
-title = "Changing date format in Thunderbird"
-
-+++
+---
+categories : ["open-source"]
+date : 2012-08-15T16:52:38Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Changing date format in Thunderbird"
+---
 
 
 Create a small bash file

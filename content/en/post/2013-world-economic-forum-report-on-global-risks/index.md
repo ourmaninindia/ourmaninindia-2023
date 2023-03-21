@@ -1,14 +1,14 @@
-+++
-categories = ["Management"]
-date = 2013-01-20T17:07:33Z
-description = "2013 World Economic Forum Report on Global Risk"
-slug = "2013-world-economic-forum-report-on-global-risks"
-tags = ["Management"]
-title = "2013 World Economic Forum Report on Global Risks"
-cover = "cover-world-economic-forum.jpg" 
-featured_image = ""
-read_more_copy = "Read more about this news"
-+++
+---
+categories : ["Management"]
+date : 2013-01-20T17:07:33Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "2013 World Economic Forum Report on Global Risk"
+tags : ["Management"]
+title : "2013 World Economic Forum Report on Global Risks"
+cover : "cover-world-economic-forum.jpg" 
+featured_image : ""
+read_more_copy : "Read more about this news"
+---
 
 
 

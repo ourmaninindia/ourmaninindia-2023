@@ -1,14 +1,13 @@
-+++
-categories = ["india", "Economy" ]
-date = 2015-07-14T23:25:54Z
-description = "Prime Minister Narendra Modi spoke too soon when he claimed in May that there was “not one scandal” in his government “even after a year”, compared with his predecessor’s record when “every day was a new bad day”. "
-draft = false
-slug = "modi-must-implement-structural-change-to-minimize-corruption"
-tags = ["india", "Management"]
-title = "Modi must implement structural change to minimize corruption"
-cover = ""
-featured_image = ""
-+++
+---
+categories : ["india", "Economy" ]
+date : 2015-07-14T23:25:54Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "Prime Minister Narendra Modi spoke too soon when he claimed in May that there was “not one scandal” in his government “even after a year”, compared with his predecessor’s record when “every day was a new bad day”. "
+tags : ["india", "Management"]
+title : "Modi must implement structural change to minimize corruption"
+cover : ""
+featured_image : ""
+---
 
 
 *by Trusted Sources*

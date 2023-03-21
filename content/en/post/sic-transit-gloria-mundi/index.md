@@ -1,13 +1,14 @@
-+++
-categories = ["Tourism","Music"]
-date = 2012-04-22T14:57:45Z
-description = "sic-transit-gloria-mundi"
-slug = "sic-transit-gloria-mundi"
-tags = ["Netherlands"]
-title = "Sic transit gloria mundi"
-cover = "cover-bavo.jpg" 
-featured_image = "bavo2.jpg"
-+++
+---
+categories : ["Tourism","Music"]
+date : 2012-04-22T14:57:45Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "sic-transit-gloria-mundi"
+slug : "sic-transit-gloria-mundi"
+tags : ["Netherlands"]
+title : "Sic transit gloria mundi"
+cover : "cover-bavo.jpg" 
+featured_image : "bavo2.jpg"
+---
 
 I love Bach’s St Matthew Passion. Don’t get me wrong, I am not a great fan of any *Danse Macabre* and prefer a *Nullus Funus Sine Fidula* (no funeral without a fiddle) anytime. However, death used to be very much part of daily life. As a teenager I lived in the Gothic St Bavo cathedral in Haarlem where people still literally walk all over the dead as the interior flooring of the church is entirely made up of tomb stones. It was Napoleon that banned burials in churches in 1804, something which took quite a few decades to fully comply with. After all, it was a commercially attractive activity for the church. These days the only exceptions are made for members of the royal family.
 

@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2012-10-23T08:20:36Z
-description = ""
-draft = false
-slug = "tape-backup"
-tags = ["open-source"]
-title = "Tape Backup"
+---
+categories : ["open-source"]
+date : 2012-10-23T08:20:36Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Tape Backup"
 
-+++
+---
 
 
 To make a tape backup, give the following two commands on the terminal of the Felicity Linux server. The first one rewinds the tape to the beginning and the second one makes the actual backup. Just cut and paste the following two lines, press enter, and leave it for the machine to do the backup.

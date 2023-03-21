@@ -1,13 +1,12 @@
-+++
-categories = ["open-source"]
-date = 2012-08-07T08:27:09Z
-description = ""
-draft = false
-slug = "mediawiki"
-tags = ["open-source"]
-title = "Update a Mediawiki"
+---
+categories : ["open-source"]
+date : 2012-08-07T08:27:09Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : ""
+tags : ["open-source"]
+title : "Update a Mediawiki"
 
-+++
+---
 
 
 Download the new mediawiki from their website to the html directory

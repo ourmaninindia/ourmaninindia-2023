@@ -1,13 +1,13 @@
-+++
-categories = ["Management"]
-date = 2012-03-07T09:48:42Z
-description = "Eclectic thoughts"
-slug = "eclectic-thoughts"
-tags = ["Management"]
-title = "Eclectic thoughts"
-cover = "cover-havanna.jpg"
-
-+++
+---
+categories : ["Management"]
+date : 2012-03-07T09:48:42Z
+lastmod: ["lastmod", ":git", "date", "publishDate"]
+description : "Eclectic thoughts"
+slug : "eclectic-thoughts"
+tags : ["Management"]
+title : "Eclectic thoughts"
+cover : "cover-havanna.jpg"
+---
 
 {{< figure figcaption="Our Man in Havanna " class="left" >}}
 	{{< img src= "havanna.jpeg"  alt="Our Man in Havanna " >}}
