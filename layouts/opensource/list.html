@@ -5,10 +5,19 @@
     <section class="tl cf ph2 ph2-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
     {{- .Content -}}
     </section>
-    <section class="flex-ns flex-wrap justify-around mt5">
+
+    <section class="mt5 center measure-wide">
       {{ range .Paginator.Pages }}
-        <div class="relative w-100 w-30-l mb4 bg-white">
-          {{ .Render "summary" }}
+        <div class="relative w-100 nested-copy-line-height">
+          <div class="overflow-hidden">
+            <h2 class="f4 mb1 {{ $.Param "text_color" | default "mid-gray" }}"><a href="{{ .RelPermalink }}" class="">{{ .Title }}</a></h2>
+            {{with .Params.date }}<i class="f7 db mt0">{{ . | time.Format (default "January 2, 2006" $.Site.Params.date_format) }}{{ end -}} 
+            {{- if (or (eq (.Param "show_reading_time") true) (eq .Site.Params.show_reading_time true) )}}
+        <span class="f7 tracked"> - {{ i18n "readingTime" .ReadingTime }} </span>
+        </i>
+      {{ end }}
+      </h2>
+          </div>
         </div>
       {{ end }}
     </section>

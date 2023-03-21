@@ -13,6 +13,8 @@ enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
 canonifyURLs = false
+pygmentsUseClasses = true
+pygmentsCodefences = true
 
 [author]
   name     = "Our Man in India"
@@ -26,6 +28,23 @@ canonifyURLs = false
   linkedin   = "https://www.linkedin.com/in/ourmaninindia/"
   facebook   = "https://www.facebook.com/ourmaninindia"
   github     = "https://github.com/ourmaninindia"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    tabWidth = 4
+    noClasses = false
+    style = 'monokai'
+  #  anchorLineNos = false
+  #  hl_inline = false
+  #  lineAnchors = ''
+  #  noClasses = true
+  #  noHl = false
 
 [output]
   home = [ "HTML", "RSS", "JSON" ]
@@ -46,7 +65,7 @@ canonifyURLs = false
   background_color_class = "background"
   recent_posts_number = 6
   show_reading_time = true
-  custom_css = ["cookie-consent2-3.1.1.scss","custom.scss"]
+  custom_css = ["syntax.scss","cookie-consent2-3.1.1.scss","custom.scss"]
   description = "Goa, where Vasco da Gama once landed only to be followed centuries later by Led Zeppelin, The Who and George Harrison, is a fascinating place with a constant influx of cosmopolitan thought. The former Portuguese colony is also known for its beaches, restaurant shacks with great food and low priced alcohol, and a relaxed lifestyle."
 
 [[params.ananke_socials]]
