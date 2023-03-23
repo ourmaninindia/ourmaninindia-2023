@@ -13,7 +13,7 @@ Goa, where Vasco da Gama once landed only to be followed centuries later by Led 
 
 I like to call it home and it is a green oasis to recharge my batteries after frequent travels.
 
-{{< google-maps-location key="AIzaSyChxK1PzOdx3QiNm7yc546C5CAgNdKYwmk" location="our man in india, goa, India" zoom="14" maptype="satellite" >}}
+{{< google-maps-location >}}
 
 
 {{< figure figcaption="The office of Odyssey Tours in Goa" class="mr0 ml0 left" >}}
