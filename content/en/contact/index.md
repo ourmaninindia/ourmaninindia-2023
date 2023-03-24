@@ -16,12 +16,12 @@ I like to call it home and it is a green oasis to recharge my batteries after fr
 {{< google-maps-location >}}
 
 
-{{< figure figcaption="The office of Odyssey Tours in Goa" class="mr0 ml0 left" >}}
+{{< figure figcaption="The office of Odyssey Tours across the road" class="mr0 ml0 left" >}}
 	{{< img src= "office_3.png"  alt="Goa office" >}}
 {{< /figure >}}
 
 
-#### Contact details
+## Contact details
 {{< contact >}}
 
 {{< img src="header-pool.jpg" alt="Alfred Tuinman" >}}

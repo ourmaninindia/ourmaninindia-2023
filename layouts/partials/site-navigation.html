@@ -30,7 +30,7 @@
                 </li>
             {{ else }}
                 <li class="menu__item {{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} menu__item--active{{ end }}">
-                    <a class="menu__link" href="{{ .URL }}">
+                    <a class="menu__link" href="{{ .URL }}" aria-label="{{.Name}}">
                         {{ .Pre }}
                         {{ if ne .Name "Home"}}<span class="menu_text">{{ .Name }}</span>{{ end }}
                     </a>
