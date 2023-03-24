@@ -55,7 +55,8 @@
 
   {{- partial "site-scripts.html" . }}
 
-  {{- if (eq .Params.Type "contact") }}
+  {{- if eq .Params.Type "contact" }}
+  {{- if ne .Params.disable_comments true }}
   <script>
     var disqus_config = function(){
       this.page.url = 'https:\/\/www.ourmaninindia.com\/contact\/';
@@ -73,6 +74,7 @@
       (d.head || d.body).appendChild(s);
     })();
   </script>
-  {{- end }}
+  {{- end }}              
+  {{- end }}              
 
 </html>

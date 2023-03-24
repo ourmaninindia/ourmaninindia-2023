@@ -12,3 +12,17 @@ This depends on the screen size, default like this
 const width  = window.innerWidth;
   let   height = 70;
 ```
+
+## Fonts
+A font family should have a swap in the css
+
+```
+font-display: swap;
+```
+and should be preloaded in the head e.g.
+
+```
+<link rel="preload" href="/font/halimun/halimun.woff2" as="font" type="font/woff2" crossorigin>
+```
+
+Generally a sans-serif font is used in the <header> and a serif type in <main>

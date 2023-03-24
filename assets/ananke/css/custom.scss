@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Halimun';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Halimun'), 
+       url('/font/halimun/halimun.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/font/halimun/halimun.woff') format('woff'), /* Modern Browsers */
+       url('/font/halimun/halimun.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/font/halimun/halimun.eot'); /* IE9 Compat Modes */
+ }
+
 a {
   text-decoration: none;
   color: darkslategray;
@@ -30,7 +42,7 @@ figure {
 
 img  { width: 100%; height: auto; }
 li   { text-align: justify; }
-main { margin-top: 70px;}
+main { margin-top: 70px; }
 p    { text-align: justify; }
 
 section {
@@ -128,6 +140,7 @@ section {
 
 
 header {
+  .ourman { font-family: 'Halimun'; font-size: xx-large;}
   a:hover span.menu__text { color: white; }
   a.menu__link:hover { background-color: orange; }
 
@@ -150,6 +163,73 @@ header {
 
   .menu__list--transition {
     transition: visibility 0.15s ease, transform 0.15s ease, -webkit-transform 0.15s ease;
+  }
+
+  &#navbar {
+    .ourman {padding-left: 15px;}
+    #btn-open { display: none;}
+    i.fa {display: none;}
+    i.fa-home {display: block;}
+    background-image: linear-gradient(110deg, #20123a 20%, #20123a 46%, #e65321 60%);
+    background-color: #20123a;
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    z-index: 25;
+    .menu__list,
+    .sub-menu {
+      list-style: none;
+      padding-inline-start: 10px;
+    }
+    a {
+      display: block;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      text-align: left;
+    }
+    a:hover { background-color: darkorange; }
+    .menu__item--active { background: #e22d30; }
+
+    .menu__link {
+      display: block;
+      padding: 10px 15px;
+      padding: 0.625rem 0.9375rem;
+      font-weight: 700;
+      color: #EEEEEE;
+      opacity: 0.8;
+    }
+
+    .menu__list .menu__item .sub-menu {
+      background: #e65321;
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      max-width: 15rem;
+      padding: 5px 5px;
+      transition: all 0.5s ease;
+      display: none;  
+      color: #EEEEEE;  
+      z-index: 9;
+    }
+
+    .menu__item.menu__dropdown input[type="checkbox"] {
+      display: none;
+    }
+
+    .menu__list .menu__item:hover > .sub-menu,
+    .menu__list .menu__item:focus-within > .sub-menu,
+    .menu__list .menu__item .sub-menu:hover,
+    .menu__list .menu__item .sub-menu:focus {
+      visibility: visible;
+      opacity: 1;
+      color: white;
+      display: block;
+    }
+
+    .menu__link:hover { color: white; opacity: 1; }
+    .sub-menu a.menu__link { border-top: 1px solid black; }
   }
 }
 
@@ -238,72 +318,6 @@ header {
 
 .cover { background-size: cover!important; }
 
-#navbar {
-  .ourman {padding-left: 15px;}
-  #btn-open { display: none;}
-  i.fa {display: none;}
-  i.fa-home {display: block;}
-  background-image: linear-gradient(110deg, #20123a 20%, #20123a 46%, #e65321 60%);
-  background-color: #20123a;
-  position: fixed; /* Make it stick/fixed */
-  top: 0; /* Stay on top */
-  width: 100%; /* Full width */
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
-  z-index: 25;
-  .menu__list,
-  .sub-menu {
-    list-style: none;
-    padding-inline-start: 10px;
-  }
-  a {
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    text-align: left;
-  }
-  a:hover { background-color: darkorange; }
-  .menu__item--active { background: #e22d30; }
-
-  .menu__link {
-    display: block;
-    padding: 10px 15px;
-    padding: 0.625rem 0.9375rem;
-    font-weight: 700;
-    color: #EEEEEE;
-    opacity: 0.8;
-  }
-
-  .menu__list .menu__item .sub-menu {
-    background: #e65321;
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    max-width: 15rem;
-    padding: 5px 5px;
-    transition: all 0.5s ease;
-    display: none;  
-    color: #EEEEEE;  
-    z-index: 9;
-  }
-
-  .menu__item.menu__dropdown input[type="checkbox"] {
-    display: none;
-  }
-
-  .menu__list .menu__item:hover > .sub-menu,
-  .menu__list .menu__item:focus-within > .sub-menu,
-  .menu__list .menu__item .sub-menu:hover,
-  .menu__list .menu__item .sub-menu:focus {
-    visibility: visible;
-    opacity: 1;
-    color: white;
-    display: block;
-  }
-
-  .menu__link:hover { color: white; opacity: 1; }
-  .sub-menu a.menu__link { border-top: 1px solid black; }
-}
 
 .tl p { text-align: left; }
 
@@ -340,6 +354,8 @@ footer {
 @media only screen and (max-width: 1040px) {
   header {
     .menu_text, .menu__link {font-size: x-large; }
+    .ourman {padding-bottom: 0;}
+    ul { margin: 0;}
   }
   footer {
     .socials { width: 100%}
@@ -376,7 +392,7 @@ footer {
 
 // Surface Pro
 @media only screen and (max-width: 912px) {
-  #navbar #btn-open { display: block;  }
+  header#navbar #btn-open { display: block;  }
   #drop {  display: none; }
   footer .flex-wrap { 
     flex-direction: column; 
@@ -406,6 +422,10 @@ footer {
 
 // Surface Duo
 @media only screen and (max-width: 540px) {
+  header#navbar .ourman {
+    padding-left: 0;
+    a {font-size: 1.75rem; }
+  }
   header {
     li { font-size: 1.25rem;}
     .menu_text, .menu__link {font-size: 1.2rem; }
@@ -414,7 +434,8 @@ footer {
 
 // iPhone XR
 @media only screen and (max-width: 414px) {
-  .ourman a {font-size: 2rem;}
+  header#navbar .ourman a {font-size: 1.5rem;}
+  header#navbar #btn-open { margin: 15px 15px;}
   #nav .menu__list { display: block; }
   #nav .menu__link, #nav .menu_text {font-size: xx-large; }
   .carousel { 
@@ -425,10 +446,10 @@ footer {
 
 // Samsung galaxy S20 and A51
 @media only screen and (max-width: 412px) {
-
 }
 
 @media only screen and (max-width: 375px) {
+  header#navbar .ourman a {font-size: 1.25rem;}
   #nav .menu__link, #nav .menu_text {font-size: x-large; }
 }
 
@@ -450,7 +471,7 @@ footer {
 
 // Galaxy Fold
 @media only screen and (max-width: 280px) {
-  #nav .ourman a {font-size: x-large;}
+  header#navbar .ourman a {font-size: 1rem;}
   #btn-open {font-size: 1.3rem; margin: 1.2rem}
   #nav .menu__link, #nav .menu_text {font-size: x-large; }
 }

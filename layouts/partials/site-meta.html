@@ -8,6 +8,8 @@
     {{"<!-- Description tags -->" | safeHTML }}
     <meta property="og:description" content="{{ $description | truncate 150 }}" />
     {{"<!-- Link tags -->" | safeHTML }}
+    <link rel="preload" href="/font/halimun/halimun.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/font/halimun/halimun.woff" as="font" type="font/woff" crossorigin>
     <base href="{{ .Permalink }}">
     <link rel="canonical" href="{{ .Permalink }}" itemprop="url" /> 
     <meta name="url" content="{{ .Permalink }}" />
