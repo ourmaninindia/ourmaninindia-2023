@@ -5,7 +5,7 @@ description : "Goa, where Vasco da Gama once landed only to be followed centurie
 title : "Contact me"
 cover : "office_3.png"
 featured_image : "header-study.jpg"
-disable_comments : false
+disable_comments : true
 type : "contact"
 ---
 
