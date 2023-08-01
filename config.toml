@@ -129,6 +129,7 @@ pygmentsCodefences = true
     contentDir = "content/en"
     languageName = "English"
     languageCode = "en-gb"
+  [languages.en.Params]
     languageFlag = "🇬🇧"
     unicode = "&#127468;&#127463;"
 
@@ -191,9 +192,9 @@ pygmentsCodefences = true
     contentDir = "content/nl"
     languageName = "Dutch"
     languageCode = "nl"
+ [languages.nl.params]
     languageFlag = "🇳🇱"
     unicode = "&#127475;&#127473;"
- [languages.nl.params]
     read_more_copy = "Lees meer"
 
 [[languages.nl.menu.main]]

@@ -356,3 +356,21 @@ hugo
 ```
 
 
+# Windows
+
+Assumed that chocolatey has been installed runthe following 
+```
+choco update hugo
+choco install hugo-extended
+```
+
+
+1. Check the current version of Hugo by typing hugo version in the terminal (command prompt).
+
+2. Download the latest version of Hugo from its releases page on GitHub. Make sure to download the hugo_extended version. Choose the correct ZIP file according to your OS configuration.
+
+3. Go to the Hugo bin folder on your local system, likely in C:\Hugo\bin. 
+
+4. Replace the three files in this bin folder (hugo.exe, LICENCE, and readme.md) with the new files from the ZIP file you downloaded in step 2.
+
+5. Make sure that the version has been updated by typing hugo version again in the terminal (compare it to the old version found in step 1).
