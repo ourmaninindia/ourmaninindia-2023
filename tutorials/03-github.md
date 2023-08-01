@@ -11,7 +11,7 @@ Copy the public key to Github under *Settings* and then *Deploy Keys*.
 Then add the key to the ssh agent:
 
 ```
-ssh-add ~/.ssh/id_ed25519-ourman
+ssh-add ~/.ssh/id_ed25519-ourmaninindia
 ```
 
 Multiple accounts should be configured in *\~/.ssh/config*
@@ -27,13 +27,13 @@ Host ourman
   HostName github.com
   User ourmaninindia
   AddKeysToAgent yes
-  IdentityFile ~/.ssh/id_ed25519-ourman
+  IdentityFile ~/.ssh/id_ed25519-ourmaninindia
 ```
 
 To clone though you may still need to specify the host 
 
 ```
-git clone git@ourman:ourmaninindia/ourmaninindia-23.git
+git clone git@ourman:ourmaninindia/ourmaninindia-2023.git
 ```
 
 
@@ -124,3 +124,14 @@ git status
 git lfs fsck
 ```
 
+# on Windows
+Start *gitBash*, not as the administrator, then the following will show a PID. 
+```
+eval $(ssh-agent -s)
+
+```
+If you have not done this before then add the key to the ssh agent 
+```
+ssh-add ~/.ssh/id_ed25519-ourmaninindia
+```
+In the gitBash terminal you can now move to the correct directory and push/pull the data 
