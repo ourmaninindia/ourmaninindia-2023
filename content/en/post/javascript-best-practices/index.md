@@ -38,7 +38,7 @@ for (let Thing of Things) {
 ```
 
 ### Naming conventions
-Camel case the function and variable names and don’t shorten them to save time. What is clear to you may not be clear to someone else. They have to be descriptive. Use function names with a verb as a prefix e.g. getSelected(){{< footnote-set "1" "https://www.30secondsofcode.org/js/s/naming-conventions/" >}}. 
+Camel case the function and variable names and don’t shorten them to save time. What is clear to you may not be clear to someone else. They have to be descriptive. Use function names with a verb as a prefix e.g. getSelected(){{< footnote-set "1" "https://www.30secondsofcode.org/js/s/naming-conventions/" "Angelos Chalaris in">}}. 
  
 
 
@@ -113,7 +113,7 @@ On the client side, the best way is to have a single file with all the client in
 - Event delegation with all the listeners for each event type like click, change, etc. This is really important and a major improvement upon having many separate event listeners. 
 
 
-No doubt there may be more improvements to be made but as mentioned it really depends on the size of your project. 
-
+No doubt there may be more improvements to be made but as mentioned it really depends on the size of your project. Look at the best practices W3C recommends {{< footnote-set "2" "https://www.w3.org/wiki/JavaScript_best_practices" "W3C advise in">}}. 
+ 
 
 {{< footnote-list "References" >}}

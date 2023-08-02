@@ -1,5 +1,8 @@
 {{ $hdr := .Get 0 }}
 {{ $list := .Page.Store.Get "footnotes"}}
 <div class=b>{{ $hdr }}:</div>
-{{ range  $key, $value := $list }}{{ $key}}: <a href="{{$value}}" target="_blank">{{$value}}</a><br/>{{end}}
+{{ range  $key, $value := $list }}
+{{ $values := split $value ","}}
+{{ $key}}: {{index $values 1}} <a href="{{index $values 0}}" target="_blank">{{ index $values 0}}</a><br/>
+{{end}}
 {{ .Page.Scratch.Delete "footnotes" }} 

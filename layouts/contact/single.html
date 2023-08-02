@@ -33,7 +33,8 @@
       <div class="mt6 instapaper_ignoref">
       {{ if .Site.DisqusShortname }}
         {{ if ne .Params.disable_comments true }}
-        {{ template "_internal/disqus.html" . }}
+          {{/* template "_internal/disqus.html" . */}}
+          {{ partial "disqus.html" . }}
         {{ end }}
       {{ end }}
       {{ if .Site.Params.commentoEnable }}

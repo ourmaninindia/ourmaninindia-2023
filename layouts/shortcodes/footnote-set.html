@@ -1,1 +1,5 @@
-{{ $id := .Get 0 }}{{ $val := .Get 1}}{{ .Page.Store.SetInMap "footnotes" $id $val }}<sup>{{ $id }}</sup>
+{{ $id   := .Get 0 }}
+{{ $href := .Get 1 }}
+{{ $name := .Get 2 }}
+{{ .Page.Store.SetInMap "footnotes" $id (delimit (slice $href $name) ", ") }}
+<sup>{{ $id }}</sup>
