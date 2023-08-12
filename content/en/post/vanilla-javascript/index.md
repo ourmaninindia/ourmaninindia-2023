@@ -27,5 +27,7 @@ To realise the risks of web projects, you only need to have a look at the OWASP 
 
 The Lean Web is an approach to web development that focuses on fast, resilient experiences that work for everyone.  The Lean Web is all about resilience. That means using HTML and CSS instead of JavaScript when the platform provides an appropriate solution. So embrace the platform! Simpler web development approaches are better for your developers, too!
 
+Aug 12: After writing the above I found a recent video by Kevin Powell making the same point: *it's really important to understand the core languages that all of those things are built on top of* and with those things he refers to frameworks like React, Tailwind etc.  
+{{< video HuI4fDxDM0g >}}
 
 {{< footnote-list "References" >}}

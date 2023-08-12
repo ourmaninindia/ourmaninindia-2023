@@ -29,10 +29,10 @@ HSBC did a study a few years ago on what would happen if 50% of their staff woul
 
 I cannot help but think we will hear of Dr Lipkin again…
 
-P.S. 
+P.S. And here are just a couple of talks with Dr Lipkin since his talk above:
 
+April 26, 2020 Shoma Chaudhury talking to Dr Lipkin: Eye-opening Ian Lipkin interview on Covid, India, China & how to get out of lockdowns
 
 {{< youtube 3TxtfdY58wE >}}
-
 
 March 31, 2020 - Listen to Dr Lipkin speaking on CNBC about [the Corona crisis](https://www.cnbc.com/2020/03/31/dr-ian-lipkin-coronavirus-shows-need-for-public-health-investment.html "The Corona crisis and the need to invest in public health") and the need to invest in public health.

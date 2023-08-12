@@ -137,35 +137,35 @@ pygmentsCodefences = true
   weight = 1
   identifier = "home"
   name = "Home"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
+  pre = "<i class=\"sidebar-button-icon home\"></i>"
   url = "/"
 
 [[languages.en.menu.main]]
   weight = 2
   identifier = "post"
   name = "Posts"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-edit\"></i>"
+  pre = "<i class=\"sidebar-button-icon edit\"></i>"
   url = "/post"
 
 [[languages.en.menu.main]]
   weight = 3
   identifier = "open-source"
   name = "Open Source"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-linux\"></i>"
+  pre = "<i class=\"sidebar-button-icon linux\"></i>"
   url = "/open--source"
 
 [[languages.en.menu.main]]
   weight = 4
   identifier = "categories"
   name = "Search"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
+  pre = "<i class=\"sidebar-button-icon bookmark\"></i>"
   url = "/categories"
 
 [[languages.en.menu.main]]
   weight = 5
   identifier = "about-me"
   name = "About"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
+  pre = "<i class=\"sidebar-button-icon question\"></i>"
 
 [[languages.en.menu.main]]
   weight = 51
@@ -201,34 +201,34 @@ pygmentsCodefences = true
   weight = 1
   identifier = "home"
   name = "Home"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
+  pre = "<i class=\"sidebar-button-icon home\"></i>"
   url = "/"
 
 [[languages.nl.menu.main]]
   weight = 2
   identifier = "post"
   name = "Posts"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-edit\"></i>"
+  pre = "<i class=\"sidebar-button-icon edit\"></i>"
   url = "/nl/post"
 
 [[languages.nl.menu.main]]
   weight = 3
   identifier = "open-source"
   name = "Open Source"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-linux\"></i>"
+  pre = "<i class=\"sidebar-button-icon linux\"></i>"
   url = "/open--source"
 
 [[languages.nl.menu.main]]
   weight = 4
   identifier = "categories"
   name = "Zoeken"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
+  pre = "<i class=\"sidebar-button-icon bookmark\"></i>"
   url = "/categories"
 
 [[languages.nl.menu.main]]
   weight = 5
   identifier = "about-me"
   name = "Over mij"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
+  pre = "<i class=\"sidebar-button-icon question\"></i>"
   url = "/about-me"
 
