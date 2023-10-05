@@ -31,6 +31,7 @@ figcaption {
     margin-top: 0;
     font-size: 1rem;;
     font-style: italic;
+    text-align: center;
   }
 }
 
@@ -89,6 +90,21 @@ sup .footnote {
     -webkit-perspective: 1000; 
 }
 
+.grid-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.grid-container.fr31 {
+  display: grid;
+  gap: 1rem; 
+  grid-template-columns: 3fr 1fr;
+}
+
+.grid-item p {
+  margin: 0;
+}
 
 /* leadership page */
 #leadership {

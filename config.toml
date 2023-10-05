@@ -16,6 +16,9 @@ canonifyURLs = false
 pygmentsUseClasses = true
 pygmentsCodefences = true
 
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
+
 [author]
   name     = "Our Man in India"
   bio      = "A man who is the representative of a country or organization in a particular place. The expert in the field."
