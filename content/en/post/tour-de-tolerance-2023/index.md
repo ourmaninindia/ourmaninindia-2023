@@ -5,7 +5,7 @@ date : 2023-09-26T22:00:00Z
 lastmod: ["lastmod", ":git", "date", "publishDate"]
 tags : ["Cycling","Italy"]
 title : "Tour de Tolerance 2023"
-read_more_copy : "Read more about this wonderful ride"
+read_more_copy : "Read more about this ride in the Alps"
 layout: "single-tdt"
 ---
 
@@ -22,8 +22,8 @@ For our journey we had two support buses each with three drivers. I had promised
 </div>
   <div class="grid-item">
 
-{{< figure figcaption="The food bus getting ready" class="left" >}}
-	{{< img src="20230830_food_bus.jpg"   alt="Our food bus" >}}
+{{< figure figcaption="The food bus getting ready" >}}
+	{{< img src="20230830_food_bus.jpg" alt="Our food bus" >}}
 {{< /figure >}}
 </div>
 </div>
@@ -47,7 +47,7 @@ After driving overnight to *Geneva* we sat down for a light breakfast not far fr
   <div class="grid-item">
 
 {{< figure figcaption="Enjoy the Savoi wine" >}}
-	{{< img src="20230831_Savoi_wine.jpg"   alt="Nice Savoi wine" >}}
+	{{< img src="20230831_Savoi_wine.jpg" alt="Nice Savoi wine" >}}
 {{< /figure >}}
 </div>
 </div>
@@ -78,7 +78,7 @@ Today we cycled 105km to the foot of the *Col du Grand Saint-Bernard (2469m)* ac
 	{{< img src="20230901_173826.jpg" alt="The last few miles" >}}
 {{< /figure >}}
 
-{{< figure figcaption="It took a lot of effort to reach this village of a few inhabitants but it was fabulous." class="left" >}}
+{{< figure figcaption="It took a lot of effort to reach this village of a few inhabitants but it was fabulous." >}}
 	{{< img src="20230901_accommodation.jpg" alt="It took a lot of effort to reach this village of a few inhabitants" >}}
 {{< /figure >}}
 
@@ -198,7 +198,7 @@ This was a day of rest. With my sleepy head I had forgotten that my bike was on 
 </div>
   <div class="grid-item">
 
-{{< figure figcaption="View from our room" class="left" >}}
+{{< figure figcaption="View from our room" >}}
 	{{< img src="20230905_view_from_our_room.jpg" alt="What a view" >}}
 {{< /figure >}}
 </div>
@@ -226,7 +226,7 @@ We had a short 7km descent before the 12km climb to the *Col du Télégraphe (15
 	{{< img src="20230906_104013.jpg" alt="The Col du Galibier" >}}
 {{< /figure >}}
 
-{{< figure figcaption="The *Col du Galibier*" class="left" >}}
+{{< figure figcaption="The Col du Galibier" >}}
 	{{< img src="20230906_galibier.jpg" alt="The Col du Galibier" >}}
 {{< /figure >}}
 </div>
@@ -259,7 +259,7 @@ We covered two cols and a final climb today. The first to *Col de Montgenevre (1
 	{{< img src="20230907_144801.jpg" alt="The Olympic village" >}}
 {{< /figure >}}
 
-{{< figure figcaption="View from our room. What a climb we made!" class="left" >}}
+{{< figure figcaption="View from our room. What a climb we made!" >}}
 	{{< img src="20230907_view_from_our_hotel.jpg" alt="What a view" >}}
 {{< /figure >}}
 
@@ -311,7 +311,7 @@ After breakfast I drove to Geneva airport to drop of two of the guys and we cont
 </div>
   <div class="grid-item">
 
-{{< figure figcaption="The Swiss Alps" class="left" >}}
+{{< figure figcaption="The Swiss Alps" >}}
 	{{< img src="IMG_20230909_switzerland.jpg" alt="What a view crossing Switzerland" >}}
 {{< /figure >}}
 </div>
