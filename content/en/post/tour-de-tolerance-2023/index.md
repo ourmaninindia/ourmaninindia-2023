@@ -5,7 +5,7 @@ date : 2023-09-26T22:00:00Z
 lastmod: ["lastmod", ":git", "date", "publishDate"]
 tags : ["Cycling","Italy"]
 title : "Tour de Tolerance 2023"
-read_more_copy : "Read more about this wonderful ride"
+read_more_copy : "Read more about this ride in the Alps"
 layout: "single-tdt"
 ---
 
@@ -14,7 +14,7 @@ After two years cycling in the Dolomites, I missed last years’ tour in the Pyr
 I had trained quite a lot to join this years’ tour which covered the route from Geneva to Turin. Training for the mountains though is really difficult unless you are actually in the mountains. 
 
 
-# Aug 30 Delft to Amsterdam (71km)
+### Aug 30 Delft to Amsterdam (71km)
 <div class="grid-container fr31">
   <div class="grid-item">
 
@@ -22,13 +22,13 @@ For our journey we had two support buses each with three drivers. I had promised
 </div>
   <div class="grid-item">
 
-{{< figure figcaption="The food bus getting ready" class="left" >}}
-	{{< img src="20230830_food_bus.jpg"   alt="Our food bus" >}}
+{{< figure figcaption="The food bus getting ready" >}}
+	{{< img src="20230830_food_bus.jpg" alt="Our food bus" >}}
 {{< /figure >}}
 </div>
 </div>
 
-# Aug 31 Geneva to Les Carroz d’Araches (56km, 1,230 metres)
+### Aug 31 Geneva to Les Carroz d’Araches (56km, 1,230 metres)
 
 <div class="grid-container">
   <div class="grid-item">
@@ -47,12 +47,12 @@ After driving overnight to *Geneva* we sat down for a light breakfast not far fr
   <div class="grid-item">
 
 {{< figure figcaption="Enjoy the Savoi wine" >}}
-	{{< img src="20230831_Savoi_wine.jpg"   alt="Nice Savoi wine" >}}
+	{{< img src="20230831_Savoi_wine.jpg" alt="Nice Savoi wine" >}}
 {{< /figure >}}
 </div>
 </div>
 
-# Sept 1 Les Carroz d’Araches to Orsières (105km, 2,510 metres)
+### Sept 1 Les Carroz d’Araches to Orsières (105km, 2,510 metres)
 <div class="grid-container">
   <div class="grid-item">
 
@@ -78,7 +78,7 @@ Today we cycled 105km to the foot of the *Col du Grand Saint-Bernard (2469m)* ac
 	{{< img src="20230901_173826.jpg" alt="The last few miles" >}}
 {{< /figure >}}
 
-{{< figure figcaption="It took a lot of effort to reach this village of a few inhabitants but it was fabulous." class="left" >}}
+{{< figure figcaption="It took a lot of effort to reach this village of a few inhabitants but it was fabulous." >}}
 	{{< img src="20230901_accommodation.jpg" alt="It took a lot of effort to reach this village of a few inhabitants" >}}
 {{< /figure >}}
 
@@ -87,7 +87,7 @@ Today we cycled 105km to the foot of the *Col du Grand Saint-Bernard (2469m)* ac
 </div>
 </div>
 
-# Sept 2 Osières to Aosta (61km, 2,450 metres) 
+### Sept 2 Osières to Aosta (61km, 2,450 metres) 
 <div class="grid-container">
   <div class="grid-item">
 
@@ -125,7 +125,7 @@ The way down was a long beautiful descent, most of it following a river, with gr
 </div>
 
 
-# Sept 3 Aosta to Séez (78km, 2,070 metres)
+### Sept 3 Aosta to Séez (78km, 2,070 metres)
 <div class="grid-container">
   <div class="grid-item">
 
@@ -153,7 +153,7 @@ Today we climbed 55km to the *Colle del Piccolo San Bernardo* or *Col du Petit-S
 </div>
 </div>
 
-# Sept 4 Séez to Orelle (110km, 2,750 metres) 
+### Sept 4 Séez to Orelle (110km, 2,750 metres) 
 <div class="grid-container">
   <div class="grid-item">
 
@@ -190,7 +190,7 @@ The way down to our accommodation in *Résidence Orelle* was some 68km down the 
 </div>
 </div>
 
-# Sept 5 Rest day
+### Sept 5 Rest day
 <div class="grid-container fr31">
   <div class="grid-item">
 
@@ -198,13 +198,13 @@ This was a day of rest. With my sleepy head I had forgotten that my bike was on 
 </div>
   <div class="grid-item">
 
-{{< figure figcaption="View from our room" class="left" >}}
+{{< figure figcaption="View from our room" >}}
 	{{< img src="20230905_view_from_our_room.jpg" alt="What a view" >}}
 {{< /figure >}}
 </div>
 </div>
 
-# Sept 6 Orelle to Saint-Chaffrey (71km, 2,220 metres)
+### Sept 6 Orelle to Saint-Chaffrey (71km, 2,220 metres)
 <div class="grid-container">
   <div class="grid-item">
 
@@ -226,13 +226,13 @@ We had a short 7km descent before the 12km climb to the *Col du Télégraphe (15
 	{{< img src="20230906_104013.jpg" alt="The Col du Galibier" >}}
 {{< /figure >}}
 
-{{< figure figcaption="The *Col du Galibier*" class="left" >}}
+{{< figure figcaption="The Col du Galibier" >}}
 	{{< img src="20230906_galibier.jpg" alt="The Col du Galibier" >}}
 {{< /figure >}}
 </div>
 </div>
 
-# Sept 7 Saint-Chaffrey (Briancon) to Fenestrelle (63km, 1,940 metres)
+### Sept 7 Saint-Chaffrey (Briancon) to Fenestrelle (63km, 1,940 metres)
 <div class="grid-container">
   <div class="grid-item">
 
@@ -259,7 +259,7 @@ We covered two cols and a final climb today. The first to *Col de Montgenevre (1
 	{{< img src="20230907_144801.jpg" alt="The Olympic village" >}}
 {{< /figure >}}
 
-{{< figure figcaption="View from our room. What a climb we made!" class="left" >}}
+{{< figure figcaption="View from our room. What a climb we made!" >}}
 	{{< img src="20230907_view_from_our_hotel.jpg" alt="What a view" >}}
 {{< /figure >}}
 
@@ -267,7 +267,7 @@ We covered two cols and a final climb today. The first to *Col de Montgenevre (1
 </div>
 </div>
 
-# Sept 8 Final stretch to Turin (109km, 1,110 metres)
+### Sept 8 Final stretch to Turin (109km, 1,110 metres)
 <div class="grid-container">
   <div class="grid-item">
 
@@ -303,7 +303,7 @@ This day comprised of two short cols. First we descended some 40km from our hote
 </div>
 
 
-# Sept 9 Homeward bound
+### Sept 9 Homeward bound
 <div class="grid-container fr31">
   <div class="grid-item">
 
@@ -311,7 +311,7 @@ After breakfast I drove to Geneva airport to drop of two of the guys and we cont
 </div>
   <div class="grid-item">
 
-{{< figure figcaption="The Swiss Alps" class="left" >}}
+{{< figure figcaption="The Swiss Alps" >}}
 	{{< img src="IMG_20230909_switzerland.jpg" alt="What a view crossing Switzerland" >}}
 {{< /figure >}}
 </div>
@@ -319,7 +319,7 @@ After breakfast I drove to Geneva airport to drop of two of the guys and we cont
 
 <hr>
 
-## Notes
+#### Notes
 
 I had purchased a rear light with a radar on advise from a friend in Goa as Indian drivers are notoriously bad and rarely know or obey traffic rules. The radar connects with my Garmin and warns for traffic behind me. This purchase turned out to be really useful in the Alps. While I expected it to be useful for the tunnels it was even better for the descents where you tend to ride in the middle of the road due to the very high speed. On open roads motor bikes tend to cross you at absurd speed. Cars tend to be slower and therefore less dangerous but still good to avoid having one behind you especially in case you get a flat tire.
 
