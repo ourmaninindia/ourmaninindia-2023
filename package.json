@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/ourmaninindia/ourmaninindia-23#readme",
   "dependencies": {
-    "@netlify/plugin-lighthouse": "^4.0.5",
     "docdash": "^2.0.1",
     "jsdoc": "^4.0.2",
     "jsdoc-to-markdown": "^8.0.0"
