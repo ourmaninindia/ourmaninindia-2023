@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>Tutorial: Getting Started - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/ourmaninindia/ourmaninindia-2023" target="_blank" class="menu-item" id="repository" >Github repo</a></h2><h3>Tutorials</h3><ul><li><a href="tutorial-01-getting-started.html">Getting Started</a></li><li><a href="tutorial-02-netlify.html">Netlify</a></li><li><a href="tutorial-03-github.html">GitHub</a></li><li><a href="tutorial-04-hugo.html">Hugo</a></li><li><a href="tutorial-05-javascript.html">Javascripts</a></li><li><a href="tutorial-06-images.html">Images</a></li><li><a href="tutorial-07-css.html">Styles</a></li><li><a href="tutorial-08-netlify.html">Netlify</a></li><li><a href="tutorial-08-pwa.html">08-pwa</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">Tutorial: Getting Started</h1>
+    
+
+    <section>
+
+<header>
+    
+
+    <h2>Getting Started</h2>
+</header>
+
+<article>
+    <h1>Getting Started</h1>
+<p>This web site is based on Hugo 0.110 with theme Ananke. All Ananka layouts etc were copied and adapted so in principle the theme is no longer required.</p>
+<ul>
+<li>Hugo theme Ananke - this is not always copied as it is a submodule</li>
+<li>netlify.com for hosting</li>
+<li>for images I am now using Hugo's page bundles which makes the management of images quite easy</li>
+</ul>
+<p>Hugo features</p>
+<ul>
+<li>Responsive</li>
+<li>Accessible</li>
+<li>Contact and subscribe form using Formspree</li>
+<li>Custom Robots.txt (changes values based on environment)</li>
+<li>Internal templates for meta data, google analytics, and DISQUS or COMMENTO comments</li>
+<li>RSS Discovery</li>
+<li>Table of Contents (must declare <code>toc: true</code> in post parameter)</li>
+<li>Stackbit configuration (<a href="https://www.stackbit.com">Stackbit</a>)</li>
+</ul>
+<p>Also includes examples of Hugo Features or Functions:</p>
+<ul>
+<li>Pagination (internal template)</li>
+<li>Taxonomies</li>
+<li>Archetypes</li>
+<li>Custom shortcode</li>
+<li>Related content</li>
+<li>Hugo built-in menu</li>
+<li>i18n</li>
+<li><code>with</code></li>
+<li><code>HUGO_ENV</code></li>
+<li><code>first</code></li>
+<li><code>after</code></li>
+<li><code>sort</code></li>
+<li>Site LanguageCode</li>
+<li><code>where</code></li>
+<li>Content Views</li>
+<li>Partials</li>
+<li>Template layouts (type &quot;post&quot; uses a special list template, single template, and a content view)</li>
+<li>Tags</li>
+<li><code>len</code></li>
+<li>Conditionals</li>
+<li><code>ge</code> (greater than or equal to)</li>
+<li><code>.Site.Params.mainSections</code> to avoid hard-coding &quot;blog,&quot; etc. [<a href="https://github.com/gohugoio/hugo/blob/66ec6305f6cb450ddf9c489854146bac02f7dca1/docs/content/meta/release-notes.md#enhancements">release note</a>]</li>
+</ul>
+<p>This theme uses the &quot;Tachyons&quot; CSS library. This will allow you to manipulate the design of the theme by changing class names in HTML without touching the original CSS files. For more information see the <a href="https://tachyons.io/">Tachyons website</a>.</p>
+<h2>Installation of Ananke theme</h2>
+<h3>As a Hugo Module (recommended)</h3>
+<blockquote>
+<p>⚠️ If you installed a <a href="https://gohugo.io/getting-started/installing/#binary-cross-platform">Hugo binary</a>, you may not have Go installed on your machine. To check if Go is installed:</p>
+<pre class="prettyprint source"><code>$ go version
+</code></pre>
+<p>Go modules were considered production ready in v1.14. <a href="https://golang.org/dl/">Download Go</a>.</p>
+</blockquote>
+<ol>
+<li>
+<p>From your project's root directory, initiate the hugo module system if you haven't already:</p>
+<pre class="prettyprint source"><code>$ hugo mod init github.com/&lt;your_user>/&lt;your_project>
+</code></pre>
+</li>
+<li>
+<p>Add the theme's repo to your <code>config.toml</code>:</p>
+<pre class="prettyprint source lang-toml"><code>theme = [&quot;github.com/theNewDynamic/gohugo-theme-ananke&quot;]
+</code></pre>
+</li>
+</ol>
+<h3>As Git Submodule</h3>
+<p>Inside the folder of your Hugo site run:</p>
+<pre class="prettyprint source"><code>$ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+</code></pre>
+<p>For more information read the official <a href="//gohugo.io/overview/installing/">setup guide</a> of Hugo.</p>
+<p>After installing the theme successfully it requires a just a few more steps to get your site running.</p>
+<h3>The config file</h3>
+<p>Take a look inside the config.toml for all the configurations.</p>
+<h3>Add comments</h3>
+<p>To enable comments, add following to your config file:</p>
+<ul>
+<li>DISQUS: <code>disqusShortname = YOURSHORTNAME</code></li>
+<li>COMMENTO:<pre class="prettyprint source"><code>[params]
+  commentoEnable = true
+</code></pre>
+</li>
+</ul>
+<h3>Change the hero background</h3>
+<p>For any page or post you can add a featured image by including the local path in front matter e.g.</p>
+<p><code>featured_image: '/images/gohugo-default-sample-hero-image.jpg'</code></p>
+<h4>Featured image as Page Resources</h4>
+<p>We use Page Resources meaning all images are stored within the same content fonder. If no <code>featured_image</code> is set, the theme will look for a Page Resource of type <code>image</code> whose filepath incudes either <code>cover</code> or <code>feature</code></p>
+<h4>Other hero settings</h4>
+<p>If you would like to hide the header text on the featured image on a page, set <code>omit_header_text</code> to <code>true</code>.</p>
+<p>You don't need an image though. The default background color is black, but you can change the color, by changing the default color class in the config.toml file. Choose a background color from any on the <a href="https://tachyons.io/docs/themes/skins/">Tachyons</a> library site, and preface it with &quot;bg-&quot;</p>
+<p>example: <code>background_color_class = &quot;bg-blue&quot;</code> or <code>background_color_class = &quot;bg-gray&quot;</code></p>
+<h3>Activate the contact form</h3>
+<p>This theme includes a shortcode for a contact form that you can add to any page (there is an example on the contact page in the exampleSite folder). One option is to use <a href="//formspree.io/">formspree.io</a> as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Visit the Formspree site to get the &quot;action&quot; link and add it to your shortcode like this:</p>
+<pre class="prettyprint source"><code>{{&lt; form-contact action=&quot;https://formspree.io/your@email.com&quot; >}}
+</code></pre>
+<h3>Read more link</h3>
+<p>The homepage and other areas of the site use a <code>read more</code> link on the element. You can customize the copy of this link to make it more descriptive with the parameter <code>read_more_copy</code> available as a site and front matter parameter.</p>
+<pre class="prettyprint source"><code># config.yaml
+# Globally for all pages:
+params:
+  read_more_copy: Read more about this entry
+# Just for french
+languages:
+  fr:
+    name: Français
+    weight: 2
+    params:
+       read_more_copy: En savoir plus à ce sujet
+</code></pre>
+<p>Using front matter and cascade, this can be customized for a whole section, or just for one page.</p>
+<pre class="prettyprint source"><code># content/posts/tower-bridge-london.md
+  title: The Tower Bridge of London
+  read_more_copy: Read more about this bridge
+</code></pre>
+<h3>Social Follow + Share</h3>
+<p>The theme automatically adds &quot;Follow&quot; link icons to the header and footer and &quot;Share&quot; link icons to pages unless <code>disable_share</code> parameter is set to true either on the site level (site params) or page level (front matter). Each built-in services sports a label, an icon and a color.</p>
+<p>In order to register a service to be used, user must add an <code>ananke_socials</code> parameter to its project configuration file and list them through it in the desired order. Each entry must bear a</p>
+<ul>
+<li>name*: It matches the built-in service reference (Ex: twitter, github)</li>
+<li>url*: The url of the handle's profile on the service (Ex: https://twitter.com/theNewDynamic, https://github.com/
+theNewDynamic)</li>
+<li>rel: (default: <code>noopener</code>) Controls the <code>rel</code> attribute of the &quot;follow&quot; link. Useful for Mastodon verification which requires a <code>rel=&quot;me&quot;</code> on the link.</li>
+</ul>
+<pre class="prettyprint source lang-yaml"><code>params:
+  ananke_socials:
+  - name: twitter
+    url: https://twitter.com/theNewDynamic
+  - name: github
+    url: https://github.com/theNewDynamic
+  - name: mastodon
+    url: https://social.example.com/@username
+    rel: me noopener
+</code></pre>
+<p>If user needs to overwrite default <code>color</code> and <code>label</code> of the service, they simply need to append the following to the entry:</p>
+<ul>
+<li>label: The displayed name of the service to be used to popuplate <code>[title]</code> attributes and read-only. (Ex: Twitter, GitHub)</li>
+<li>color: Used for styling purposes. (Ex: '#1da1f2', '#6cc644')</li>
+</ul>
+<pre class="prettyprint source lang-yaml"><code>params:
+  ananke_socials:
+  - name: twitter
+    url: https://twitter.com/theNewDynamic
+    label: TND Twitter
+  - name: github
+    url: https://github.com/theNewDynamic
+    label: TND GitHub Account
+    color: '#ff6800'
+</code></pre>
+<h4>Limit Follow or Share</h4>
+<p>If a user needs to control Share and Follow of a service, for example enabling &quot;Share on Facebook&quot; without having a Facebook Page to &quot;follow&quot;, they can set <code>follow: false</code> one the registered service.</p>
+<pre class="prettyprint source lang-yaml"><code>params:
+  ananke_socials:
+  - name: facebook
+    label: Facebook
+    follow: false
+  - name: twitter
+    url: https://twitter.com/theNewDynamic
+    label: TND Twitter
+</code></pre>
+<h4>Social Icons Customization</h4>
+<p>On top of easily customizing the built-in services' label and color, user can overwrite their icon by adding an svg file at <code>/assets/ananke/socials</code> with a filename matching the service's name.
+For example, in order to use your own GitHub icon, simply add an svg file at <code>/assets/ananke/socials/github.svg</code></p>
+<h4>Built-in Services</h4>
+<p>Here is the list of built-in services. Those marked with an <code>*</code> are also part of the &quot;Share&quot; module.</p>
+<ul>
+<li>twitter*</li>
+<li>instagram</li>
+<li>youtube</li>
+<li>github</li>
+<li>gitlab</li>
+<li>keybase</li>
+<li>linkedin*</li>
+<li>medium</li>
+<li>mastodon</li>
+<li>slack</li>
+<li>stackoverflow</li>
+<li>facebook*</li>
+<li>rss</li>
+</ul>
+<h4>Complement</h4>
+<p>In order to add an unkown service (absent from the list above), you simply need to add all three settings to <code>ananke_socials</code>: name, url, label, color, and optionally add an icon file matching the <code>name</code> to the <code>assets/ananke/socials</code> directory. In the absence of an icon, the theme will print the service's label.</p>
+<h3>Content indexing</h3>
+<p>If the theme is ran in <a href="#production">production</a>, pages will be indexed by search engines. To prevent indexing on some given pages, add <code>private: true</code> to its Front Matter.</p>
+<h3>Update font or body classes</h3>
+<p>The theme is set, by default, to use a near-white background color and the &quot;Avenir&quot; or serif typeface. You can change these in your config file with the <code>body_classes</code> parameter, like this:</p>
+<pre class="prettyprint source"><code>[params]
+  body_classes = &quot;avenir bg-near-white&quot;
+</code></pre>
+<p>which will give you a body class like this:</p>
+<pre class="prettyprint source"><code>&lt;body class=&quot;avenir bg-near-white&quot;>
+</code></pre>
+<p>note: The <code>body_classes</code> parameter will not change the font used in post content. To do this, you must use the <code>post_content_classes</code> parameter.</p>
+<p>You can find a list of available typefaces <a href="https://github.com/tachyons-css/tachyons/blob/v4.7.0/src/_font-family.css">here</a>.</p>
+<p>And a list of background colors <a href="https://github.com/tachyons-css/tachyons/blob/v4.7.0/src/_skins.css#L96">here</a>.</p>
+<p><em>n.b. in future versions we will likely separate the typeface and other body classes.</em></p>
+<h3>CSS</h3>
+<p>Ananke stylesheet is built with Hugo Pipes's <a href="https://gohugo.io/hugo-pipes/bundling/#readout">Asset Bundling</a> alone to maximize compatibiliy. The theme simply bundles its several files into one minified and fingerprinted (in production) CSS file.</p>
+<p>Ananke uses <a href="https://tachyons.io/">Tachyon.io</a> utility class library.</p>
+<h4>Custom CSS</h4>
+<p>Custom CSS only works with Hugo Extended (installed here).</p>
+<p>In order to complement the default CSS, we have added a custom scss file to the project in the <code>assets/ananke/css</code> directory.
+The file using the <code>custom_css</code> key in the site's parameter is registered in the config.toml file.</p>
+<p>The css file(s) will be added in their registered order to final <code>main.css</code> file.</p>
+<p>For example, if your css files are <code>assets/ananke/css/custom.css</code> and <code>assets/ananke/special.css</code> then add the following to the config file:</p>
+<pre class="prettyprint source"><code>  [params]
+    custom_css = [&quot;custom.css&quot;,&quot;special.css&quot;]
+</code></pre>
+<p><strong>IMPORTANT</strong>: Files registered through the <code>custom_css</code> array, while unlimited in number, must be of the same type (Ex: all <code>scss</code> or all <code>css</code>)</p>
+<p><strong>Note on retrocompatibiliy for custom css</strong>: If the files registered through the <code>custom_css</code> setting are not found in <code>assets/ananke/css</code> the theme will expect them to live at the given path relative to the static directory and load them as <link> requests.</p>
+<h3>Show Reading Time and Word Count</h3>
+<p>If you add a key of <code>show_reading_time</code> true to either the Config Params, a page or section's front matter, articles will show the reading time and word count.</p>
+<h3>Adding Scripts to the Page Head</h3>
+<p>Some scripts need to be added within the page head. To add your own scripts to the page head, simply insert them into the <code>head-additions.html</code> partial located in the <code>layouts/partials</code> folder.</p>
+<h3>Logo</h3>
+<p>You can replace the title of your site in the top left corner of each page with your own logo. To do that put your own logo into the <code>static</code> directory of your website, and add the <code>site_logo</code> parameter to the site params in your config file. For example:</p>
+<pre class="prettyprint source"><code>[params]
+  site_logo = &quot;img/logo.svg&quot;
+</code></pre>
+<h3>Set Content Font Color</h3>
+<p>You can set the font color of the main content both globally and on individual pages:</p>
+<p>Globally:
+Set the <code>text_color</code> param in the <code>config.toml</code> file.</p>
+<pre class="prettyprint source"><code>[params]
+  text_color = &quot;green&quot;
+</code></pre>
+<p>Individual Page (prioritized over global):
+Set the <code>text_color</code> param in a page's markdown file front matter.</p>
+<p>note: The value of <code>text_color</code> must be a valid tachyons color class. A list can be found <a href="https://tachyons.io/docs/themes/skins/">here</a>.</p>
+<h3>Localize date format</h3>
+<p>Dates of blog posts and single pages are rendered with the default date format commonly used in the USA and Canada. It is possible to specify a different format.</p>
+<pre class="prettyprint source"><code>[params]
+  date_format = &quot;2. January 2006&quot;
+</code></pre>
+<p>You can also use predefined layout, like <code>:date_full</code>, and it will output localized dates or times.
+See hugo's documentation of the <a href="https://gohugo.io/functions/dateformat/"><code>time.Format</code> function</a> for more details.</p>
+<h3>Nearly finished</h3>
+<p>In order to see your site in action, run Hugo's built-in local server.</p>
+<p><code>$ hugo server</code></p>
+<p>Now enter <a href="http://localhost:1313/"><code>localhost:1313</code></a> in the address bar of your browser.</p>
+<h2>Production</h2>
+<p>To run in production (e.g. to have Google Analytics show up), run <code>HUGO_ENV=production</code> before your build command. For example:</p>
+<pre class="prettyprint source"><code>HUGO_ENV=production hugo
+</code></pre>
+<p>Note: The above command will not work on Windows. If you are running a Windows OS, use the below command:</p>
+<pre class="prettyprint source"><code>set HUGO_ENV=production
+hugo
+</code></pre>
+<h1>Windows</h1>
+<p>Assumed that chocolatey has been installed runthe following</p>
+<pre class="prettyprint source"><code>choco update hugo
+choco install hugo-extended
+</code></pre>
+<ol>
+<li>
+<p>Check the current version of Hugo by typing hugo version in the terminal (command prompt).</p>
+</li>
+<li>
+<p>Download the latest version of Hugo from its releases page on GitHub. Make sure to download the hugo_extended version. Choose the correct ZIP file according to your OS configuration.</p>
+</li>
+<li>
+<p>Go to the Hugo bin folder on your local system, likely in C:\Hugo\bin.</p>
+</li>
+<li>
+<p>Replace the three files in this bin folder (hugo.exe, LICENCE, and readme.md) with the new files from the ZIP file you downloaded in step 2.</p>
+</li>
+<li>
+<p>Make sure that the version has been updated by typing hugo version again in the terminal (compare it to the old version found in step 1).</p>
+</li>
+</ol>
+</article>
+
+</section>
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.2</a> on Sat Nov 11 2023 11:32:04 GMT+0100 (Central European Standard Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+</body>
+</html>

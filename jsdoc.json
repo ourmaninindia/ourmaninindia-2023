@@ -17,7 +17,8 @@
   },
   "opts": {
     "recurse": true,
-    "destination": "./docs/",
+    "readme": "./readme/readme.md",
+    "destination": "./content/en/docs/",
     "tutorials":"./tutorials",
     "template": "node_modules/docdash"   
   },
