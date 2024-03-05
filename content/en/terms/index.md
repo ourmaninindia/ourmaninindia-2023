@@ -15,7 +15,7 @@ noindex : true
 {{< table-of-contents >}}
 
 # Intellectual Property Rights
-All material in this web site, such as photos, music, written works, and graphics are our interlectual property rights. However, we have highlighted the permission to use them under the Creative Commons' "Attribution-ShareAlike 4.0 International" rule. See the link on the footer of this web site.
+All material in this web site, such as photos, music, written works, and graphics are our interlectual property rights. However, we have highlighted the permission to use them under the Creative Commons' *"Attribution-ShareAlike 4.0 International"* rule. See http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1.
 
 # Services Terms
 This Service Agreement may lead to 'Our Man in India' to be hired as a contractor in Finance and/or IT. However, no services will be provided unless specifically agreed upon in a separate Service Agreement also specifying the Payment Terms. 

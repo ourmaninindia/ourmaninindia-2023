@@ -1,0 +1,90 @@
+
+/* 
+*  -------------------- Variables -------------------- 
+*/
+
+:root {  
+    --rem0:0;
+    --rem1:.25rem;
+    --rem2:.5rem;
+    --rem3:1rem;
+    --rem4:2rem;
+    --rem5:4rem;
+    --rem6:8rem;
+    --rem7:16rem;
+  
+    --font-size1: 3rem;
+    --font-size2: 2.25rem;
+    --font-size3: 1.5rem;
+    --font-size4: 1.25rem;
+    --font-size5: 1rem;
+    --font-size6: 0.875rem;
+    --font-size7: 0.75rem; 
+    --font-size8: 0.65rem; 
+      
+    --max-width-100: 100%;
+    --max-width0: none;
+    --max-width1: 1rem;
+    --max-width2: 2rem;
+    --max-width3: 4rem;
+    --max-width4: 8rem;
+    --max-width5: 16rem;
+    --max-width6: 32rem;
+    --max-width7: 48rem;
+    --max-width8: 64rem;
+    --max-width9: 96rem;
+  }
+  
+  // margin-top
+  .mt6 {
+    margin-top: var(--rem6);
+  }
+  
+  .black-90 { color: rgba(0, 0, 0, 0.9);}
+  .black-80 { color: rgba(0, 0, 0, 0.8);}
+  .black-70 { color: rgba(0, 0, 0, 0.7);}
+  .black-60 { color: rgba(0, 0, 0, 0.6);}
+  .black-50 { color: rgba(0, 0, 0, 0.5);}
+  .black-40 { color: rgba(0, 0, 0, 0.4);}
+  .black-30 { color: rgba(0, 0, 0, 0.3);}
+  .black-20 { color: rgba(0, 0, 0, 0.2);}
+  .black-10 { color: rgba(0, 0, 0, 0.1);}
+  .black-05 { color: rgba(0, 0, 0, 0.05);}
+  
+  .white-90 { color: hsla(0, 0%, 100%, 0.9);}
+  .white-80 { color: hsla(0, 0%, 100%, 0.8);}
+  .white-70 { color: hsla(0, 0%, 100%, 0.7);}
+  .white-60 { color: hsla(0, 0%, 100%, 0.6);}
+  .white-50 { color: hsla(0, 0%, 100%, 0.5);}
+  .white-40 { color: hsla(0, 0%, 100%, 0.4);}
+  .white-30 { color: hsla(0, 0%, 100%, 0.3);}
+  .white-20 { color: hsla(0, 0%, 100%, 0.2);}
+  .white-10 { color: hsla(0, 0%, 100%, 0.1);}
+
+  .black          { color: #000;}
+  .near-black     { color: #111;}
+  .dark-gray      { color: #333;}
+  .mid-gray       { color: #555;}
+  .gray           { color: #777;}
+  .silver         { color: #999;}
+  .light-silver   { color: #aaa;}
+  .moon-gray      { color: #ccc;}
+  .light-gray     { color: #eee;}
+  .near-white     { color: #f4f4f4;}
+  .white          { color: #fff;}
+  .dark-red       { color: #e7040f;}
+  .red            { color: #ff4136;}
+  .light-red      { color: #ff725c; }
+  .orange         { color: #ff6300;}
+  .gold           { color: #ffb700;}
+  .yellow         { color: gold;}
+  .light-yellow   { color: #fbf1a9;}
+  .dark-green     { color: #137752;}
+  .green          { color: #19a974;}
+  .light-green    { color: #9eebcf;}
+  .navy           { color: #001b44;}
+  .dark-blue      { color: #00449e;}
+  .blue           { color: #357edd;}
+  .light-blue     { color: #96ccff;}
+  .lightest-blue  { color: #cdecff;}
+  

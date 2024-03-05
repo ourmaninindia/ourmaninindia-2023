@@ -1,15 +1,18 @@
-<script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-TLB6883"></script>
+{{- $cookie     := resources.Get "/js/cookieconsent-config.js" }}
+{{- $umd        := resources.Get "/js/cookieconsent.umd.js" }}
 
-{{- $cookie   := resources.Get "/js/cookie-consent3.js" }}
-{{- $share    := resources.Get "/js/share-options.js" -}}
-{{- $carousel := resources.Get "/js/carousel.js" }} 
-{{- $sw       := resources.Get "/js/sw.js" -}}
+{{- $share      := resources.Get "/js/share-options.js" -}}
+{{- $carousel   := resources.Get "/js/carousel.js" }} 
+{{- $sw         := resources.Get "/js/sw.js" -}}
 
-{{- $js := slice $sw $cookie $carousel | resources.Concat "js/script.js"   }}
+{{- $js         := slice $sw $carousel | resources.Concat "js/script.js" }}
+{{- $cook       := slice $umd $cookie | resources.Concat "js/cookie.js" }}
 
 <!-- minify only when you are not in development mode -->
 {{- if eq hugo.Environment "production" -}}
     {{- $js = $js | minify | fingerprint -}}
+    {{- $cookie = $cookie | minify | fingerprint -}}
 {{- end -}}
 
-<script src="{{ $js.RelPermalink }}" ></script>
+<script type="module" src="{{ $js.RelPermalink }}"></script>
+<script type="module" src="{{ $cook.RelPermalink }}"></script>

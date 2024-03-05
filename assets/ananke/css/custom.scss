@@ -1,3 +1,32 @@
+
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: .75em;
+  vertical-align: -15%;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 14px;
+  line-height: 1;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.w-30-l {
+  width: 10%;
+} 
+
+/* 
+*  -------------------- Custom -------------------- 
+*/
+
+*, *::before, *::after {
+  box-sizing: border-box
+}
+
 @font-face {
   font-family: 'Halimun';
   font-style: normal;
@@ -10,11 +39,51 @@
        url('/font/halimun/halimun.eot'); /* IE9 Compat Modes */
  }
 
+body {
+  margin: 0;
+  font-family: "athelas, avenir next,avenir,sans-serif"; 
+  background-color:#fff;
+}
+
+main {
+  padding-bottom: var(--rem7);
+  margin-top: var(--rem5); 
+}
+
+nav {
+  padding-left: var(--rem1);
+  padding-right: var(--rem1);
+}
+
+article {
+  width: 100%;
+  max-width: var(--max-width8);
+  margin-left: auto;
+  padding: var(--rem3);
+  & header {
+    margin-top: var(--rem4);
+    margin-right: var(--rem2);
+  }
+  .time {
+    font-size: var(--font-size6);
+    margin-top: var(--rem2);
+    margin-bottom: var(--rem2);
+    display: inline-block;
+    letter-spacing: 0.1em;
+  }
+  .line-height {
+    line-height: 1.5;
+  }
+}
+
 a {
   text-decoration: none;
   color: darkslategray;
   transition: color .15s ease-in;
-  &:hover { color: darkblue; }
+  &:hover { 
+    color: darkblue;
+    cursor: pointer; 
+  }
   &.invisible {display: none;}
   &.flex { flex-direction: row;}
   &.tpcom {
@@ -43,7 +112,6 @@ figure {
 
 img  { width: 100%; height: auto; }
 li   { text-align: justify; }
-main { margin-top: 70px; }
 p    { text-align: justify; }
 
 section {
@@ -163,9 +231,19 @@ sup .footnote {
 
 
 header {
-  .ourman { font-family: 'Halimun'; font-size: xx-large;}
-  a:hover span.menu__text { color: white; }
-  a.menu__link:hover { background-color: orange; }
+  .ourman { 
+    font-family: 'Halimun'; 
+    font-size: var(--font-size2);
+    display: flex;
+    white-space: nowrap;
+    color: hsla(0, 0%, 100%, 0.9); // white-90
+  }
+  a:hover span.menu__text { 
+    color: white; 
+  }
+  a.menu__link:hover { 
+    background-color: orange; 
+  }
 
   .js .menu__list {
     position: absolute;
@@ -189,10 +267,24 @@ header {
   }
 
   &#navbar {
-    .ourman {padding-left: 15px;}
-    #btn-open { display: none;}
-    i.fa {display: none;}
-    i.fa-home {display: block;}
+    .ourman {
+      padding-top: 10px;
+      padding-left: 5px;
+    }
+    #btn-open { 
+      display: none;
+      color: black;
+      background-color: white;
+      margin: 1.7rem;
+      font-size: 1.33333333em;
+      line-height: .75em;
+      vertical-align: -15%;
+      font: normal normal normal 14px/1 FontAwesome;
+      text-rendering: auto;
+    }
+    i.fa-home {
+      display: block;
+    }
     background-image: linear-gradient(110deg, #20123a 20%, #20123a 46%, #e65321 60%);
     background-color: #20123a;
     position: fixed; /* Make it stick/fixed */
@@ -345,7 +437,7 @@ header {
 .tl p { text-align: left; }
 
 footer {
-  font-family: sans-serif;
+  // font-family: sans-serif;
   background-image: linear-gradient(110deg, #20123a 20%, #20123a 46%, #e65321 60%);
   background-color: #20123a;
   color: white;
@@ -360,6 +452,17 @@ footer {
     color: inherit;
     font-weight: 400;
     &:hover { color: gold; }
+  }
+  button {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    border: none;
+    &:hover { color: gold; }
+    & svg {
+      cursor: pointer;
+    }
+    
   }
   .licensed { padding-top: 0.75rem; }
   a.cc { padding-top: 0.35rem;  }
@@ -384,6 +487,66 @@ i.question {
   content: svg('<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="%23000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>');
 }
 
+/* ----- Tooltip ----- */
+
+.tooltip {
+  background-position: center;
+  position: relative;
+}
+
+.tooltip::before,
+.tooltip::after {
+  --scale: 0;
+  --arrow-size: 10px;
+  --tooltip-color: rgba(0, 0, 0, 0.8);
+
+  position: absolute;
+  top: -.25rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(var(--scale));
+  transition: 150ms transform;
+  transform-origin: bottom center;
+}
+
+.tooltip::before {
+  --translate-y: calc(-100% - var(--arrow-size));
+
+  content: attr(data-tooltip);
+  color: white;
+  padding: var(--rem1);
+  border-radius: .3rem;
+  text-align: center;
+  width: max-content;
+  max-width: 100px;
+  background: var(--tooltip-color);
+  font-size: var(--font-size7);
+}
+
+.tooltip:hover::before,
+.tooltip:hover::after {
+  --scale: 1;
+  white-space: normal;
+  
+}
+
+.tooltip::after {
+  --translate-y: calc(-1 * var(--arrow-size));
+
+  content: '';
+  border: var(--arrow-size) solid transparent;
+  border-top-color: var(--tooltip-color);
+  transform-origin: top center;
+  
+}
+
+
+@media screen and (min-width: 30em) {
+  article{
+    width: 70%;
+    padding: var(--rem4);
+  }
+}
+
 @media only screen and (max-width: 1040px) {
   header {
     .menu_text, .menu__link {font-size: x-large; }
@@ -402,7 +565,7 @@ i.question {
 // Samsung Galaxy A51 & Nest Hub
 @media only screen and (max-width: 1024px) {
   .w-70-ns { width: 100%; }
-  .flex-l { display: flex;}
+  .flex { display: flex;}
   header {
     #logo, .ananke-socials { display: none; }
   }
@@ -419,6 +582,8 @@ i.question {
   #nav {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
@@ -509,8 +674,6 @@ i.question {
   #nav .menu__link, #nav .menu_text {font-size: x-large; }
 }
 
-
-
 // fa icons
 .fa-whatsapp {
   color: #25d366;}
@@ -524,9 +687,49 @@ i.question {
   color: #00aff0;}
 .mail { 
   color: #dd4b39;}
-.fa-bars {
-  color: black;
-  background-color: white;
-  margin: 1.7rem;
+
+
+// modifications to cookieconsent
+#cc-main {
+  --cc-cookie-category-block-hover-bg: blue;
+  --cc-cookie-category-block-hover-border: blue;
+  --cc-toggle-readonly-knob-icon-color: lightgreen;
+  --cc-toggle-on-bg: whitesmoke;
+}
+#cc-main .toggle__icon-off svg {
+  stroke: red; 
+}
+#cc-main .toggle__icon-on svg {
+  stroke: var(--cc-toggle-readonly-knob-icon-color);
+}
+#cc-main .toggle__icon {
+	background-color: var(--cc-toggle-on-bg);
+}
+#cc-main .section__toggle:checked:disabled ~ .toggle__icon {
+  background: white;
 }
 
+#cc-main .pm__header, 
+#cc-main .pm__body, 
+#cc-main .pm__footer {
+  background-color: darkblue;
+}
+
+.cls-1{
+  fill:#efe2b2;
+}
+.cls-2{
+  fill:#e8d492;
+}
+.cls-3{
+  fill:none;
+}
+.cls-3,
+.cls-4{
+  stroke:#493527;
+  stroke-linejoin:round;
+  stroke-width:10px;
+}
+.cls-4{
+  fill:#d6c175;
+}

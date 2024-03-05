@@ -5,7 +5,7 @@ theme = "ananke"
 resourceDir = "../resources"
 DefaultContentLanguage = "en"
 Paginate = 20
-GoogleAnalytics = "UA-87912654-1" 
+GoogleAnalytics = "G-9DYQ9R1F2M" 
 disqusShortname = "ourmaninindia"
 # summaryLength = 50
 timeout = 60000 # was 25000
@@ -60,7 +60,7 @@ pygmentsCodefences = true
   author = "Alfred Tuinman"
   favicon = "favicon.ico"
   license = "CC BY-SA 4.0"
-  site_logo = "images/alfred3.jpg"
+  # site_logo = "images/alfred3.jpg"
   form_action = "/success/"
   form_action2 = "/subscribed/"
   body_classes = "avenir bg-white"
@@ -68,7 +68,7 @@ pygmentsCodefences = true
   background_color_class = "background"
   recent_posts_number = 6
   show_reading_time = true
-  custom_css = ["syntax.scss","cookie-consent2-3.1.1.scss","custom.scss"]
+  custom_css = ["syntax.scss", "custom.scss"]
   description = "Goa, where Vasco da Gama once landed only to be followed centuries later by Led Zeppelin, The Who and George Harrison, is a fascinating place with a constant influx of cosmopolitan thought. The former Portuguese colony is also known for its beaches, restaurant shacks with great food and low priced alcohol, and a relaxed lifestyle."
 
 [[params.ananke_socials]]
@@ -122,6 +122,9 @@ pygmentsCodefences = true
   category = "categories"
   archive  = "archives"
 
+[mediaTypes]
+  [mediaTypes."application/json"]
+    suffixes = ["js"]
 
 #---  the menus ---
 
@@ -215,23 +218,9 @@ pygmentsCodefences = true
   url = "/nl/post"
 
 [[languages.nl.menu.main]]
-  weight = 3
-  identifier = "open-source"
-  name = "Open Source"
-  pre = "<i class=\"sidebar-button-icon linux\"></i>"
-  url = "/open--source"
-
-[[languages.nl.menu.main]]
   weight = 4
   identifier = "categories"
   name = "Zoeken"
   pre = "<i class=\"sidebar-button-icon bookmark\"></i>"
-  url = "/categories"
-
-[[languages.nl.menu.main]]
-  weight = 5
-  identifier = "about-me"
-  name = "Over mij"
-  pre = "<i class=\"sidebar-button-icon question\"></i>"
-  url = "/about-me"
+  url = "/nl/categories"
 

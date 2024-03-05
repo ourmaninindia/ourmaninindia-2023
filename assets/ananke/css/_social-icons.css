@@ -1,10 +1,15 @@
-.ananke-socials a{
+
+/* 
+*  -------------------- Social Icons -------------------- 
+*/
+
+.ananke-socials a {
   display: inline-block;
   vertical-align: middle;
   color: #BABABA;
   fill: currentColor;
 }
-.ananke-socials a .icon svg{
+.ananke-socials a .icon svg {
   width: 32px;
   height: 32px;
 }
@@ -16,6 +21,6 @@
   display: inline-block;
   vertical-align: top;
 }
-.link-transition:hover .new-window{
+.link-transition:hover .new-window {
   opacity: 1;
 }

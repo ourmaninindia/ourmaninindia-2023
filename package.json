@@ -3,6 +3,7 @@
   "version": "5.0.0",
   "description": "Our Man in India web site",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "docs": "node_modules/.bin/jsdoc -c jsdoc.json --readme ./README.md",
     "jsdoc": "jsdoc -a all -c jsdoc.json -r -R README.md -d docs/jsdoc "
@@ -18,8 +19,10 @@
   },
   "homepage": "https://github.com/ourmaninindia/ourmaninindia-23#readme",
   "dependencies": {
-    "docdash": "^2.0.1",
+    "a11y-dialog": "^8.0.4",
+    "docdash": "^2.0.2",
     "jsdoc": "^4.0.2",
-    "jsdoc-to-markdown": "^8.0.0"
+    "jsdoc-to-markdown": "^8.0.1",
+    "vanilla-cookieconsent": "^3.0.0"
   }
 }

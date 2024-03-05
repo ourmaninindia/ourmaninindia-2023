@@ -1,55 +1,49 @@
 <nav class="ph2-ns" role="navigation">
-  <div id="nav" class="flex-l justify-between items-center center">
-    <div class="flex justify-between">
-        <i id="btn-open" class="fa fa-lg fa-bars"></i>
-    <div class="ourman nowrap f2-ns white-90 flex"><a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a></div>
-    </div>
-    
-    <div id="drop"  class="flex-l items-center"> 
-      {{ if .Site.Menus.main }}
-        <ul class="menu__list flex-l">
-        {{ $currentNode := . }}
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
-            {{ if .HasChildren }}
-                <li class="menu__item menu__dropdown{{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} menu__item--active{{ end }}"> 
-                    <a class="menu__link" href="#">
-                        {{ .Pre }}
-                        <span class="menu__text">{{ .Name }}</span>
-                        <label class="drop-icon" for="{{ .Name }}">▾</label>
-                        {{ .Post }}
-                    </a>
-                <input type="checkbox" id="{{ .Name }}">
-                <div class="sub-menu">
-                    {{ range .Children }}
-                        <div class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-                            <a class="menu__link" href="{{ .URL }}">{{ .Name }}</a>
+    <div id="nav" class="flex-l justify-between items-center center">
+
+        <div class="flex justify-between">
+          <i id="btn-open" class="fa fa-lg fa-bars"></i>
+          <div class="ourman nowrap f2-ns white-90 flex">
+            <a href="{{ .Site.Home.RelPermalink }}">Our Man in India</a>
+          </div>
+        </div>
+
+        <div class="flex-l items-center">
+            {{ if .Site.Menus.main }}
+            <ul class="menu__list flex">
+                {{ $currentNode := . }}
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                    {{ if .HasChildren }}
+                    <li class="menu__item menu__dropdown{{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}  menu__item--active{{ end }}"> 
+                        <a class="menu__link" href="#">
+                            {{ .Pre }}
+                            <span class="menu__text">{{ .Name }}</span>
+                            <label class="drop-icon" for="{{ .Name }}">▾</label>
+                            {{ .Post }}
+                        </a>
+                        <input type="checkbox" id="{{ .Name }}">
+                        <div class="sub-menu">
+                            {{ range .Children }}
+                            <div class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                                <a class="menu__link" href="{{ .URL }}">{{ .Name }}</a>
+                            </div>
+                            {{ end }}
                         </div>
+                    </li>
+                    {{ else }}
+                    <li class="menu__item {{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} menu__item--active{{ end }}">
+                        <a class="menu__link" href="{{ .URL }}" aria-label="{{.Name}}">
+                            {{ .Pre }}
+                            {{ if ne .Name "Home"}}<span class="menu_text">{{ .Name }}</span>{{ end }}
+                        </a>
+                    </li>
                     {{ end }}
-                </div>
-                </li>
-            {{ else }}
-                <li class="menu__item {{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} menu__item--active{{ end }}">
-                    <a class="menu__link" href="{{ .URL }}" aria-label="{{.Name}}">
-                        {{ .Pre }}
-                        {{ if ne .Name "Home"}}<span class="menu_text">{{ .Name }}</span>{{ end }}
-                    </a>
-                </li>
+                {{ end }}
+            </ul>
             {{ end }}
-        {{ end }}
-        {{ if .IsTranslated }}
-            {{ range .Translations }}
-            <li class="menu__item">
-                <a class="menu__link hover-white no-underline white-90" href="{{ .RelPermalink }}">
-                    <i class="fa fa_lg"></i>
-                    <span class="menu_text">{{ .Lang }}</span>
-                </a>
-            </li>
-            {{ end}}
-        {{ end }}
-        </ul>
-      {{ end }}
-      {{ partialCached "social-follow.html" . }}
+            {{ partial "i18nlist.html" . }}
+            {{ partialCached "social-follow.html" . }}
+        </div>
     </div>
-  </div>
 </nav>

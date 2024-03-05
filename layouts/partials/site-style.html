@@ -1,16 +1,7 @@
+    
     {{"<!-- internal STYLES -->" | safeHTML }}
     {{- with partialCached "func/style/GetMainCSS" "style/GetMainCSS" }}
     <link rel="stylesheet" href="{{ .RelPermalink }}" >
     {{- end }}
-
-<link id="{{ site.Params.custom_css }}">
-
-    {{- range site.Params.custom_css }}
-      {{- with partialCached "func/style/GetResource" . . }}{{ else }}
-        <link rel="stylesheet" href="{{ relURL (.) }}">
-      {{- end }}
-    {{- end }}
-
     {{"<!-- external STYLES -->" | safeHTML }}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
-  

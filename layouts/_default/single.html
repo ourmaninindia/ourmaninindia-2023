@@ -7,7 +7,7 @@
 {{- .Scratch.Set "layout" "layouts/_default/single.html" -}}
 
   {{ $section := .Site.GetPage "section" .Section }}
-  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+  <article class="flex flex-wrap justify-between mw8 center ph3">
     <header class="mt4 w-100">      
       <!-- <h1 class="f1 athelas mt3 mb1">{{- .Title -}}</h1> -->
       {{ if ne .CurrentSection.Title "About" }}

@@ -1,5 +1,8 @@
 # Hugo
 
+## Minify
+Minification of css and javascript happens by the script. The complete html you can also minify by running the hugo command with --minify 
+
 ## Scripts
 The scripts should be starting with an onload event to ensure the DOM is loaded before starting the scripts. Otherwise you would get an error that the id called *navbar* in the header tag can not be found.
 

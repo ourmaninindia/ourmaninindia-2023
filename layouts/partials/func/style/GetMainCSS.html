@@ -11,14 +11,12 @@
   @uses
      - func/style/GetResource
 */}}
-
 {{ $main_style := dict }}
 
 {{/* We prepare a slice of resources to be concatenated as one */}}
 {{ $assets_to_concat := slice }}
-
 {{/* We add locale css files to the slice in the proper order */}}
-{{ range slice "_tachyons.css" "_code.css" "_hugo-internal-templates.css" "_social-icons.css" "_styles.css" }}
+{{ range slice "_variables.css" "_tachyons.css" "_code.css" "_hugo-internal-templates.css" "_social-icons.css" "_styles.css" "_cookieconsent.css"}}
   {{ with partialCached "func/style/GetResource" . . }}
     {{ $assets_to_concat = $assets_to_concat | append . }}
   {{ end }}
@@ -40,7 +38,6 @@
     {{ $socials_css := $socials_rules | resources.FromString "ananke/css/generated_socials.css" }}
     {{ $assets_to_concat = $assets_to_concat | append $socials_css }}
   {{ end }}
-
 {{ end }}
 
 {{/* We look for any custom css files registered by the user under `site.params.custom_css and if found in the theme's 
@@ -68,11 +65,13 @@ css asset directory we (unless condition below) add to aforementioned slice */}}
 
   {{/* We then use toCSS to add sourceMap and minify */}}
   {{ $options := dict "enableSourceMap" true "precision" 6 }}
-  {{ $style = $style | resources.ToCSS $options | minify }}
+ 
   {{/* We fingerprint in production for cache busting purposes */}}
   {{ if eq (getenv "HUGO_ENV") "production" }}
+    {{ $style = $style | resources.ToCSS $options | minify }}
     {{ $style = $style | fingerprint }}
   {{ end }}
+  
   {{/* We're ready to set returning variable with resulting resource */}}
   {{ $main_style = $style }}
 {{ end }}

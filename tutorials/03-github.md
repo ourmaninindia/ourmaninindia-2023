@@ -8,9 +8,10 @@ ssh-keygen -t ed25519 -C "alfred@ourmaninindia.com"
 ```
 Copy the public key to Github under *Settings* and then *Deploy Keys*.
 
-Then add the key to the ssh agent:
+Then add the key to the ssh agent. Evaluate the agent first as otherwise it may not be added even though you may have run eval before!
 
 ```
+eval `ssh-agent -s `
 ssh-add ~/.ssh/id_ed25519-ourmaninindia
 ```
 

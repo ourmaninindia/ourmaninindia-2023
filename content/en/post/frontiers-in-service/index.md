@@ -7,7 +7,7 @@ tags : ["University of Singapore"]
 title : "Frontiers in Service 2019"
 featured : true
 cover : ""
-featured_image : "20190718_184343" 
+featured_image : "20190718_184343.jpg" 
 ---
 A great academic conference
 
