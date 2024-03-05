@@ -1,57 +1,55 @@
 <!-- Slideshow container -->
-<div class="carousel w-100 mw8 center">
-  <h3 class="tc">{{ .Params.books }}</h3>
-  <button class="carousel_button carousel_button--left is-hidden" aria-label="Go to the previous image">
+<div class="carousel">
+  <button class="carousel__button carousel__button--left hidden">
     <img src="/images/back.svg" alt="View the previous picture">
   </button>
-  <div class="carousel_track-container">
-    <ul class="carousel_track">
+  <div class="carousel__track-container">
+    <ul class="carousel__track">
+    {{- range $index, $e := index .Site.Data "authors" }}
+    {{- $src := $.Page.Resources.GetMatch ( printf "*%s*" ($e.url)) }}
 
-      {{- range $index, $e := index .Site.Data "authors" }}
-      {{- $src := $.Page.Resources.GetMatch ( printf "*%s*" ($e.url)) }}
+    {{- if $src -}}
 
-      {{- if $src -}}
+    {{- $tinyw   := default "500x" }}
+    {{- $smallw  := default "800x" }}
+    {{- $mediumw := default "1200x" }}
+    {{- $largew  := default "1500x" -}}
 
-      {{- $tinyw   := default "500x" }}
-      {{- $smallw  := default "800x" }}
-      {{- $mediumw := default "1200x" }}
-      {{- $largew  := default "1500x" -}}
+    {{- $.Scratch.Set "tiny"   ($src.Resize $tinyw) }}
+    {{- $.Scratch.Set "small"  ($src.Resize $smallw) }}
+    {{- $.Scratch.Set "medium" ($src.Resize $mediumw) }}
+    {{- $.Scratch.Set "large"  ($src.Resize $largew) -}}
 
-      {{- $.Scratch.Set "tiny"   ($src.Resize $tinyw) }}
-      {{- $.Scratch.Set "small"  ($src.Resize $smallw) }}
-      {{- $.Scratch.Set "medium" ($src.Resize $mediumw) }}
-      {{- $.Scratch.Set "large"  ($src.Resize $largew) -}}
-
-      {{- $tiny   := $.Scratch.Get "tiny" }}
-      {{- $small  := $.Scratch.Get "small" }}
-      {{- $medium := $.Scratch.Get "medium" }}
-      {{- $large  := $.Scratch.Get "large" -}}     
-      <li class="carousel_slide current-slide">
-        <picture>
-          {{ $isJPG := eq (path.Ext .url ) ".jpg" -}}
-          {{ if ($isJPG) -}}
-          {{ $webpPath:= replace .url ".jpg" ".webp" -}}
-          <source srcset="{{ $webpPath | safeURL }}" type="image/webp" />
-          <source srcset="{{ .url | safeURL }}" type="image/jpg" />
-          {{- end }}
-          <img class="carousel_image" loading="lazy" decoding="async" sizes="(min-width: 35em) 1200px, 100vw" data-srcset="
-          {{ with $tiny.RelPermalink }} {{.}} 500w{{ end -}}
-          {{ with $small.RelPermalink }},{{.}} 800w{{ end -}}
-          {{ with $medium.RelPermalink }},{{.}} 1200w{{ end -}}
-          {{ with $large.RelPermalink }},{{.}} 1500w{{ end -}}" width="930" height="510" src="{{- $src.RelPermalink -}}" alt='{{ (index . "title") }}' >
-             <figcaption>{{ $e.caption }}</figcaption>
-        </picture> 
-      </li>
-      {{ end }}
-      {{ end }}
-    </ul>
+    {{- $tiny   := $.Scratch.Get "tiny" }}
+    {{- $small  := $.Scratch.Get "small" }}
+    {{- $medium := $.Scratch.Get "medium" }}
+    {{- $large  := $.Scratch.Get "large" -}}     
+    <li class="carousel__slide {{ if eq $index 0 }} current-slide{{ end }}">
+      <figure>
+        {{ $isJPG := eq (path.Ext .url ) ".jpg" -}}
+        {{ if ($isJPG) -}}
+        {{ $webpPath:= replace .url ".jpg" ".webp" -}}
+        <source srcset="{{ $webpPath | safeURL }}" type="image/webp" />
+        <source srcset="{{ .url | safeURL }}" type="image/jpg" />
+        {{- end }}
+        <img class="carousel__image" loading="lazy" decoding="async" sizes="(min-width: 35em) 1200px, 100vw" data-srcset="
+        {{ with $tiny.RelPermalink }} {{.}} 500w{{ end -}}
+        {{ with $small.RelPermalink }},{{.}} 800w{{ end -}}
+        {{ with $medium.RelPermalink }},{{.}} 1200w{{ end -}}
+        {{ with $large.RelPermalink }},{{.}} 1500w{{ end -}}" width="930" height="510" src="{{- $src.RelPermalink -}}" alt='{{ (index . "title") }}' >
+           <figcaption>{{ $e.caption }}</figcaption>
+      </figure> 
+    </li>
+    {{ end }}
+    {{ end }}
+  </ul>
   </div>
-  <button class="carousel_button carousel_button--right" aria-label="Go to the next image">
+  <button class="carousel__button carousel__button--right" aria-label="Go to the next image">
     <img src="/images/forward.svg" alt="View the next picture">
   </button>
-  <div class="carousel_nav">
+  <div class="carousel__nav">
      {{- range $index, $e := index .Site.Data "authors" }}
-    <button class="carousel_indicator {{ if eq $index 0 }}current-slide{{ end }}" aria-label="{{ if eq $index 0 }}This is the current image{{ else }}Click here to see that image{{ end }}"></button>
+    <button class="carousel__indicator {{ if eq $index 0 }}current-slide{{ end }}" aria-label="{{ if eq $index 0 }}This is the current image{{ else }}Click here to see that image{{ end }}"></button>
     {{ end }}
   </div>
 </div>

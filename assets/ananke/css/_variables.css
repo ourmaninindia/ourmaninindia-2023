@@ -33,9 +33,10 @@
     --max-width7: 48rem;
     --max-width8: 64rem;
     --max-width9: 96rem;
-  }
+}
   
-  // margin-top
+  /* margin-top */
+
   .mt6 {
     margin-top: var(--rem6);
   }
